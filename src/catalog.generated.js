@@ -7232,5 +7232,689 @@ export default [
     "storeUrl": "https://store.steampowered.com/search/?term=Two%20Point%20Hospital",
     "color": "#a92da1",
     "summary": "엉뚱한 질병을 치료하는 병원을 설계하고 운영하는 코미디 경영 시뮬레이션."
+  },
+  {
+    "id": "clash-of-clans",
+    "title": "Clash of Clans",
+    "year": 2012,
+    "genres": [
+      "전략",
+      "건설",
+      "기지 관리"
+    ],
+    "tags": [
+      "클랜전",
+      "마을 건설",
+      "병력 훈련",
+      "자원 약탈",
+      "비동기 PvP"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "장기",
+    "difficulty": "보통",
+    "mood": "경쟁적",
+    "pace": "실시간",
+    "perspective": "쿼터뷰",
+    "era": "2010년대",
+    "memory": [
+      "Clash of Clans",
+      "클래시 오브 클랜",
+      "클오클",
+      "슈퍼셀",
+      "바바리안",
+      "타운 홀",
+      "벽과 대포",
+      "다른 마을 약탈",
+      "클랜전",
+      "com.supercell.magic"
+    ],
+    "storeUrl": "https://supercell.com/en/games/clashofclans/",
+    "color": "#a44b2d",
+    "summary": "Supercell이 만든 기지 건설 전략 게임으로 마을을 강화하고 병력을 훈련해 약탈과 클랜전에 참여한다."
+  },
+  {
+    "id": "brawl-stars",
+    "title": "Brawl Stars",
+    "year": 2018,
+    "genres": [
+      "액션",
+      "슈팅",
+      "MOBA"
+    ],
+    "tags": [
+      "3대3",
+      "브롤러",
+      "짧은 경기",
+      "젬 그랩",
+      "배틀로얄"
+    ],
+    "modes": [
+      "멀티",
+      "협동"
+    ],
+    "platforms": [
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "장기",
+    "difficulty": "보통",
+    "mood": "활기참",
+    "pace": "빠름",
+    "perspective": "탑다운",
+    "era": "2010년대",
+    "memory": [
+      "Brawl Stars",
+      "브롤스타즈",
+      "브롤 스타즈",
+      "슈퍼셀",
+      "브롤러",
+      "젬 그랩",
+      "쇼다운",
+      "트로피",
+      "3대3",
+      "com.supercell.laser"
+    ],
+    "storeUrl": "https://supercell.com/en/games/brawlstars/",
+    "color": "#3bba83",
+    "summary": "Supercell의 모바일 팀 액션 게임으로 다양한 브롤러를 조작해 짧은 3대3과 배틀로얄 모드를 즐긴다."
+  },
+  {
+    "id": "hay-day",
+    "title": "Hay Day",
+    "year": 2012,
+    "genres": [
+      "시뮬레이션",
+      "농장",
+      "경영"
+    ],
+    "tags": [
+      "작물 재배",
+      "동물 돌보기",
+      "생산 건물",
+      "트럭 주문",
+      "이웃 더비"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "장기",
+    "difficulty": "쉬움",
+    "mood": "평화로움",
+    "pace": "느긋함",
+    "perspective": "쿼터뷰",
+    "era": "2010년대",
+    "memory": [
+      "Hay Day",
+      "헤이데이",
+      "헤이 데이",
+      "슈퍼셀",
+      "밀과 옥수수",
+      "닭과 소",
+      "트럭 주문",
+      "노란 농장",
+      "이웃 더비",
+      "com.supercell.soil"
+    ],
+    "storeUrl": "https://supercell.com/en/games/hayday/",
+    "color": "#3a9398",
+    "summary": "Supercell의 농장 경영 게임으로 작물을 수확하고 동물과 생산 시설을 관리하며 이웃과 거래한다."
+  },
+  {
+    "id": "boom-beach",
+    "title": "Boom Beach",
+    "year": 2014,
+    "genres": [
+      "전략",
+      "기지 관리",
+      "전술"
+    ],
+    "tags": [
+      "열대 섬",
+      "상륙 작전",
+      "함포 지원",
+      "기지 공격",
+      "태스크 포스"
+    ],
+    "modes": [
+      "싱글",
+      "멀티",
+      "협동"
+    ],
+    "platforms": [
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "장기",
+    "difficulty": "보통",
+    "mood": "전투적",
+    "pace": "전술적",
+    "perspective": "쿼터뷰",
+    "era": "2010년대",
+    "memory": [
+      "Boom Beach",
+      "붐비치",
+      "붐 비치",
+      "슈퍼셀",
+      "열대 군도",
+      "상륙정",
+      "함포",
+      "블랙가드",
+      "해변 기지",
+      "com.supercell.reef"
+    ],
+    "storeUrl": "https://supercell.com/en/games/boombeach/",
+    "color": "#b54d3b",
+    "summary": "Supercell의 열대 군도 전략 게임으로 섬 기지를 성장시키고 상륙 부대와 함포로 적 기지를 공략한다."
+  },
+  {
+    "id": "magic-brick-infinity",
+    "title": "Magic Brick Infinity",
+    "year": 2023,
+    "genres": [
+      "아케이드",
+      "전략",
+      "브릭 브레이커"
+    ],
+    "tags": [
+      "블록 배치",
+      "공 튕기기",
+      "무한 모드",
+      "블록 병합",
+      "시즌 랭킹"
+    ],
+    "modes": [
+      "싱글",
+      "랭킹"
+    ],
+    "platforms": [
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "무한",
+    "difficulty": "보통",
+    "mood": "집중",
+    "pace": "점진적",
+    "perspective": "2D",
+    "era": "2020년대",
+    "memory": [
+      "Magic Brick Infinity",
+      "매직 브릭 인피니티",
+      "매직브릭 인피니티",
+      "Magic Brick Strategic Breaker",
+      "매직 브릭",
+      "DOORIAN",
+      "블록 끌어놓기",
+      "스킬 블록",
+      "공 발사",
+      "무한 모드",
+      "com.DOORIAN.Magic_Brick"
+    ],
+    "storeUrl": "https://play.google.com/store/apps/details?id=com.DOORIAN.Magic_Brick",
+    "color": "#2d4295",
+    "summary": "DOORIAN의 모바일 전략 브릭 브레이커로 블록을 배치·병합하고 공과 스킬을 활용해 무한 모드 기록에 도전한다."
+  },
+  {
+    "id": "subway-surfers",
+    "title": "Subway Surfers",
+    "year": 2012,
+    "genres": [
+      "러너",
+      "액션",
+      "아케이드"
+    ],
+    "tags": [
+      "세 갈래 레인",
+      "열차 피하기",
+      "호버보드",
+      "코인 수집",
+      "추격전"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "무한",
+    "difficulty": "보통",
+    "mood": "경쾌함",
+    "pace": "빠름",
+    "perspective": "3D 백뷰",
+    "era": "2010년대",
+    "memory": [
+      "Subway Surfers",
+      "서브웨이 서퍼",
+      "서브웨이 서퍼스",
+      "지하철 달리기",
+      "경비원과 개",
+      "열차 위 점프",
+      "스프레이 낙서",
+      "호버보드",
+      "com.kiloo.subwaysurfers"
+    ],
+    "storeUrl": "https://apps.apple.com/us/app/subway-surfers/id512939461",
+    "color": "#b3af42",
+    "summary": "SYBO의 3레인 무한 러너로 지하철 선로를 달리며 열차와 장애물을 피하고 코인과 호버보드를 모은다."
+  },
+  {
+    "id": "candy-crush-saga",
+    "title": "Candy Crush Saga",
+    "year": 2012,
+    "genres": [
+      "퍼즐",
+      "매치3",
+      "캐주얼"
+    ],
+    "tags": [
+      "사탕 교환",
+      "연쇄 제거",
+      "제한 이동",
+      "특수 사탕",
+      "수천 개 스테이지"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "장기",
+    "difficulty": "점진적",
+    "mood": "달콤함",
+    "pace": "차분함",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Candy Crush Saga",
+      "캔디 크러시 사가",
+      "캔디크러시",
+      "King",
+      "알록달록 사탕",
+      "줄무늬 사탕",
+      "초콜릿 장애물",
+      "세 개 맞추기",
+      "com.midasplayer.apps.candycrushsaga"
+    ],
+    "storeUrl": "https://apps.apple.com/us/app/candy-crush-saga/id553834731",
+    "color": "#c1338d",
+    "summary": "King의 매치3 퍼즐 게임으로 사탕을 바꿔 목표를 달성하고 다양한 특수 사탕과 장애물을 공략한다."
+  },
+  {
+    "id": "angry-birds-2",
+    "title": "Angry Birds 2",
+    "year": 2015,
+    "genres": [
+      "물리 퍼즐",
+      "액션",
+      "캐주얼"
+    ],
+    "tags": [
+      "새총",
+      "구조물 파괴",
+      "새 능력",
+      "멀티 스테이지",
+      "클랜"
+    ],
+    "modes": [
+      "싱글",
+      "멀티",
+      "협동"
+    ],
+    "platforms": [
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "장기",
+    "difficulty": "보통",
+    "mood": "유쾌함",
+    "pace": "턴제",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Angry Birds 2",
+      "앵그리버드 2",
+      "앵그리 버드 2",
+      "Rovio",
+      "새총 당기기",
+      "초록 돼지",
+      "나무와 돌 탑",
+      "빨간 새",
+      "com.rovio.baba"
+    ],
+    "storeUrl": "https://apps.apple.com/us/app/angry-birds-2/id880047117",
+    "color": "#3b57bf",
+    "summary": "Rovio의 물리 기반 새총 퍼즐로 새마다 다른 능력을 활용해 돼지의 구조물을 무너뜨린다."
+  },
+  {
+    "id": "altos-odyssey",
+    "title": "Alto's Odyssey",
+    "year": 2018,
+    "genres": [
+      "러너",
+      "스포츠",
+      "아케이드"
+    ],
+    "tags": [
+      "샌드보딩",
+      "사막",
+      "공중 묘기",
+      "벽 타기",
+      "날씨 변화"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Mobile"
+    ],
+    "priceKRW": 6600,
+    "length": "무한",
+    "difficulty": "보통",
+    "mood": "명상적",
+    "pace": "부드러움",
+    "perspective": "2D 사이드뷰",
+    "era": "2010년대",
+    "memory": [
+      "Alto's Odyssey",
+      "알토의 오디세이",
+      "알토 오디세이",
+      "Snowman",
+      "사막 샌드보드",
+      "석양 실루엣",
+      "열기구",
+      "벽 타기",
+      "com.snowman.altos-odyssey"
+    ],
+    "storeUrl": "https://apps.apple.com/us/app/altos-odyssey/id1182456409",
+    "color": "#3bb079",
+    "summary": "Snowman의 사이드뷰 샌드보딩 러너로 변화하는 사막을 가로지르며 점프와 공중 묘기를 이어 간다."
+  },
+  {
+    "id": "sky-children-of-the-light",
+    "title": "Sky: Children of the Light",
+    "year": 2019,
+    "genres": [
+      "어드벤처",
+      "소셜",
+      "탐험"
+    ],
+    "tags": [
+      "비행",
+      "감정 표현",
+      "협동 퍼즐",
+      "정령",
+      "계절 이벤트"
+    ],
+    "modes": [
+      "싱글",
+      "멀티",
+      "협동"
+    ],
+    "platforms": [
+      "Mobile",
+      "Steam",
+      "Switch",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "쉬움",
+    "mood": "따뜻함",
+    "pace": "느긋함",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Sky: Children of the Light",
+      "스카이 빛의 아이들",
+      "빛의 아이들",
+      "thatgamecompany",
+      "망토로 비행",
+      "손잡고 탐험",
+      "정령 기억",
+      "촛불",
+      "com.tgc.sky.ios"
+    ],
+    "storeUrl": "https://apps.apple.com/us/app/sky-children-of-the-light/id1462117269",
+    "color": "#937239",
+    "summary": "thatgamecompany의 소셜 어드벤처로 빛의 왕국을 날아다니며 정령의 기억을 찾고 다른 플레이어와 협력한다."
+  },
+  {
+    "id": "the-battle-cats",
+    "title": "The Battle Cats",
+    "year": 2014,
+    "genres": [
+      "타워 디펜스",
+      "전략",
+      "캐주얼"
+    ],
+    "tags": [
+      "고양이 부대",
+      "기지 방어",
+      "횡스크롤",
+      "유닛 생산",
+      "보물 수집"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "장기",
+    "difficulty": "점진적",
+    "mood": "엉뚱함",
+    "pace": "실시간",
+    "perspective": "2D 사이드뷰",
+    "era": "2010년대",
+    "memory": [
+      "The Battle Cats",
+      "냥코 대전쟁",
+      "배틀 캣츠",
+      "PONOS",
+      "하얀 고양이 군대",
+      "고양이 대포",
+      "적 기지 부수기",
+      "이상한 진화",
+      "jp.co.ponos.battlecatsen"
+    ],
+    "storeUrl": "https://apps.apple.com/us/app/the-battle-cats/id850057092",
+    "color": "#b342a0",
+    "summary": "PONOS의 횡스크롤 타워 디펜스로 개성 강한 고양이 유닛을 생산해 적 기지를 공략한다."
+  },
+  {
+    "id": "cookierun-kingdom",
+    "title": "CookieRun: Kingdom",
+    "year": 2021,
+    "genres": [
+      "RPG",
+      "수집",
+      "왕국 건설"
+    ],
+    "tags": [
+      "쿠키 수집",
+      "자동 전투",
+      "왕국 꾸미기",
+      "생산 시설",
+      "길드"
+    ],
+    "modes": [
+      "싱글",
+      "멀티",
+      "협동"
+    ],
+    "platforms": [
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "장기",
+    "difficulty": "보통",
+    "mood": "동화적",
+    "pace": "점진적",
+    "perspective": "쿼터뷰",
+    "era": "2020년대",
+    "memory": [
+      "CookieRun: Kingdom",
+      "쿠키런 킹덤",
+      "쿠킹덤",
+      "데브시스터즈",
+      "용감한 쿠키",
+      "왕국 꾸미기",
+      "쿠키 뽑기",
+      "자동 전투",
+      "com.devsisters.ck"
+    ],
+    "storeUrl": "https://apps.apple.com/us/app/cookierun-kingdom/id1509450845",
+    "color": "#6f3394",
+    "summary": "Devsisters의 수집형 RPG로 쿠키 팀을 구성해 전투하고 생산 건물과 장식으로 왕국을 성장시킨다."
+  },
+  {
+    "id": "marvel-snap",
+    "title": "MARVEL SNAP",
+    "year": 2022,
+    "genres": [
+      "카드",
+      "전략",
+      "수집"
+    ],
+    "tags": [
+      "12장 덱",
+      "세 장소",
+      "동시 턴",
+      "스냅 베팅",
+      "마블 영웅"
+    ],
+    "modes": [
+      "멀티"
+    ],
+    "platforms": [
+      "Mobile",
+      "Steam"
+    ],
+    "priceKRW": 0,
+    "length": "단기",
+    "difficulty": "보통",
+    "mood": "경쟁적",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2020년대",
+    "memory": [
+      "MARVEL SNAP",
+      "마블 스냅",
+      "Second Dinner",
+      "12장 카드",
+      "세 개 지역",
+      "큐브 베팅",
+      "6턴 경기",
+      "아이언맨 카드",
+      "com.nvsgames.snap"
+    ],
+    "storeUrl": "https://apps.apple.com/us/app/marvel-snap-hero-card-game/id1592081003",
+    "color": "#3a969c",
+    "summary": "Second Dinner의 빠른 대전 카드 게임으로 12장 덱을 사용해 세 장소 중 둘 이상을 차지하고 스냅으로 판돈을 높인다."
+  },
+  {
+    "id": "teamfight-tactics",
+    "title": "TFT: Teamfight Tactics",
+    "year": 2020,
+    "genres": [
+      "오토배틀러",
+      "전략",
+      "수집"
+    ],
+    "tags": [
+      "챔피언 구매",
+      "시너지",
+      "아이템 조합",
+      "8인전",
+      "회전 초밥"
+    ],
+    "modes": [
+      "멀티"
+    ],
+    "platforms": [
+      "Mobile",
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "어려움",
+    "mood": "경쟁적",
+    "pace": "라운드제",
+    "perspective": "쿼터뷰",
+    "era": "2020년대",
+    "memory": [
+      "TFT: Teamfight Tactics",
+      "전략적 팀 전투",
+      "TFT",
+      "롤토체스",
+      "라이엇 게임즈",
+      "챔피언 상점",
+      "특성 시너지",
+      "8명 자동 전투",
+      "com.riotgames.league.teamfighttactics"
+    ],
+    "storeUrl": "https://apps.apple.com/us/app/tft-teamfight-tactics/id1480616748",
+    "color": "#7d42ae",
+    "summary": "Riot Games의 8인 오토배틀러로 챔피언을 구매·배치하고 특성과 아이템 조합을 구성해 마지막까지 생존한다."
+  },
+  {
+    "id": "plague-inc",
+    "title": "Plague Inc.",
+    "year": 2012,
+    "genres": [
+      "전략",
+      "시뮬레이션",
+      "경영"
+    ],
+    "tags": [
+      "병원체 진화",
+      "세계 지도",
+      "감염 확산",
+      "치료제 경쟁",
+      "시나리오"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Mobile",
+      "Steam"
+    ],
+    "priceKRW": 1500,
+    "length": "단기",
+    "difficulty": "보통",
+    "mood": "긴장감",
+    "pace": "실시간 일시정지",
+    "perspective": "지도",
+    "era": "2010년대",
+    "memory": [
+      "Plague Inc.",
+      "전염병 주식회사",
+      "플레이그 인크",
+      "Ndemic Creations",
+      "세계 지도 빨간 점",
+      "감염 국가",
+      "유전자 진화",
+      "치료제 퍼센트",
+      "com.ndemiccreations.plagueinc"
+    ],
+    "storeUrl": "https://apps.apple.com/us/app/plague-inc/id525818839",
+    "color": "#893a98",
+    "summary": "Ndemic Creations의 전략 시뮬레이션으로 병원체의 전염성과 증상을 진화시키며 세계 대응과 치료제 개발에 맞선다."
   }
 ];

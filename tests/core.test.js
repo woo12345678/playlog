@@ -98,7 +98,7 @@ test('추억 검색은 빈 입력을 안전하게 안내한다', () => {
   assert.deepEqual(findRememberedGames(games, { text: '' }), []);
 });
 
-test('171개 추억 검색은 반복 입력에도 150ms 안에 응답한다', () => {
+test('186개 추억 검색은 반복 입력에도 150ms 안에 응답한다', () => {
   const started = performance.now();
   for (let i = 0; i < 20; i += 1) findRememberedGames(games, { text: '작은 흰색 로봇 듀얼센스' });
   assert(performance.now() - started < 150);
@@ -124,6 +124,18 @@ test('신규 영문 게임도 한국어 통용 제목으로 검색한다', () =>
   assert.equal(searchGames(games, '하데스 2')[0]?.id, 'hades-ii');
   assert.equal(searchGames(games, '아스트로 봇')[0]?.id, 'astro-bot');
   assert.equal(searchGames(games, '왕국의 눈물')[0]?.id, 'zelda-tears-of-the-kingdom');
+});
+
+test('요청한 모바일 게임 5개와 추가 10개를 더해 186개 이상 검색한다', () => {
+  assert(games.length >= 186, `지정 5개와 추가 모바일 10개가 필요합니다: ${games.length}`);
+  const expected = new Map([
+    ['클래시 오브 클랜', 'Clash of Clans'],
+    ['브롤스타즈', 'Brawl Stars'],
+    ['헤이데이', 'Hay Day'],
+    ['붐비치', 'Boom Beach']
+  ]);
+  for (const [query, title] of expected) assert.equal(searchGames(games, query)[0]?.title, title, `${query} 검색 실패`);
+  assert(searchGames(games, '매직브릭 인피니티')[0], '매직브릭 인피니티 검색 실패');
 });
 
 test('목록에 없는 게임을 안전한 사용자 게임으로 만들어 통계에 포함한다', () => {
