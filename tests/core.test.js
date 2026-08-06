@@ -4,6 +4,7 @@ import { games } from '../src/catalog.js';
 import { recommendGames } from '../src/recommender.js';
 import { calculateStats, encodeShare, decodeShare, normalizeLibrary } from '../src/library.js';
 import { findRememberedGames } from '../src/memory-finder.js';
+import { searchGames, createCustomGame, mergeCatalog } from '../src/game-entry.js';
 
 test('카탈로그는 실제 추천에 충분하고 식별자가 고유하다', () => {
   assert(games.length >= 40);
@@ -92,4 +93,45 @@ test('추억 단서로 후보·확신도·일치 근거를 돌려준다', () => 
 
 test('추억 검색은 빈 입력을 안전하게 안내한다', () => {
   assert.deepEqual(findRememberedGames(games, { text: '' }), []);
+});
+
+test('레이디버그와 기울기 기억으로 Donxu 원작 Lady Bug를 찾는다', () => {
+  const ladybug = games.find(game => game.id === 'lady-bug-donxu');
+  assert(ladybug, 'Donxu Lady Bug가 카탈로그에 있어야 합니다.');
+  assert(ladybug.memory.some(clue => /com\.donxu\.lady_bug/.test(clue)));
+  const results = findRememberedGames(games, {
+    text: '레이디버그 무당벌레를 스마트폰 기울기로 움직여 정원에서 싸웠어요'
+  });
+  assert.equal(results[0]?.game.id, 'lady-bug-donxu');
+  assert(results[0].matchedClues.some(clue => /레이디|무당벌레|기울/.test(clue)));
+});
+
+test('게임 검색은 영문 붙여쓰기와 한글 별칭으로 Lady Bug를 찾는다', () => {
+  assert.equal(searchGames(games, 'ladybug')[0]?.id, 'lady-bug-donxu');
+  assert.equal(searchGames(games, '레이디 버그')[0]?.id, 'lady-bug-donxu');
+});
+
+test('목록에 없는 게임을 안전한 사용자 게임으로 만들어 통계에 포함한다', () => {
+  const custom = createCustomGame({
+    title: '<b>나만의 우주 게임</b>',
+    genre: '슈팅, 탐험',
+    platform: '내 콘솔',
+    memory: '보라색 우주선으로 별을 모았어요'
+  }, games);
+  assert.equal(custom.title, '나만의 우주 게임');
+  assert.deepEqual(custom.genres, ['슈팅', '탐험']);
+  assert(custom.id.startsWith('custom-'));
+  const catalog = mergeCatalog(games, [custom]);
+  const stats = calculateStats([{ gameId: custom.id, hours: 42, platform: '내 콘솔', status: '완료', rating: 5 }], catalog);
+  assert.equal(stats.totalHours, 42);
+  assert.equal(stats.topGame.gameId, custom.id);
+});
+
+test('공유 데이터는 사용자 게임을 보존하지만 비밀 필드는 제거한다', () => {
+  const custom = createCustomGame({ title: '작은 게임', genre: '퍼즐', platform: 'PC' }, games);
+  const encoded = encodeShare({ name: '춘식', customGames: [{ ...custom, token: 'secret' }], library: [{ gameId: custom.id, hours: 3, platform: 'PC', status: '완료', rating: 4 }] });
+  const decoded = decodeShare(encoded);
+  assert.equal(decoded.customGames[0].title, '작은 게임');
+  assert.equal(decoded.customGames[0].token, undefined);
+  assert.equal(decoded.library[0].gameId, custom.id);
 });

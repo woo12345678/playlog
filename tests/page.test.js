@@ -29,3 +29,14 @@ test('접근성과 모바일 내비게이션을 제공한다', () => {
   assert(css.includes('prefers-reduced-motion'));
   assert(css.includes(':focus-visible'));
 });
+
+test('추천과 라이브러리에 게임 검색 및 사용자 게임 추가 UI가 있다', () => {
+  assert(html.includes('id="libraryGameSearch"'));
+  assert(html.includes('id="librarySearchResults"'));
+  assert(html.includes('id="showCustomGame"'));
+  assert(html.includes('id="customGameFields"'));
+  assert(html.includes('id="customGameTitle"'));
+  assert(html.includes('id="customGameGenre"'));
+  assert(html.includes('게임 이름을 검색'));
+  assert(css.includes('.game-search-results'));
+});

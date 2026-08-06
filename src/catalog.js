@@ -1,9 +1,10 @@
 const g = (id, title, year, genres, tags, modes, platforms, priceKRW, length, difficulty, mood, pace, perspective, memory, storeUrl, color, summary) => ({
   id, title, year, genres, tags, modes, platforms, priceKRW, length, difficulty, mood, pace, perspective,
-  era: `${Math.floor(year / 10) * 10}년대`, memory, storeUrl, color, summary
+  era: Number.isFinite(year) ? `${Math.floor(year / 10) * 10}년대` : '연도 미상', memory, storeUrl, color, summary
 });
 
 export const games = [
+  g('lady-bug-donxu','Lady Bug (Donxu)',null,['액션','생존'],['무당벌레','기울기 조작','아이템','정원','모바일'],['싱글'],['Mobile','Android'],0,'무한','보통','유쾌함','빠름','2D',['Lady Bug','Ladybug','Lady Bug Garden','레이디버그','레이디 버그','무당벌레','스마트폰 기울기','자이로 센서','틸트 조작','정원','벌레 적','꽃과 코스모스','능력 아이템','생존','com.donxu.lady_bug','버전 1.59.00'], 'https://woo12345678.github.io/ladybug-garden/','#d34a38','Donxu의 세로형 모바일 원작. 스마트폰을 기울여 무당벌레를 움직이고 정원의 적을 상대한다.'),
   g('elden-ring','ELDEN RING',2022,['액션 RPG','오픈월드'],['소울라이크','탐험','보스','다크 판타지'],['싱글','협동','경쟁'],['Steam','PlayStation','Xbox'],64800,'매우 김','어려움','어두움','느긋함','3D',['황금 나무','말 타기','룬','손가락','넓은 폐허','구르기'], 'https://store.steampowered.com/app/1245620/ELDEN_RING/','#b59a55','거대한 세계를 스스로 해석하며 강적에 도전하는 액션 RPG.'),
   g('stardew-valley','Stardew Valley',2016,['생활 시뮬레이션','RPG'],['농장','낚시','관계','픽셀','힐링'],['싱글','협동'],['Steam','Switch','PlayStation','Xbox','Mobile'],16500,'매우 김','쉬움','따뜻함','느긋함','2D',['할아버지 농장','보라 머리','광산','계절 축제','닭','마을 주민'], 'https://store.steampowered.com/app/413150/Stardew_Valley/','#d99b45','농사와 관계, 탐험을 자기 속도로 쌓는 픽셀 생활 RPG.'),
   g('hades','Hades',2020,['로그라이크','액션'],['그리스 신화','반복 성장','빠른 전투','가족'],['싱글'],['Steam','Switch','PlayStation','Xbox','Mobile'],27000,'중간','보통','강렬함','빠름','2D',['붉은 지하세계','죽을 때 아버지','신들의 축복','창 활 방패','방 탈출'], 'https://store.steampowered.com/app/1145360/Hades/','#d94a35','죽음과 재도전을 서사로 엮은 빠른 액션 로그라이크.'),

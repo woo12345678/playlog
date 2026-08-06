@@ -41,6 +41,7 @@
 
         <div class="workbench">
           <div class="panel-title"><div><span class="index-mark">A</span><h2>좋아했던 게임</h2></div><span id="seedCounter">5 / 10</span></div>
+          <p class="search-help">게임 이름을 검색해 넣으세요. 영문·한글 별칭과 붙여쓰기도 찾습니다.</p>
           <div id="seedList" class="seed-list"></div>
           <button id="addSeed" class="add-row" type="button"><span>＋</span> 게임 하나 더 넣기 <small>최대 10개</small></button>
         </div>
@@ -103,8 +104,21 @@
 
         <form id="libraryForm" class="library-form" hidden>
           <div class="panel-title"><div><span class="index-mark">＋</span><h2>게임 기록 추가</h2></div><button id="closeLibraryForm" class="text-button" type="button">닫기</button></div>
-          <div class="form-grid">
-            <label>게임<select id="libraryGame" required></select></label>
+          <div class="game-picker">
+            <label for="libraryGameSearch">게임 이름을 검색</label>
+            <input id="libraryGameSearch" type="search" autocomplete="off" placeholder="예: Lady Bug, 레이디버그, Stardew Valley" aria-controls="librarySearchResults">
+            <input id="libraryGameId" type="hidden">
+            <div id="librarySearchResults" class="game-search-results" role="listbox" hidden></div>
+            <p id="librarySelection" class="selected-game" aria-live="polite">검색 결과에서 게임을 선택해 주세요.</p>
+            <button id="showCustomGame" class="custom-game-toggle" type="button">목록에 없나요? 내 게임 직접 추가</button>
+            <div id="customGameFields" class="custom-game-fields" hidden>
+              <strong>새 게임 만들기</strong>
+              <label>게임 제목<input id="customGameTitle" maxlength="80" placeholder="정확한 게임 이름"></label>
+              <label>장르<input id="customGameGenre" maxlength="100" placeholder="예: 액션, 퍼즐"></label>
+              <label>기억 단서<textarea id="customGameMemory" rows="3" maxlength="240" placeholder="캐릭터, 맵, 색, 플레이 방식 등을 적으면 추억 찾기에도 사용됩니다."></textarea></label>
+            </div>
+          </div>
+          <div class="form-grid library-details">
             <label>플랫폼<select id="libraryPlatform" required></select></label>
             <label>플레이 시간<input id="libraryHours" type="number" min="0" max="100000" step="0.1" value="1" required><span>시간</span></label>
             <label>상태<select id="libraryStatus"><option>플레이 중</option><option>완료</option><option>보류</option><option>중단</option><option>찜</option></select></label>

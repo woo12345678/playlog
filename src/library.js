@@ -1,3 +1,5 @@
+import { normalizeCustomGames } from './game-entry.js';
+
 const validStatuses = new Set(['플레이 중', '완료', '보류', '중단', '찜']);
 
 const sanitizeText = (value, limit) => String(value || '').replace(/[<>]/g, '').trim().slice(0, limit);
@@ -55,10 +57,20 @@ function fromBase64Url(value) {
 }
 
 export function encodeShare(profile) {
+  const customGames = normalizeCustomGames(profile?.customGames || []).map(game => ({
+    title: game.title,
+    genres: game.genres,
+    platforms: game.platforms,
+    modes: game.modes,
+    memory: game.memory.slice(1, 9),
+    perspective: game.perspective,
+    summary: game.summary
+  }));
   const payload = {
-    v: 1,
+    v: 2,
     name: sanitizeText(profile?.name || '플레이어', 30),
     bio: sanitizeText(profile?.bio || '', 100),
+    customGames,
     library: (Array.isArray(profile?.library) ? profile.library : []).slice(0, 100).map(entry => ({
       gameId: sanitizeText(entry.gameId, 80),
       hours: Math.round(clamp(entry.hours, 0, 100000) * 10) / 10,
@@ -74,10 +86,11 @@ export function decodeShare(encoded) {
   try {
     if (!encoded || encoded.length > 24000) return null;
     const parsed = JSON.parse(fromBase64Url(encoded));
-    if (parsed.v !== 1 || !Array.isArray(parsed.library)) return null;
+    if (![1, 2].includes(parsed.v) || !Array.isArray(parsed.library)) return null;
     return {
       name: sanitizeText(parsed.name || '플레이어', 30),
       bio: sanitizeText(parsed.bio || '', 100),
+      customGames: parsed.v === 2 ? normalizeCustomGames(parsed.customGames || []) : [],
       library: parsed.library.slice(0, 100).map(entry => ({
         gameId: sanitizeText(entry.gameId, 80),
         hours: Math.round(clamp(entry.hours, 0, 100000) * 10) / 10,
