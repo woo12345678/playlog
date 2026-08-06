@@ -1,36 +1,46 @@
 const normalize = value => String(value || '').toLocaleLowerCase('ko-KR').replace(/[^0-9a-z가-힣]+/g, ' ').trim();
 const words = value => normalize(value).split(/\s+/).filter(word => word.length >= 1);
+const gameIndex = new WeakMap();
 
-function clueMatches(text, clue) {
-  const input = normalize(text).replace(/\s/g, '');
-  const target = normalize(clue).replace(/\s/g, '');
-  if (!target) return false;
-  if (input.includes(target) || target.includes(input)) return true;
-  const inputWords = new Set(words(text));
-  const clueWords = words(clue);
-  return clueWords.some(word => word.length >= 2 && [...inputWords].some(inputWord => inputWord.includes(word) || word.includes(inputWord)));
+function indexGame(game) {
+  if (gameIndex.has(game)) return gameIndex.get(game);
+  const searchable = [game.title, ...game.genres, ...game.tags, ...(game.memory || [])].map(clue => ({
+    label: String(clue),
+    compact: normalize(clue).replace(/\s/g, ''),
+    words: words(clue),
+    weight: game.memory?.includes(clue) ? 5 : 3
+  }));
+  const indexed = { searchable, titleParts: normalize(game.title).split(' ') };
+  gameIndex.set(game, indexed);
+  return indexed;
+}
+
+function clueMatches(input, clue) {
+  if (!clue.compact) return false;
+  if (input.compact.includes(clue.compact) || clue.compact.includes(input.compact)) return true;
+  return clue.words.some(word => word.length >= 2 && input.words.some(inputWord => inputWord.includes(word) || word.includes(inputWord)));
 }
 
 export function findRememberedGames(catalog, query = {}) {
   const text = normalize(query.text);
+  const input = text ? { compact: text.replace(/\s/g, ''), words: words(text) } : null;
   const hasFilters = [query.era, query.perspective, query.mode, query.platform].some(Boolean);
   if (!text && !hasFilters) return [];
   return catalog.map(game => {
     const matchedClues = [];
     let score = 0;
-    const searchable = [game.title, ...game.genres, ...game.tags, ...(game.memory || [])];
-    for (const clue of searchable) {
-      if (text && clueMatches(text, clue)) {
-        const label = String(clue);
-        if (!matchedClues.includes(label)) matchedClues.push(label);
-        score += game.memory?.includes(clue) ? 5 : 3;
+    const indexed = indexGame(game);
+    for (const clue of indexed.searchable) {
+      if (input && clueMatches(input, clue)) {
+        if (!matchedClues.includes(clue.label)) matchedClues.push(clue.label);
+        score += clue.weight;
       }
     }
     if (query.era && game.era === query.era) { score += 7; matchedClues.push(query.era); }
     if (query.perspective && game.perspective === query.perspective) { score += 6; matchedClues.push(`${query.perspective} 화면`); }
     if (query.mode && game.modes.includes(query.mode)) { score += 6; matchedClues.push(`${query.mode} 플레이`); }
     if (query.platform && game.platforms.includes(query.platform)) { score += 5; matchedClues.push(query.platform); }
-    if (text && normalize(game.title).split(' ').some(part => part.length > 2 && text.includes(part))) score += 12;
+    if (text && indexed.titleParts.some(part => part.length > 2 && text.includes(part))) score += 12;
     return { game, rawScore: score, matchedClues: [...new Set(matchedClues)].slice(0, 8) };
   }).filter(item => item.rawScore > 0)
     .sort((a, b) => b.rawScore - a.rawScore || a.game.year - b.game.year)

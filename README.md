@@ -4,7 +4,7 @@
 
 ## 실제 동작하는 기능
 
-- 71개 게임 지식 카탈로그와 제목·한글/영문 별칭 검색형 다중 취향 추천
+- 171개 게임 지식 카탈로그와 제목·한글/영문 별칭 검색형 다중 취향 추천
 - 플랫폼·싱글/협동/경쟁·가격 필터
 - 맵·캐릭터·색·조작·시대 단서 기반 추억 게임 찾기 (`Lady Bug / 레이디버그` 포함)
 - 검색형 로컬 라이브러리와 목록에 없는 사용자 게임 직접 추가
@@ -16,6 +16,27 @@
 ## 계정 연동 원칙
 
 연결되지 않은 계정을 연결된 것처럼 표시하지 않습니다. Steam 라이브러리 자동 연동은 OpenID + Web API 서버와 `STEAM_API_KEY`가 필요한 후속 기능입니다. Nintendo/Epic 등 공개 범용 라이브러리 API가 없는 플랫폼은 수동 가져오기를 제공합니다.
+
+## 게임 카탈로그 추가
+
+게임 데이터의 **유일한 원본은 `data/games.json`**입니다. `src/catalog.generated.js`는 자동 생성 파일이므로 직접 수정하지 않습니다.
+
+가장 빠른 추가 방법:
+
+```bash
+npm run catalog:add -- --title "새 게임" --year 2026 --genres "퍼즐,어드벤처" --platforms "Steam,Switch" --memory "보라색 문,별 조각"
+```
+
+필요하면 `--id`, `--tags`, `--modes`, `--price`, `--length`, `--difficulty`, `--mood`, `--pace`, `--perspective`, `--url`, `--color`, `--summary`를 추가합니다. 명령은 JSON을 저장하고 브라우저용 모듈까지 자동 생성합니다.
+
+JSON을 직접 편집했다면 다음을 실행합니다.
+
+```bash
+npm run catalog:build
+npm test
+```
+
+중복 ID·제목, 빈 필수 배열, 잘못된 연도·가격·URL·색상은 빌드에서 차단됩니다. 전체 필드와 예시는 [`docs/CATALOG.md`](docs/CATALOG.md)를 참고하세요.
 
 ## 실행 및 테스트
 

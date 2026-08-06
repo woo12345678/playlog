@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "node server.js",
-    "test": "node --test tests/*.test.js"
+    "catalog:add": "node scripts/catalog-add.mjs",
+    "catalog:build": "node scripts/catalog-build.mjs",
+    "test": "node scripts/catalog-build.mjs && node --test tests/*.test.js"
   }
 }

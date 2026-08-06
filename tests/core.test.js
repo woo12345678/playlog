@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { performance } from 'node:perf_hooks';
 import { games } from '../src/catalog.js';
 import { recommendGames } from '../src/recommender.js';
 import { calculateStats, encodeShare, decodeShare, normalizeLibrary } from '../src/library.js';
@@ -7,8 +8,10 @@ import { findRememberedGames } from '../src/memory-finder.js';
 import { searchGames, createCustomGame, mergeCatalog } from '../src/game-entry.js';
 
 test('카탈로그는 실제 추천에 충분하고 식별자가 고유하다', () => {
-  assert(games.length >= 40);
+  assert(games.length >= 171, `기존 71개에 100개 이상을 추가해야 합니다: ${games.length}`);
   assert.equal(new Set(games.map(game => game.id)).size, games.length);
+  assert(new Set(games.flatMap(game => game.genres)).size >= 25, '장르가 한쪽에 몰리지 않아야 합니다.');
+  assert(new Set(games.flatMap(game => game.platforms)).size >= 8, '플랫폼이 다양해야 합니다.');
   assert.equal(new Set(games.map(game => game.title)).size, games.length);
   for (const game of games) {
     for (const field of ['id', 'title', 'year', 'priceKRW', 'length', 'difficulty', 'color']) assert.notEqual(game[field], undefined, `${game.title}: ${field}`);
@@ -95,6 +98,12 @@ test('추억 검색은 빈 입력을 안전하게 안내한다', () => {
   assert.deepEqual(findRememberedGames(games, { text: '' }), []);
 });
 
+test('171개 추억 검색은 반복 입력에도 150ms 안에 응답한다', () => {
+  const started = performance.now();
+  for (let i = 0; i < 20; i += 1) findRememberedGames(games, { text: '작은 흰색 로봇 듀얼센스' });
+  assert(performance.now() - started < 150);
+});
+
 test('레이디버그와 기울기 기억으로 Donxu 원작 Lady Bug를 찾는다', () => {
   const ladybug = games.find(game => game.id === 'lady-bug-donxu');
   assert(ladybug, 'Donxu Lady Bug가 카탈로그에 있어야 합니다.');
@@ -107,8 +116,14 @@ test('레이디버그와 기울기 기억으로 Donxu 원작 Lady Bug를 찾는�
 });
 
 test('게임 검색은 영문 붙여쓰기와 한글 별칭으로 Lady Bug를 찾는다', () => {
-  assert.equal(searchGames(games, 'ladybug')[0]?.id, 'lady-bug-donxu');
-  assert.equal(searchGames(games, '레이디 버그')[0]?.id, 'lady-bug-donxu');
+  assert.equal(searchGames(games, 'ladybug')[0].id, 'lady-bug-donxu');
+  assert.equal(searchGames(games, '레이디 버그')[0].id, 'lady-bug-donxu');
+});
+
+test('신규 영문 게임도 한국어 통용 제목으로 검색한다', () => {
+  assert.equal(searchGames(games, '하데스 2')[0]?.id, 'hades-ii');
+  assert.equal(searchGames(games, '아스트로 봇')[0]?.id, 'astro-bot');
+  assert.equal(searchGames(games, '왕국의 눈물')[0]?.id, 'zelda-tears-of-the-kingdom');
 });
 
 test('목록에 없는 게임을 안전한 사용자 게임으로 만들어 통계에 포함한다', () => {
