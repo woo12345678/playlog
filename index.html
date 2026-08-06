@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f2efe6">
+  <meta name="description" content="좋아한 게임 최대 10개로 새 게임을 추천받고, 추억의 게임을 찾고, 플레이 시간을 기록하고 공유하는 로컬 우선 게임 라이프로그">
+  <title>PLAYLOG — 나의 게임 인생</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="주요 메뉴">
+      <a class="wordmark" href="./" aria-label="PLAYLOG 처음으로"><span>P/</span><strong>PLAYLOG</strong></a>
+      <p class="sidebar-manifesto">만들고.<br>플레이하고.<br>기억하다.</p>
+      <nav class="desktop-nav">
+        <button class="nav-item active" type="button" data-tab="recommend"><span>01</span>게임 추천</button>
+        <button class="nav-item" type="button" data-tab="memory"><span>02</span>추억 찾기</button>
+        <button class="nav-item" type="button" data-tab="library"><span>03</span>내 라이브러리</button>
+        <button class="nav-item" type="button" data-tab="profile"><span>04</span>플레이 기록</button>
+        <button class="nav-item" type="button" data-tab="accounts"><span>05</span>계정 연동</button>
+      </nav>
+      <div class="local-badge"><i></i><div><strong>LOCAL FIRST</strong><span>기록은 이 기기에 저장</span></div></div>
+      <p class="catalog-meta"><span id="catalogCount">—</span> GAME KNOWLEDGE BASE<br>CATALOG / 2026</p>
+    </aside>
+
+    <header class="mobile-header">
+      <a class="wordmark" href="./"><span>P/</span><strong>PLAYLOG</strong></a>
+      <span class="privacy-chip">로컬 저장</span>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="view active" data-view="recommend" aria-labelledby="recommendTitle">
+        <header class="page-lead">
+          <p class="kicker">GAME RECOMMENDATION / 01</p>
+          <h1 id="recommendTitle">당신의 다섯 게임에는<br><em>취향의 패턴</em>이 있다.</h1>
+          <p>좋아했던 게임을 2개부터 최대 10개까지 넣으세요. 장르 하나로 뭉개지 않고 플랫폼, 플레이 방식, 가격, 길이와 분위기를 함께 봅니다.</p>
+        </header>
+
+        <div class="workbench">
+          <div class="panel-title"><div><span class="index-mark">A</span><h2>좋아했던 게임</h2></div><span id="seedCounter">5 / 10</span></div>
+          <div id="seedList" class="seed-list"></div>
+          <button id="addSeed" class="add-row" type="button"><span>＋</span> 게임 하나 더 넣기 <small>최대 10개</small></button>
+        </div>
+
+        <div class="filter-board">
+          <div class="panel-title"><div><span class="index-mark">B</span><h2>이번에 찾는 조건</h2></div><button id="resetFilters" class="text-button" type="button">초기화</button></div>
+          <div class="filter-grid">
+            <label>플랫폼<select id="platformFilter"><option value="전체">상관없음</option></select></label>
+            <label>플레이 방식<select id="modeFilter"><option value="전체">상관없음</option><option>싱글</option><option>협동</option><option>경쟁</option><option>멀티</option></select></label>
+            <label>가격 상한<select id="priceFilter"><option value="">상관없음</option><option value="0">무료</option><option value="20000">2만원 이하</option><option value="30000">3만원 이하</option><option value="50000">5만원 이하</option><option value="70000">7만원 이하</option></select></label>
+          </div>
+          <button id="runRecommend" class="primary-action" type="button">내 취향으로 8개 추천받기 <span>→</span></button>
+        </div>
+
+        <section class="results-section" aria-labelledby="recommendResultsTitle">
+          <div class="results-heading"><div><p class="kicker">EXPLAINABLE MATCHES</p><h2 id="recommendResultsTitle">추천 결과</h2></div><p id="recommendSummary" aria-live="polite"></p></div>
+          <div id="recommendResults" class="recommend-grid"></div>
+        </section>
+      </section>
+
+      <section class="view" data-view="memory" aria-labelledby="memoryTitle" hidden>
+        <header class="page-lead memory-lead">
+          <p class="kicker">MEMORY FINDER / 02</p>
+          <h1 id="memoryTitle" aria-label="추억의 게임을 찾아드립니다">추억의 게임을<br><em>찾아드립니다.</em></h1>
+          <p>제목은 몰라도 괜찮습니다. 맵, 캐릭터 색, 공격 방식, 친구와 했던 기억처럼 떠오르는 조각을 적어주세요.</p>
+          <div class="db-truth"><strong>현재 검색 방식</strong><span>로컬 게임 지식 데이터베이스</span><small>AI 연결 없이 AI인 척 답하지 않습니다.</small></div>
+        </header>
+
+        <div class="memory-search-board">
+          <label class="memory-text-label" for="memoryQuery">기억나는 장면을 편하게 적어주세요</label>
+          <textarea id="memoryQuery" rows="6" placeholder="예: 눈 오는 맵에서 빨강·파랑 형제가 적을 눈덩이로 만들고 굴렸어요. 오락실에서 둘이 같이 했던 것 같아요."></textarea>
+          <div class="prompt-chips" id="memoryPrompts"></div>
+          <div class="filter-grid memory-filters">
+            <label>시대<select id="memoryEra"><option value="">모르겠어요</option><option>1980년대</option><option>1990년대</option><option>2000년대</option><option>2010년대</option><option>2020년대</option></select></label>
+            <label>화면<select id="memoryPerspective"><option value="">모르겠어요</option><option>2D</option><option>3D</option></select></label>
+            <label>플레이<select id="memoryMode"><option value="">모르겠어요</option><option>싱글</option><option>협동</option><option>경쟁</option><option>멀티</option></select></label>
+            <label>했던 곳<select id="memoryPlatform"><option value="">모르겠어요</option><option>Arcade</option><option>PC</option><option>Steam</option><option>Switch</option><option>PlayStation</option><option>Xbox</option><option>Mobile</option></select></label>
+          </div>
+          <button id="findMemory" class="primary-action orange" type="button">기억 조각으로 게임 찾기 <span>⌕</span></button>
+        </div>
+
+        <section class="results-section" aria-labelledby="memoryResultsTitle">
+          <div class="results-heading"><div><p class="kicker">LIKELY CANDIDATES</p><h2 id="memoryResultsTitle">유력한 후보</h2></div><p id="memorySummary" aria-live="polite">기억을 입력하면 일치한 단서와 함께 후보를 보여드립니다.</p></div>
+          <div id="memoryResults" class="memory-results"></div>
+        </section>
+      </section>
+
+      <section class="view" data-view="library" aria-labelledby="libraryTitle" hidden>
+        <header class="page-lead compact-lead">
+          <p class="kicker">MY LIBRARY / 03</p>
+          <h1 id="libraryTitle">내가 보낸 시간을<br><em>내 기록으로.</em></h1>
+          <p>계정 연동을 기다리지 않아도 오늘부터 기록할 수 있습니다. 모든 데이터는 이 브라우저에만 저장됩니다.</p>
+        </header>
+
+        <div class="library-toolbar">
+          <button id="showAddGame" class="primary-action small" type="button">＋ 게임 기록 추가</button>
+          <div><button id="loadExample" class="text-button" type="button">예시 기록 불러오기</button><button id="exportLibrary" class="text-button" type="button">JSON 내보내기</button><button id="importLibrary" class="text-button" type="button">JSON·CSV 가져오기</button></div>
+          <input id="importFile" type="file" accept=".json,.csv,application/json,text/csv" hidden>
+        </div>
+
+        <form id="libraryForm" class="library-form" hidden>
+          <div class="panel-title"><div><span class="index-mark">＋</span><h2>게임 기록 추가</h2></div><button id="closeLibraryForm" class="text-button" type="button">닫기</button></div>
+          <div class="form-grid">
+            <label>게임<select id="libraryGame" required></select></label>
+            <label>플랫폼<select id="libraryPlatform" required></select></label>
+            <label>플레이 시간<input id="libraryHours" type="number" min="0" max="100000" step="0.1" value="1" required><span>시간</span></label>
+            <label>상태<select id="libraryStatus"><option>플레이 중</option><option>완료</option><option>보류</option><option>중단</option><option>찜</option></select></label>
+            <label>내 평점<select id="libraryRating"><option value="0">평가 안 함</option><option value="1">★</option><option value="2">★★</option><option value="3">★★★</option><option value="4">★★★★</option><option value="5">★★★★★</option></select></label>
+          </div>
+          <button class="primary-action small" type="submit">기록 저장</button>
+        </form>
+
+        <div id="libraryEmpty" class="empty-state">
+          <span>NO. 000</span><h2>아직 기록이 없습니다.</h2><p>첫 게임을 추가하거나, 형식을 확인하려면 예시 기록을 불러오세요.</p>
+        </div>
+        <div id="libraryList" class="library-list"></div>
+      </section>
+
+      <section class="view" data-view="profile" aria-labelledby="profileTitle" hidden>
+        <header class="page-lead compact-lead">
+          <p class="kicker">PLAYER REPORT / 04</p>
+          <h1 id="profileTitle">나의 게임 인생을<br><em>숫자와 이야기로.</em></h1>
+        </header>
+        <div id="sharedNotice" class="shared-notice" hidden>친구가 공유한 공개 기록을 보고 있습니다. 이 데이터는 내 라이브러리에 저장되지 않습니다.</div>
+        <div class="profile-editor">
+          <label>공개 이름<input id="profileName" maxlength="30" value="플레이어"></label>
+          <label>한 줄 소개<input id="profileBio" maxlength="100" placeholder="게임을 만들고, 플레이하고, 기록합니다."></label>
+          <button id="shareProfile" class="primary-action small" type="button">공유 링크 복사</button>
+        </div>
+        <div class="stat-hero">
+          <div><span>TOTAL PLAY TIME</span><strong id="totalHours">0</strong><small>HOURS</small></div>
+          <div><span>GAMES LOGGED</span><strong id="gameCount">0</strong><small>TITLES</small></div>
+        </div>
+        <div class="report-grid">
+          <section><div class="panel-title"><div><span class="index-mark">A</span><h2>플랫폼별 시간</h2></div></div><div id="platformChart" class="bar-chart"></div></section>
+          <section><div class="panel-title"><div><span class="index-mark">B</span><h2>가장 오래 한 게임</h2></div></div><div id="topGameCard" class="top-game-card"></div></section>
+        </div>
+      </section>
+
+      <section class="view" data-view="accounts" aria-labelledby="accountsTitle" hidden>
+        <header class="page-lead compact-lead">
+          <p class="kicker">ACCOUNT CONNECTIONS / 05</p>
+          <h1 id="accountsTitle">가능한 연결만<br><em>정직하게.</em></h1>
+          <p>공개 API가 없는 플랫폼을 연결된 것처럼 꾸미지 않습니다. 공식 접근 권한이 생길 때까지 수동 가져오기로 기록을 이어갈 수 있습니다.</p>
+        </header>
+        <div class="account-legend"><span><i class="ready"></i>어댑터 준비</span><span><i class="approval"></i>파트너 승인 필요</span><span><i class="manual"></i>수동 가져오기</span></div>
+        <div class="account-grid">
+          <article class="account-card"><header><span class="platform-type">PC</span><h2>Steam</h2><b class="status-ready">API 키 필요</b></header><p>OpenID 로그인과 GetOwnedGames 어댑터를 사용할 수 있습니다. 라이브러리 조회에는 서버의 Steam Web API 키가 필요합니다.</p><button class="account-info" type="button" data-account="steam">연동 조건 보기</button></article>
+          <article class="account-card"><header><span class="platform-type">PC</span><h2>Epic Games</h2><b class="status-manual">수동 가져오기</b></header><p>일반 웹앱이 전체 소유 게임과 플레이 시간을 읽는 공개 소비자 API가 없습니다.</p><button class="account-info" type="button" data-account="epic">대안 보기</button></article>
+          <article class="account-card"><header><span class="platform-type">CONSOLE</span><h2>Xbox</h2><b class="status-approval">파트너 승인</b></header><p>Microsoft 개발자 등록과 게임 서비스 권한이 필요하며 일반 프로필의 전체 기록 접근은 제한됩니다.</p><button class="account-info" type="button" data-account="xbox">연동 조건 보기</button></article>
+          <article class="account-card"><header><span class="platform-type">CONSOLE</span><h2>Nintendo</h2><b class="status-manual">수동 가져오기</b></header><p>Nintendo 계정의 전체 라이브러리와 플레이 시간을 외부 앱에 제공하는 공개 API가 없습니다.</p><button class="account-info" type="button" data-account="nintendo">대안 보기</button></article>
+          <article class="account-card"><header><span class="platform-type">CONSOLE</span><h2>PlayStation</h2><b class="status-approval">파트너 승인</b></header><p>공식 파트너 프로그램 범위 밖의 개인 앱은 게임 기록 접근을 보장받지 못합니다.</p><button class="account-info" type="button" data-account="playstation">연동 조건 보기</button></article>
+          <article class="account-card"><header><span class="platform-type">MOBILE</span><h2>Google Play Games</h2><b class="status-manual">게임별 연동</b></header><p>Play Games Services는 각 게임 개발자를 위한 API이며 계정 전체 플레이 기록 수집용 API가 아닙니다.</p><button class="account-info" type="button" data-account="google">대안 보기</button></article>
+        </div>
+        <section class="privacy-board"><span>PRIVACY NOTE</span><h2>토큰은 브라우저에 저장하지 않습니다.</h2><p>현재 버전은 계정 비밀번호·OAuth 토큰을 요구하지 않습니다. 공유 링크에도 공개 이름, 게임, 플랫폼, 플레이 시간, 상태, 평점만 포함합니다.</p><button id="accountImport" class="primary-action small" type="button">수동 기록 가져오기</button></section>
+      </section>
+    </main>
+  </div>
+
+  <nav class="mobile-nav" aria-label="모바일 주요 메뉴">
+    <button class="active" type="button" data-tab="recommend"><span>01</span>추천</button>
+    <button type="button" data-tab="memory"><span>02</span>추억</button>
+    <button type="button" data-tab="library"><span>03</span>기록</button>
+    <button type="button" data-tab="profile"><span>04</span>통계</button>
+    <button type="button" data-tab="accounts"><span>05</span>연동</button>
+  </nav>
+
+  <dialog id="infoDialog"><button id="closeDialog" class="dialog-close" type="button" aria-label="닫기">×</button><div id="dialogContent"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
