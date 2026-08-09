@@ -7,6 +7,11 @@
     "start": "node server.js",
     "catalog:add": "node scripts/catalog-add.mjs",
     "catalog:build": "node scripts/catalog-build.mjs",
+    "catalog:steam": "node scripts/import-steam-popular.mjs",
+    "catalog:mobile": "node scripts/import-mobile-popular.mjs",
+    "catalog:nintendo": "node scripts/import-nintendo-bestsellers.mjs",
+    "covers:enrich": "node scripts/enrich-covers.mjs",
+    "news:update": "node scripts/update-news.mjs",
     "test": "node scripts/catalog-build.mjs && node --test tests/*.test.js"
   }
 }

@@ -1,6 +1,10 @@
 import { writeFileSync } from 'node:fs';
 
 export const splitList = value => String(value || '').split(',').map(item => item.trim()).filter(Boolean);
+const secureUrl = value => {
+  try { const url = new URL(String(value || '')); return url.protocol === 'https:' ? url.href : ''; }
+  catch { return ''; }
+};
 
 export function slugify(value) {
   const slug = String(value || '').normalize('NFKD').toLowerCase().replace(/[’']/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
@@ -34,6 +38,12 @@ export function createCatalogGame(input) {
   const genres = splitList(input.genres);
   const platforms = splitList(input.platforms);
   const memory = [...new Set([title, ...splitList(input.memory)])];
+  const storeUrl = secureUrl(input.url ?? input.storeUrl);
+  const defaultCover = `assets/covers/${id}.svg`;
+  const rawCover = String(input.coverUrl || defaultCover).trim();
+  const coverUrl = rawCover.startsWith('assets/covers/') ? rawCover : secureUrl(rawCover) || defaultCover;
+  const rawFallback = String(input.fallbackCoverUrl || defaultCover).trim();
+  const fallbackCoverUrl = rawFallback.startsWith('assets/covers/') ? rawFallback : defaultCover;
   return {
     id, title, year,
     genres: genres.length ? genres : ['기타'],
@@ -48,7 +58,9 @@ export function createCatalogGame(input) {
     perspective: String(input.perspective || '3D'),
     era: year ? `${Math.floor(year / 10) * 10}년대` : '연도 미상',
     memory,
-    storeUrl: String(input.url || `https://store.steampowered.com/search/?term=${encodeURIComponent(title)}`),
+    storeUrl: storeUrl || `https://store.steampowered.com/search/?term=${encodeURIComponent(title)}`,
+    coverUrl,
+    fallbackCoverUrl,
     color: /^#[0-9a-f]{6}$/i.test(String(input.color || '')) ? input.color : colorFromId(id),
     summary: String(input.summary || `${title}의 플레이 기록과 추천을 위한 카탈로그 항목.`).trim()
   };
@@ -77,6 +89,8 @@ export function validateCatalog(games) {
     let url;
     try { url = new URL(game.storeUrl); } catch { throw new Error(`${game.id} invalid storeUrl`); }
     if (!['http:', 'https:'].includes(url.protocol)) throw new Error(`${game.id} invalid storeUrl protocol`);
+    if (!/^(https:\/\/|assets\/covers\/)/.test(game.coverUrl || '')) throw new Error(`${game.id} invalid coverUrl`);
+    if (!/^assets\/covers\/[a-z0-9-]+\.svg$/.test(game.fallbackCoverUrl || '')) throw new Error(`${game.id} invalid fallbackCoverUrl`);
     if (!String(game.summary || '').trim()) throw new Error(`${game.id} summary required`);
   });
   return games;

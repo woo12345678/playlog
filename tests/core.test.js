@@ -16,6 +16,7 @@ test('카탈로그는 실제 추천에 충분하고 식별자가 고유하다', 
   for (const game of games) {
     for (const field of ['id', 'title', 'year', 'priceKRW', 'length', 'difficulty', 'color']) assert.notEqual(game[field], undefined, `${game.title}: ${field}`);
     assert(game.genres.length && game.tags.length && game.modes.length && game.platforms.length);
+    assert(/^(https:\/\/|assets\/covers\/)/.test(game.coverUrl || ''), `${game.title}: coverUrl`);
     assert(/^https:\/\//.test(game.storeUrl));
   }
 });
@@ -136,6 +137,19 @@ test('요청한 모바일 게임 5개와 추가 10개를 더해 186개 이상 �
   ]);
   for (const [query, title] of expected) assert.equal(searchGames(games, query)[0]?.title, title, `${query} 검색 실패`);
   assert(searchGames(games, '매직브릭 인피니티')[0], '매직브릭 인피니티 검색 실패');
+});
+
+test('요청한 플랫폼 확장 배치는 Steam 100개, 모바일 50개, Nintendo 50개를 정확히 더한다', () => {
+  const steam = games.filter(game => game.tags.includes('Steam 인기 2026'));
+  const mobile = games.filter(game => game.tags.includes('모바일 인기 확장'));
+  const nintendo = games.filter(game => game.tags.includes('Nintendo Switch 확장'));
+  assert.equal(games.length, 386, `기존 186개에 신규 200개가 필요합니다: ${games.length}`);
+  assert.equal(steam.length, 100);
+  assert.equal(mobile.length, 50);
+  assert.equal(nintendo.length, 50);
+  assert(games.filter(game => game.platforms.includes('Steam')).length >= 221);
+  assert(games.filter(game => game.platforms.includes('Mobile')).length >= 104);
+  assert(games.filter(game => game.platforms.includes('Switch')).length >= 146);
 });
 
 test('목록에 없는 게임을 안전한 사용자 게임으로 만들어 통계에 포함한다', () => {

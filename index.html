@@ -20,7 +20,8 @@
         <button class="nav-item" type="button" data-tab="memory"><span>02</span>추억 찾기</button>
         <button class="nav-item" type="button" data-tab="library"><span>03</span>내 라이브러리</button>
         <button class="nav-item" type="button" data-tab="profile"><span>04</span>플레이 기록</button>
-        <button class="nav-item" type="button" data-tab="accounts"><span>05</span>계정 연동</button>
+        <button class="nav-item" type="button" data-tab="news"><span>05</span>게임 소식</button>
+        <button class="nav-item" type="button" data-tab="accounts"><span>06</span>계정 연동</button>
       </nav>
       <div class="local-badge"><i></i><div><strong>LOCAL FIRST</strong><span>기록은 이 기기에 저장</span></div></div>
       <p class="catalog-meta"><span id="catalogCount">—</span> GAME KNOWLEDGE BASE<br>CATALOG / 2026</p>
@@ -108,7 +109,7 @@
             <label for="libraryGameSearch">게임 이름을 검색</label>
             <input id="libraryGameSearch" type="search" autocomplete="off" placeholder="예: Lady Bug, 레이디버그, Stardew Valley" aria-controls="librarySearchResults">
             <input id="libraryGameId" type="hidden">
-            <div id="librarySearchResults" class="game-search-results" role="listbox" hidden></div>
+            <div id="librarySearchResults" class="game-search-results" hidden></div>
             <p id="librarySelection" class="selected-game" aria-live="polite">검색 결과에서 게임을 선택해 주세요.</p>
             <button id="showCustomGame" class="custom-game-toggle" type="button">목록에 없나요? 내 게임 직접 추가</button>
             <div id="customGameFields" class="custom-game-fields" hidden>
@@ -154,9 +155,40 @@
         </div>
       </section>
 
+      <section class="view news-view" data-view="news" aria-labelledby="newsTitle" hidden>
+        <header class="page-lead news-lead">
+          <p class="kicker">LIVE GAME DESK / 05</p>
+          <h1 id="newsTitle">좋아하는 다섯 게임의<br><em>지금을 한곳에.</em></h1>
+          <p>최대 5개 게임을 세팅하면 최신 뉴스, 이벤트·업데이트, YouTube 영상을 한 피드에서 보여드립니다. 공개 피드를 하루 두 번 자동 수집하며 마지막 정상 결과를 안전하게 보존합니다.</p>
+        </header>
+
+        <section class="news-studio" aria-labelledby="newsSetupTitle">
+          <div class="news-studio-head">
+            <div><span class="index-mark">LIVE</span><h2 id="newsSetupTitle">내 소식 게임</h2><p>영문·한글 제목으로 검색해 최대 5개까지 고르세요.</p></div>
+            <div id="newsFreshness" class="freshness-badge" aria-live="polite"><i></i><span>소식 데이터 확인 중</span></div>
+          </div>
+          <div id="newsSelectedGames" class="news-selected-games"></div>
+          <div class="news-picker game-picker">
+            <label for="newsGameSearch">소식을 볼 게임 추가 <span id="newsGameCounter">0 / 5</span></label>
+            <input id="newsGameSearch" type="search" autocomplete="off" placeholder="예: 엘든 링, 젤다, 마리오, 브롤스타즈" aria-controls="newsSearchResults">
+            <div id="newsSearchResults" class="game-search-results cover-results" hidden></div>
+          </div>
+          <div class="news-toolbar">
+            <p><strong>공개 소스만 사용</strong><span>Google News · YouTube · 공식 스토어</span></p>
+            <button id="refreshNews" class="primary-action small" type="button">최신 소식 다시 불러오기 <span>↻</span></button>
+          </div>
+        </section>
+
+        <section class="results-section news-results" aria-labelledby="newsFeedTitle">
+          <div class="results-heading"><div><p class="kicker">NEWS · EVENTS · VIDEO</p><h2 id="newsFeedTitle">지금 올라온 이야기</h2></div><p id="newsSummary" aria-live="polite">선택한 게임의 최신 소식을 불러옵니다.</p></div>
+          <div id="newsGameRail" class="news-game-rail" aria-label="선택 게임 바로가기"></div>
+          <div id="newsFeed" class="news-feed"></div>
+        </section>
+      </section>
+
       <section class="view" data-view="accounts" aria-labelledby="accountsTitle" hidden>
         <header class="page-lead compact-lead">
-          <p class="kicker">ACCOUNT CONNECTIONS / 05</p>
+          <p class="kicker">ACCOUNT CONNECTIONS / 06</p>
           <h1 id="accountsTitle">가능한 연결만<br><em>정직하게.</em></h1>
           <p>공개 API가 없는 플랫폼을 연결된 것처럼 꾸미지 않습니다. 공식 접근 권한이 생길 때까지 수동 가져오기로 기록을 이어갈 수 있습니다.</p>
         </header>
@@ -179,7 +211,8 @@
     <button type="button" data-tab="memory"><span>02</span>추억</button>
     <button type="button" data-tab="library"><span>03</span>기록</button>
     <button type="button" data-tab="profile"><span>04</span>통계</button>
-    <button type="button" data-tab="accounts"><span>05</span>연동</button>
+    <button type="button" data-tab="news"><span>05</span>소식</button>
+    <button type="button" data-tab="accounts"><span>06</span>연동</button>
   </nav>
 
   <dialog id="infoDialog"><button id="closeDialog" class="dialog-close" type="button" aria-label="닫기">×</button><div id="dialogContent"></div></dialog>

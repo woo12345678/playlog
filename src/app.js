@@ -3,12 +3,15 @@ import { recommendGames } from './recommender.js';
 import { calculateStats, encodeShare, decodeShare, normalizeLibrary } from './library.js';
 import { findRememberedGames, memoryPrompts } from './memory-finder.js';
 import { searchGames, createCustomGame, normalizeCustomGames, mergeCatalog } from './game-entry.js';
+import { normalizeNewsSelection, collectSelectedNews, selectedNewsFreshness, youtubeSearchUrl, googleNewsSearchUrl } from './news.js';
+import { escapeHtml, safeCssColor, safeHttpsAttribute } from './html.js';
 
 const STORAGE_KEY = 'playlog-state-v1';
 const defaults = {
   seeds: ['elden-ring', 'stardew-valley', 'hades', 'portal-2', 'monster-hunter-world'],
   library: [],
   customGames: [],
+  newsGames: ['elden-ring', 'stardew-valley', 'hades', 'zelda-tears-of-the-kingdom', 'brawl-stars'],
   profile: { name: '플레이어', bio: '게임을 만들고, 플레이하고, 기록합니다.' }
 };
 const $ = selector => document.querySelector(selector);
@@ -17,6 +20,8 @@ let state = loadState();
 let allGames = mergeCatalog(games, state.customGames);
 let gameMap = new Map(allGames.map(game => [game.id, game]));
 let sharedProfile = null;
+let newsCache = null;
+let newsRequest = null;
 let toastTimer;
 
 function loadState() {
@@ -28,6 +33,7 @@ function loadState() {
       seeds: Array.isArray(saved?.seeds) ? [...new Set(saved.seeds.filter(id => catalog.some(game => game.id === id)))].slice(0, 10) : [...defaults.seeds],
       library: normalizeLibrary(saved?.library || [], catalog),
       customGames,
+      newsGames: normalizeNewsSelection(saved?.newsGames || defaults.newsGames, catalog),
       profile: { name: String(saved?.profile?.name || defaults.profile.name).slice(0, 30), bio: String(saved?.profile?.bio || defaults.profile.bio).slice(0, 100) }
     };
   } catch { return structuredClone(defaults); }
@@ -38,7 +44,17 @@ function refreshCatalog() {
   gameMap = new Map(allGames.map(game => [game.id, game]));
   $('#catalogCount').textContent = allGames.length;
 }
-function escapeHtml(value) { return String(value).replace(/[&<>'"]/g, char => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;' }[char])); }
+function coverImage(game, className = '') {
+  const source = game?.coverUrl || game?.fallbackCoverUrl || 'favicon.svg';
+  const fallback = game?.fallbackCoverUrl || 'favicon.svg';
+  return `<img class="game-cover ${className}" src="${escapeHtml(source)}" data-cover-fallback="${escapeHtml(fallback)}" alt="${escapeHtml(game?.title || '게임')} 표지" loading="lazy" decoding="async">`;
+}
+function bindCoverFallbacks(root = document) {
+  root.querySelectorAll('img[data-cover-fallback]').forEach(image => image.addEventListener('error', () => {
+    const fallback = image.dataset.coverFallback;
+    if (fallback && image.getAttribute('src') !== fallback) image.src = fallback;
+  }, { once:true }));
+}
 function money(value) { return value === 0 ? '무료' : `${Number(value).toLocaleString('ko-KR')}원대`; }
 function showToast(message) { const toast = $('#toast'); toast.textContent = message; toast.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(() => toast.classList.remove('show'), 2400); }
 function yearLabel(game) { return Number.isFinite(game.year) ? game.year : '연도 미상'; }
@@ -48,15 +64,18 @@ function switchTab(tab) {
   $$('[data-view]').forEach(view => { const active = view.dataset.view === tab; view.hidden = !active; view.classList.toggle('active', active); });
   if (tab === 'profile') renderProfile();
   if (tab === 'library') renderLibrary();
+  if (tab === 'news') { renderNews(); loadNewsCache(); }
   window.scrollTo({ top: 0, behavior: 'instant' });
-  document.title = `${({recommend:'게임 추천',memory:'추억 찾기',library:'내 라이브러리',profile:'플레이 기록',accounts:'계정 연동'})[tab]} — PLAYLOG`;
+  document.title = `${({recommend:'게임 추천',memory:'추억 찾기',library:'내 라이브러리',profile:'플레이 기록',news:'게임 소식',accounts:'계정 연동'})[tab]} — PLAYLOG`;
 }
 $$('[data-tab]').forEach(button => button.addEventListener('click', () => switchTab(button.dataset.tab)));
 
 function seedSuggestions(index, query) {
   const choices = query.trim() ? searchGames(allGames, query, 8) : allGames.filter(game => !state.seeds.includes(game.id)).slice(0, 8);
   const results = document.querySelector(`[data-seed-results="${index}"]`);
-  results.innerHTML = choices.length ? choices.map(game => `<button class="game-search-option" type="button" role="option" data-seed-choice="${game.id}"><strong>${escapeHtml(game.title)}</strong><small>${yearLabel(game)} · ${escapeHtml(game.platforms.join(' · '))}</small></button>`).join('') : '<div class="game-search-option"><strong>찾는 게임이 없습니다.</strong><small>내 라이브러리에서 직접 추가할 수 있어요.</small></div>';
+  results.innerHTML = choices.length ? choices.map(game => `<button class="game-search-option" type="button" data-seed-choice="${escapeHtml(game.id)}">${coverImage(game)}<span class="game-search-copy"><strong>${escapeHtml(game.title)}</strong><small>${yearLabel(game)} · ${escapeHtml(game.platforms.join(' · '))}</small></span></button>`).join('') : '<div class="game-search-option"><strong>찾는 게임이 없습니다.</strong><small>내 라이브러리에서 직접 추가할 수 있어요.</small></div>';
+  results.classList.add('cover-results');
+  bindCoverFallbacks(results);
   results.hidden = false;
   $$('[data-seed-choice]').forEach(button => button.addEventListener('mousedown', event => event.preventDefault()));
   results.querySelectorAll('[data-seed-choice]').forEach(button => button.addEventListener('click', () => {
@@ -70,7 +89,7 @@ function renderSeeds() {
   const list = $('#seedList');
   list.innerHTML = state.seeds.map((id, index) => {
     const game = gameMap.get(id) || allGames[0];
-    return `<div class="seed-row"><span>${String(index + 1).padStart(2, '0')}</span><div class="seed-search-wrap"><input type="search" value="${escapeHtml(game.title)}" aria-label="좋아한 게임 ${index + 1} 검색" aria-autocomplete="list" aria-controls="seedResults${index}" data-seed-search="${index}"><div id="seedResults${index}" class="game-search-results" data-seed-results="${index}" role="listbox" hidden></div></div><button class="remove-seed" type="button" data-remove-seed="${index}" aria-label="${index + 1}번 게임 제거" ${state.seeds.length <= 2 ? 'disabled' : ''}>×</button></div>`;
+    return `<div class="seed-row"><span>${String(index + 1).padStart(2, '0')}</span><div class="seed-search-wrap"><input type="search" value="${escapeHtml(game.title)}" aria-label="좋아한 게임 ${index + 1} 검색" aria-autocomplete="list" aria-controls="seedResults${index}" data-seed-search="${index}"><div id="seedResults${index}" class="game-search-results" data-seed-results="${index}" hidden></div></div><button class="remove-seed" type="button" data-remove-seed="${index}" aria-label="${index + 1}번 게임 제거" ${state.seeds.length <= 2 ? 'disabled' : ''}>×</button></div>`;
   }).join('');
   $('#seedCounter').textContent = `${state.seeds.length} / 10`;
   $('#addSeed').disabled = state.seeds.length >= 10;
@@ -92,8 +111,8 @@ $('#addSeed').addEventListener('click', () => {
 });
 
 function renderPlatformOptions() {
-  $('#platformFilter').insertAdjacentHTML('beforeend', platforms.map(platform => `<option>${platform}</option>`).join(''));
-  $('#libraryPlatform').innerHTML = [...platforms, '기타'].map(platform => `<option>${platform}</option>`).join('');
+  $('#platformFilter').insertAdjacentHTML('beforeend', platforms.map(platform => `<option>${escapeHtml(platform)}</option>`).join(''));
+  $('#libraryPlatform').innerHTML = [...platforms, '기타'].map(platform => `<option>${escapeHtml(platform)}</option>`).join('');
 }
 
 function runRecommendations() {
@@ -102,15 +121,19 @@ function runRecommendations() {
   $('#recommendSummary').textContent = `${state.seeds.length}개 취향 기준 · 조건을 통과한 상위 ${results.length}개`;
   $('#recommendResults').innerHTML = results.length ? results.map((item, index) => {
     const game = item.game;
-    return `<article class="recommend-card" style="--game-color:${game.color}">
-      <span class="card-index">MATCH / ${String(index + 1).padStart(2, '0')}</span>
-      <h3>${escapeHtml(game.title)}</h3>
-      <div class="score-line"><strong>${item.score}</strong><span>취향<br>점수</span></div>
-      <div class="game-meta"><span>${game.platforms.slice(0, 3).join(' · ')}</span><span>${game.modes.join(' · ')}</span><span>${money(game.priceKRW)}</span><span>${game.length}</span></div>
-      <ul class="reason-list">${item.reasons.map(reason => `<li>${escapeHtml(reason)}</li>`).join('')}</ul>
-      <footer class="card-footer">${game.storeUrl ? `<a href="${game.storeUrl}" target="_blank" rel="noopener">공식 페이지</a>` : '<span>사용자 추가 게임</span>'}<button type="button" data-add-game="${game.id}">＋ 기록에 추가</button></footer>
+    return `<article class="recommend-card" style="--game-color:${safeCssColor(game.color)}">
+      ${coverImage(game, 'recommend-cover')}
+      <div class="recommend-copy">
+        <span class="card-index">MATCH / ${String(index + 1).padStart(2, '0')}</span>
+        <h3>${escapeHtml(game.title)}</h3>
+        <div class="score-line"><strong>${item.score}</strong><span>취향<br>점수</span></div>
+        <div class="game-meta"><span>${escapeHtml(game.platforms.slice(0, 3).join(' · '))}</span><span>${escapeHtml(game.modes.join(' · '))}</span><span>${money(game.priceKRW)}</span><span>${escapeHtml(game.length)}</span></div>
+        <ul class="reason-list">${item.reasons.map(reason => `<li>${escapeHtml(reason)}</li>`).join('')}</ul>
+      </div>
+      <footer class="card-footer">${safeHttpsAttribute(game.storeUrl) ? `<a href="${safeHttpsAttribute(game.storeUrl)}" target="_blank" rel="noopener">공식 페이지</a>` : '<span>사용자 추가 게임</span>'}<button type="button" data-add-game="${escapeHtml(game.id)}">＋ 기록에 추가</button></footer>
     </article>`;
   }).join('') : '<div class="empty-state"><h2>조건에 맞는 게임이 없습니다.</h2><p>가격이나 플랫폼 조건을 조금 넓혀보세요.</p></div>';
+  bindCoverFallbacks($('#recommendResults'));
   $$('[data-add-game]').forEach(button => button.addEventListener('click', () => openLibraryForm(button.dataset.addGame)));
 }
 $('#runRecommend').addEventListener('click', runRecommendations);
@@ -128,7 +151,7 @@ function runMemoryFinder() {
   const query = { text: $('#memoryQuery').value, era: $('#memoryEra').value, perspective: $('#memoryPerspective').value, mode: $('#memoryMode').value, platform: $('#memoryPlatform').value };
   const results = findRememberedGames(allGames, query);
   $('#memorySummary').textContent = results.length ? `${results.length}개 후보를 단서 일치 순서로 찾았습니다.` : '단서가 부족합니다. 캐릭터·맵·조작 방식이나 플레이한 장소를 더 적어주세요.';
-  $('#memoryResults').innerHTML = results.map(item => `<article class="memory-card" style="--game-color:${item.game.color}"><div class="confidence">${item.confidence}%</div><div><h3>${escapeHtml(item.game.title)}</h3><p>${yearLabel(item.game)} · ${item.game.genres.join(' · ')} · ${item.game.platforms.join(' · ')}</p><div class="clues">${item.matchedClues.map(clue => `<span class="clue">${escapeHtml(clue)}</span>`).join('')}</div></div>${item.game.storeUrl ? `<a href="${item.game.storeUrl}" target="_blank" rel="noopener">확인하기 →</a>` : '<span>내가 추가한 게임</span>'}</article>`).join('');
+  $('#memoryResults').innerHTML = results.map(item => `<article class="memory-card" style="--game-color:${safeCssColor(item.game.color)}"><div class="confidence">${item.confidence}%</div><div><h3>${escapeHtml(item.game.title)}</h3><p>${yearLabel(item.game)} · ${escapeHtml(item.game.genres.join(' · '))} · ${escapeHtml(item.game.platforms.join(' · '))}</p><div class="clues">${item.matchedClues.map(clue => `<span class="clue">${escapeHtml(clue)}</span>`).join('')}</div></div>${safeHttpsAttribute(item.game.storeUrl) ? `<a href="${safeHttpsAttribute(item.game.storeUrl)}" target="_blank" rel="noopener">확인하기 →</a>` : '<span>내가 추가한 게임</span>'}</article>`).join('');
 }
 $('#findMemory').addEventListener('click', runMemoryFinder);
 
@@ -148,7 +171,9 @@ function selectLibraryGame(gameId) {
 function renderLibrarySearch(query) {
   const results = query.trim() ? searchGames(allGames, query, 12) : allGames.slice(0, 10);
   const panel = $('#librarySearchResults');
-  panel.innerHTML = results.length ? results.map(game => `<button class="game-search-option" type="button" role="option" data-library-choice="${game.id}"><strong>${escapeHtml(game.title)}</strong><small>${yearLabel(game)} · ${escapeHtml(game.platforms.join(' · '))}</small></button>`).join('') : '<div class="game-search-option"><strong>검색 결과가 없습니다.</strong><small>아래에서 내 게임을 직접 추가하세요.</small></div>';
+  panel.innerHTML = results.length ? results.map(game => `<button class="game-search-option" type="button" data-library-choice="${escapeHtml(game.id)}">${coverImage(game)}<span class="game-search-copy"><strong>${escapeHtml(game.title)}</strong><small>${yearLabel(game)} · ${escapeHtml(game.platforms.join(' · '))}</small></span></button>`).join('') : '<div class="game-search-option"><strong>검색 결과가 없습니다.</strong><small>아래에서 내 게임을 직접 추가하세요.</small></div>';
+  panel.classList.add('cover-results');
+  bindCoverFallbacks(panel);
   panel.hidden = false;
   panel.querySelectorAll('[data-library-choice]').forEach(button => {
     button.addEventListener('mousedown', event => event.preventDefault());
@@ -213,8 +238,9 @@ function renderLibrary() {
   $('#libraryList').innerHTML = state.library.map((entry, index) => {
     const game = gameMap.get(entry.gameId);
     if (!game) return '';
-    return `<article class="library-row"><div class="swatch" style="--game-color:${game.color}">${String(index + 1).padStart(2, '0')}</div><div><h3>${escapeHtml(game.title)}</h3><p>${game.genres.join(' · ')}</p></div><div class="library-hours"><strong>${entry.hours}</strong> h</div><div class="platform">${escapeHtml(entry.platform)}</div><div class="status"><span>${entry.status}</span><div class="rating">${'★'.repeat(entry.rating)}${'☆'.repeat(5-entry.rating)}</div></div><button class="delete-entry" type="button" data-delete-entry="${entry.gameId}" aria-label="${escapeHtml(game.title)} 기록 삭제">×</button></article>`;
+    return `<article class="library-row" style="--game-color:${safeCssColor(game.color)}">${coverImage(game, 'library-cover')}<div><h3>${escapeHtml(game.title)}</h3><p>${escapeHtml(game.genres.join(' · '))}</p></div><div class="library-hours"><strong>${entry.hours}</strong> h</div><div class="platform">${escapeHtml(entry.platform)}</div><div class="status"><span>${escapeHtml(entry.status)}</span><div class="rating">${'★'.repeat(entry.rating)}${'☆'.repeat(5-entry.rating)}</div></div><button class="delete-entry" type="button" data-delete-entry="${escapeHtml(entry.gameId)}" aria-label="${escapeHtml(game.title)} 기록 삭제">×</button></article>`;
   }).join('');
+  bindCoverFallbacks($('#libraryList'));
   $$('[data-delete-entry]').forEach(button => button.addEventListener('click', () => { state.library = state.library.filter(entry => entry.gameId !== button.dataset.deleteEntry); saveState(); renderLibrary(); renderProfile(); showToast('기록을 삭제했습니다.'); }));
 }
 $('#loadExample').addEventListener('click', () => {
@@ -280,6 +306,98 @@ $('#shareProfile').addEventListener('click', async () => {
   try { await navigator.clipboard.writeText(url); showToast('공개 플레이 기록 링크를 복사했습니다.'); }
   catch { prompt('아래 링크를 복사하세요.', url); }
 });
+
+function newsDate(item) {
+  if (item.relativeTime) return item.relativeTime;
+  const date = new Date(item.publishedAt);
+  return Number.isFinite(date.getTime()) ? new Intl.DateTimeFormat('ko-KR', { month:'short', day:'numeric', hour:'2-digit', minute:'2-digit' }).format(date) : '날짜 확인';
+}
+
+function renderNewsSearch(query = '') {
+  const panel = $('#newsSearchResults');
+  if (state.newsGames.length >= 5) {
+    panel.innerHTML = '<div class="game-search-option"><strong>다섯 게임을 모두 골랐습니다.</strong><small>다른 게임을 넣으려면 위 카드에서 하나를 빼주세요.</small></div>';
+    panel.hidden = false;
+    return;
+  }
+  const candidates = (query.trim() ? searchGames(allGames, query, 12) : allGames.filter(game => state.seeds.includes(game.id) || state.library.some(entry => entry.gameId === game.id)).slice(0, 12))
+    .filter(game => !state.newsGames.includes(game.id));
+  panel.innerHTML = candidates.length ? candidates.map(game => `<button class="game-search-option" type="button" data-news-choice="${escapeHtml(game.id)}">${coverImage(game)}<span class="game-search-copy"><strong>${escapeHtml(game.title)}</strong><small>${yearLabel(game)} · ${escapeHtml(game.platforms.join(' · '))}</small></span></button>`).join('') : '<div class="game-search-option"><strong>일치하는 게임이 없습니다.</strong><small>다른 제목이나 한글 별칭으로 검색해 보세요.</small></div>';
+  bindCoverFallbacks(panel);
+  panel.hidden = false;
+  panel.querySelectorAll('[data-news-choice]').forEach(button => {
+    button.addEventListener('click', () => {
+      state.newsGames = normalizeNewsSelection([...state.newsGames, button.dataset.newsChoice], allGames);
+      saveState();
+      $('#newsGameSearch').value = '';
+      panel.hidden = true;
+      renderNews();
+    });
+  });
+}
+
+function renderNews() {
+  state.newsGames = normalizeNewsSelection(state.newsGames, allGames);
+  const selected = state.newsGames.map(id => gameMap.get(id)).filter(Boolean);
+  $('#newsGameCounter').textContent = `${selected.length} / 5`;
+  $('#newsGameSearch').disabled = selected.length >= 5;
+  $('#newsGameSearch').placeholder = selected.length >= 5 ? '최대 5개를 모두 선택했습니다.' : '예: 엘든 링, 젤다, 마리오, 브롤스타즈';
+  $('#newsSelectedGames').innerHTML = selected.length ? selected.map(game => `<article class="news-selected" style="--game-color:${safeCssColor(game.color)}">${coverImage(game)}<div class="news-selected-copy"><strong>${escapeHtml(game.title)}</strong><small>${escapeHtml(game.platforms.slice(0,2).join(' · '))}</small></div><button type="button" data-remove-news="${escapeHtml(game.id)}" aria-label="${escapeHtml(game.title)} 소식에서 제거">×</button></article>`).join('') : '<div class="news-empty"><strong>아직 고른 게임이 없습니다.</strong><p>아래 검색창에서 소식을 보고 싶은 게임을 추가하세요.</p></div>';
+  bindCoverFallbacks($('#newsSelectedGames'));
+  $$('[data-remove-news]').forEach(button => button.addEventListener('click', () => {
+    state.newsGames = state.newsGames.filter(id => id !== button.dataset.removeNews);
+    saveState(); renderNews();
+  }));
+
+  const freshness = newsCache ? selectedNewsFreshness(newsCache, state.newsGames) : { status:'stale', label:'소식 데이터 확인 중', referenceAt:null, unavailable:0, partial:0 };
+  const badge = $('#newsFreshness');
+  badge.className = `freshness-badge ${freshness.status}`;
+  const freshnessText = freshness.referenceAt
+    ? `${freshness.label} · ${new Intl.DateTimeFormat('ko-KR', { month:'short', day:'numeric', hour:'2-digit', minute:'2-digit' }).format(new Date(freshness.referenceAt))}${freshness.partial ? ` · 부분 ${freshness.partial}` : ''}${freshness.unavailable ? ` · 불가 ${freshness.unavailable}` : ''}`
+    : freshness.label;
+  const dot = document.createElement('i');
+  const freshnessLabel = document.createElement('span');
+  freshnessLabel.textContent = freshnessText;
+  badge.replaceChildren(dot, freshnessLabel);
+  const rows = collectSelectedNews(newsCache, state.newsGames, allGames, 8);
+  const cacheNotice = newsCache ? `${freshness.partial ? ` · 부분 캐시 ${freshness.partial}개` : ''}${freshness.unavailable ? ` · 수집 불가 ${freshness.unavailable}개` : ''}` : '';
+  $('#newsSummary').textContent = newsCache ? `${selected.length}개 게임 · 최신 소식 ${rows.length}개 · 자동 갱신 ${newsCache.refreshHours || 12}시간${cacheNotice}` : '선택한 게임의 마지막 정상 소식을 준비하고 있습니다.';
+  $('#newsGameRail').innerHTML = selected.map(game => `<button type="button" data-news-anchor="news-${escapeHtml(game.id)}">${coverImage(game)}<span>${escapeHtml(game.title)}</span></button>`).join('');
+  bindCoverFallbacks($('#newsGameRail'));
+  $$('[data-news-anchor]').forEach(button => button.addEventListener('click', () => document.getElementById(button.dataset.newsAnchor)?.scrollIntoView({ behavior:'smooth', block:'start' })));
+
+  const labels = { news:'NEWS', event:'EVENT', video:'VIDEO' };
+  $('#newsFeed').innerHTML = selected.length ? selected.map(game => {
+    const gameRows = rows.filter(row => row.game.id === game.id);
+    const cards = gameRows.length ? gameRows.map(({ item }) => {
+      const media = item.thumbnail ? `<img src="${escapeHtml(item.thumbnail)}" data-cover-fallback="${escapeHtml(game.coverUrl || game.fallbackCoverUrl || 'favicon.svg')}" alt="" loading="lazy" decoding="async">` : coverImage(game);
+      return `<a class="news-card ${item.type}" href="${safeHttpsAttribute(item.url)}" target="_blank" rel="noopener" style="--game-color:${safeCssColor(game.color)}"><div class="news-card-media">${media}<span class="news-card-type">${labels[item.type]}</span></div><div class="news-card-body"><h4>${escapeHtml(item.title)}</h4><div class="news-card-meta"><span>${escapeHtml(item.source)}</span><time datetime="${escapeHtml(item.publishedAt)}">${escapeHtml(newsDate(item))}</time></div></div></a>`;
+    }).join('') : '<div class="news-empty"><strong>아직 캐시된 소식이 없습니다.</strong><p>자동 수집 전에도 오른쪽의 뉴스·YouTube 검색으로 바로 확인할 수 있습니다.</p></div>';
+    return `<section class="news-game-section" id="news-${escapeHtml(game.id)}"><header class="news-game-heading">${coverImage(game)}<div><h3>${escapeHtml(game.title)}</h3><p>${escapeHtml(game.genres.slice(0,3).join(' · '))} · ${gameRows.length}개 최신 항목</p></div><div class="news-external-links"><a href="${safeHttpsAttribute(googleNewsSearchUrl(game))}" target="_blank" rel="noopener">뉴스 전체</a><a href="${safeHttpsAttribute(youtubeSearchUrl(game))}" target="_blank" rel="noopener">YouTube 최신</a></div></header><div class="news-card-grid">${cards}</div></section>`;
+  }).join('') : '<div class="news-empty"><strong>소식 게임을 선택해 주세요.</strong><p>최대 5개까지 저장되며 다음 방문에도 그대로 유지됩니다.</p></div>';
+  bindCoverFallbacks($('#newsFeed'));
+}
+
+async function loadNewsCache(force = false) {
+  if (newsRequest) return newsRequest;
+  const button = $('#refreshNews');
+  button.disabled = true;
+  button.querySelector('span').textContent = '…';
+  newsRequest = fetch(`data/news.json${force ? `?refresh=${Date.now()}` : ''}`, { cache:force ? 'no-store' : 'default' })
+    .then(response => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
+    .then(data => { newsCache = data; renderNews(); if (force) showToast('서버의 최신 소식 캐시를 불러왔습니다.'); })
+    .catch(() => { renderNews(); showToast('소식 서버가 잠시 쉬는 중입니다. 마지막 정상 결과를 유지합니다.'); })
+    .finally(() => { newsRequest = null; button.disabled = false; button.querySelector('span').textContent = '↻'; });
+  return newsRequest;
+}
+
+$('#newsGameSearch').addEventListener('focus', event => renderNewsSearch(event.currentTarget.value));
+$('#newsGameSearch').addEventListener('input', event => renderNewsSearch(event.currentTarget.value));
+$('#newsGameSearch').addEventListener('keydown', event => { if (event.key === 'Escape') $('#newsSearchResults').hidden = true; });
+document.addEventListener('pointerdown', event => {
+  if (!event.target.closest('.news-picker')) $('#newsSearchResults').hidden = true;
+});
+$('#refreshNews').addEventListener('click', () => loadNewsCache(true));
 
 const accountInfo = {
   steam:['Steam 연동 조건','Steam OpenID로 본인 확인이 가능하고, Web API의 GetOwnedGames로 공개 라이브러리와 플레이 시간을 가져올 수 있습니다. 하지만 API 키는 브라우저에 넣으면 노출되므로 별도 서버가 필요합니다.','https://steamcommunity.com/dev'],

@@ -61,6 +61,8 @@ npm run catalog:add -- \
   "era": "2020년대",
   "memory": ["Example Game", "보라색 문", "별 조각", "달빛 정원"],
   "storeUrl": "https://example.com/official-game-page",
+  "coverUrl": "https://example.com/official-game-cover.jpg",
+  "fallbackCoverUrl": "assets/covers/example-game.svg",
   "color": "#5865a8",
   "summary": "시간과 공간의 단서를 연결하는 퍼즐 어드벤처."
 }
@@ -81,6 +83,8 @@ npm test
 - 1970~2100 범위 밖 연도(연도 미상은 `null`)
 - 음수 또는 숫자가 아닌 가격
 - HTTP/HTTPS가 아닌 확인 링크
+- HTTPS 또는 `assets/covers/` 경로가 아닌 `coverUrl`
+- `assets/covers/{id}.svg` 형식이 아닌 `fallbackCoverUrl`
 - `#RRGGBB`가 아닌 색상
 - 빈 요약
 

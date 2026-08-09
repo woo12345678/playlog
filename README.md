@@ -4,8 +4,11 @@
 
 ## 실제 동작하는 기능
 
-- 186개 게임 지식 카탈로그와 제목·한글/영문 별칭 검색형 다중 취향 추천
-- 모바일 게임 54개 포함 (`클래시 오브 클랜`, `브롤스타즈`, `헤이데이`, `붐비치`, `매직브릭 인피니티` 등)
+- 386개 게임 지식 카탈로그와 제목·한글/영문 별칭 검색형 다중 취향 추천
+- Steam 221개, 모바일 104개, Nintendo Switch 146개 포함
+- Steam 공식 인기 판매 신규 100개, 한국 App Store Games 차트 신규 50개, Nintendo 공식 베스트셀러 신규 50개
+- 전체 게임 공식 표지 우선 표시와 로컬 PLAYLOG 커버 폴백
+- 최대 5개 게임의 최신 뉴스·이벤트·YouTube 통합 피드와 12시간 자동 갱신
 - 플랫폼·싱글/협동/경쟁·가격 필터
 - 맵·캐릭터·색·조작·시대 단서 기반 추억 게임 찾기 (`Lady Bug / 레이디버그` 포함)
 - 검색형 로컬 라이브러리와 목록에 없는 사용자 게임 직접 추가
@@ -38,6 +41,31 @@ npm test
 ```
 
 중복 ID·제목, 빈 필수 배열, 잘못된 연도·가격·URL·색상은 빌드에서 차단됩니다. 전체 필드와 예시는 [`docs/CATALOG.md`](docs/CATALOG.md)를 참고하세요.
+
+### 인기 카탈로그 재수집
+
+세 importer는 실행 시 같은 배치 태그의 이전 항목을 교체하므로 반복 실행해도 수가 불어나지 않습니다.
+
+```bash
+npm run catalog:steam      # Steam 공식 인기 판매에서 신규 100개
+npm run catalog:mobile     # 한국 App Store Games 차트에서 신규 50개
+npm run catalog:nintendo  # Nintendo 공식 베스트셀러에서 신규 50개
+npm run covers:enrich      # 공식 표지 수집 + 모든 게임 로컬 SVG 폴백
+npm run catalog:build
+npm test
+```
+
+## 최신 소식·이벤트·YouTube
+
+소식 탭에서 카탈로그 게임을 최대 5개까지 고르면 선택은 `localStorage`에만 저장됩니다. `data/news.json`은 공개 Google News RSS와 YouTube 공개 검색 결과로 생성하며 API 키나 계정 토큰을 사용하지 않습니다.
+
+```bash
+npm run news:update
+npm run news:update -- --ids elden-ring,hades
+npm run news:update -- --limit 10
+```
+
+`.github/workflows/refresh-news.yml`이 UTC 00:17·12:17에 전체 피드를 갱신합니다. 일부 소스가 일시 실패하면 해당 게임의 마지막 정상 항목을 유지하며, UI는 데이터 생성 시각과 신선도 상태를 그대로 표시합니다. 직접 검색 링크도 항상 제공해 캐시 실패를 최신 소식인 것처럼 숨기지 않습니다.
 
 ## 실행 및 테스트
 

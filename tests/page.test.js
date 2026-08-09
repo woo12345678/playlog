@@ -5,8 +5,8 @@ import fs from 'node:fs';
 const html = fs.readFileSync(new URL('../index.html', import.meta.url), 'utf8');
 const css = fs.readFileSync(new URL('../styles.css', import.meta.url), 'utf8');
 
-test('다섯 제품 탭과 핵심 조작이 문서에 존재한다', () => {
-  for (const tab of ['recommend', 'memory', 'library', 'profile', 'accounts']) {
+test('여섯 제품 탭과 핵심 조작이 문서에 존재한다', () => {
+  for (const tab of ['recommend', 'memory', 'library', 'profile', 'news', 'accounts']) {
     assert(html.includes(`data-tab="${tab}"`), `${tab} 탭 필요`);
     assert(html.includes(`data-view="${tab}"`), `${tab} 화면 필요`);
   }
@@ -28,6 +28,14 @@ test('접근성과 모바일 내비게이션을 제공한다', () => {
   assert(html.includes('class="mobile-nav"'));
   assert(css.includes('prefers-reduced-motion'));
   assert(css.includes(':focus-visible'));
+});
+
+test('추천·선택·뉴스에서 게임 표지를 쓰고 최대 5게임 소식 UI를 제공한다', () => {
+  for (const id of ['newsGameSearch', 'newsSearchResults', 'newsSelectedGames', 'newsFeed', 'newsFreshness', 'refreshNews']) assert(html.includes(`id="${id}"`), `${id} 필요`);
+  assert(html.includes('최대 5개'));
+  assert(css.includes('.game-cover'));
+  assert(css.includes('.news-card'));
+  assert(css.includes('.news-game-rail'));
 });
 
 test('추천과 라이브러리에 게임 검색 및 사용자 게임 추가 UI가 있다', () => {
