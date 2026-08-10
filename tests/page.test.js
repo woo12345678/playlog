@@ -4,6 +4,8 @@ import fs from 'node:fs';
 
 const html = fs.readFileSync(new URL('../index.html', import.meta.url), 'utf8');
 const css = fs.readFileSync(new URL('../styles.css', import.meta.url), 'utf8');
+const accountCss = fs.readFileSync(new URL('../account-import.css', import.meta.url), 'utf8');
+const appSource = fs.readFileSync(new URL('../src/app.js', import.meta.url), 'utf8');
 
 test('여섯 제품 탭과 핵심 조작이 문서에 존재한다', () => {
   for (const tab of ['recommend', 'memory', 'library', 'profile', 'news', 'accounts']) {
@@ -31,6 +33,20 @@ test('계정 연동 화면은 로그인 없이 1분 가져오기와 파일 대�
   for (const account of ['steam', 'epic', 'xbox', 'playstation', 'nintendo', 'google']) {
     assert(html.includes(`data-account="${account}"`), `${account} 상세 경로 필요`);
   }
+});
+
+test('Steam 공식 로그인 자동 가져오기는 backend 설정과 메시지 출처를 검증한다', () => {
+  for (const id of ['steamConnect', 'steamConnectStatus']) assert(html.includes(`id="${id}"`), `${id} 필요`);
+  assert(html.includes('name="playlog-steam-api"'));
+  assert(html.includes('Steam은 로그인 한 번이면 됩니다'));
+  assert(html.includes('누적 플레이 시간을 자동으로 가져옵니다'));
+  assert(appSource.includes('event.origin !== steamApiOrigin'));
+  assert(appSource.includes('event.source !== steamPopup'));
+  assert(appSource.includes('steamPopup = null'));
+  assert(appSource.includes('result.truncated || event.data.truncated'));
+  assert(appSource.includes('공유 정책상 최근 100개만 포함해 ${policyOmitted}개를 제외했습니다.'));
+  assert(appSource.includes('주소 길이 때문에 ${lengthOmitted}개를 추가로 제외했습니다.'));
+  assert(accountCss.includes('.steam-connect-button'));
 });
 
 test('추천 다중 입력·추억 DB·정직한 계정 연동 고지가 있다', () => {

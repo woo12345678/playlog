@@ -1,7 +1,8 @@
 import { games, platforms } from './catalog.js';
 import { recommendGames } from './recommender.js';
-import { calculateStats, encodeShare, decodeShare, normalizeLibrary } from './library.js';
+import { calculateStats, encodeShare, decodeShare, normalizeLibrary, shareOmissionCounts } from './library.js';
 import { parseQuickLibraryText, parseLibraryCsv, prepareImportedLibraryState, MAX_IMPORT_FILE_BYTES } from './library-import.js';
+import { convertSteamLibrary, steamLoginUrl } from './steam-integration.js';
 import { findRememberedGames, memoryPrompts } from './memory-finder.js';
 import { searchGames, createCustomGame, normalizeCustomGames, mergeCatalog } from './game-entry.js';
 import { normalizeNewsSelection, collectSelectedNews, selectedNewsFreshness, youtubeSearchUrl, googleNewsSearchUrl } from './news.js';
@@ -266,8 +267,9 @@ function commitImportedLibrary(imported, incomingCustom = []) {
 }
 function importErrorMessage(error) {
   if (error?.message === 'storage-failed') return '브라우저 저장 공간이 부족해 저장하지 못했습니다. 기존 기록은 그대로 유지됩니다.';
-  if (error?.message === 'custom-limit') return '내 게임은 최대 100개까지 저장할 수 있습니다. JSON으로 백업한 뒤 일부를 정리해 주세요.';
-  if (error?.message === 'library-limit' || error?.message === 'file-too-large') return '파일이 너무 큽니다. 1MB 이하, 기록 1,000개 이하 파일을 사용해 주세요.';
+  if (error?.message === 'custom-limit') return '내 게임은 최대 1,000개까지 저장할 수 있습니다. JSON으로 백업한 뒤 일부를 정리해 주세요.';
+  if (error?.message === 'library-limit') return '라이브러리는 최대 1,000개입니다. 기존 기록을 지우지 않아 새 게임을 저장하지 못했습니다.';
+  if (error?.message === 'file-too-large') return '파일이 너무 큽니다. 1MB 이하 파일을 사용해 주세요.';
   return '가져올 수 없습니다. 게임 이름이나 PLAYLOG JSON·CSV 형식을 확인해 주세요.';
 }
 function showImportFailure(error) {
@@ -276,6 +278,76 @@ function showImportFailure(error) {
   summary.textContent = importErrorMessage(error);
   showToast(summary.textContent);
 }
+
+const configuredSteamApi = $('meta[name="playlog-steam-api"]')?.content.trim().replace(/\/$/, '') || '';
+const loopbackHost = ['127.0.0.1', 'localhost'].includes(location.hostname);
+const steamApiBase = configuredSteamApi || (loopbackHost ? new URLSearchParams(location.search).get('steamApi')?.replace(/\/$/, '') : '') || '';
+const steamButton = $('#steamConnect');
+const steamStatus = $('#steamConnectStatus');
+let steamPopup = null;
+let steamWatchTimer = null;
+let steamApiOrigin = '';
+try { if (steamApiBase) steamApiOrigin = new URL(steamLoginUrl(steamApiBase, location.href)).origin; } catch { /* invalid config remains disabled */ }
+function setSteamStatus(message, kind = '') {
+  steamStatus.textContent = message;
+  steamStatus.classList.toggle('success', kind === 'success');
+  steamStatus.classList.toggle('error', kind === 'error');
+}
+if (!steamApiBase) {
+  steamButton.disabled = true;
+  setSteamStatus('Steam 자동 연동 backend 설정이 필요합니다. 현재는 아래 1분 가져오기를 사용할 수 있습니다.');
+} else if (!steamApiOrigin) {
+  steamButton.disabled = true;
+  setSteamStatus('Steam 자동 연동 backend 주소가 올바르지 않습니다.', 'error');
+} else {
+  setSteamStatus('준비됐습니다. Steam 공식 로그인 창에서 승인하면 자동으로 가져옵니다.');
+  steamButton.addEventListener('click', () => {
+    try {
+      steamPopup = window.open(steamLoginUrl(steamApiBase, location.href), 'playlog-steam-login', 'popup,width=780,height=720');
+      if (!steamPopup) throw new Error('popup-blocked');
+      setSteamStatus('Steam 로그인 창을 열었습니다. 로그인을 마치면 이 화면에 자동 저장됩니다.');
+      clearInterval(steamWatchTimer);
+      const deadline = Date.now() + 120_000;
+      steamWatchTimer = setInterval(() => {
+        if (steamPopup?.closed || Date.now() >= deadline) {
+          clearInterval(steamWatchTimer); steamWatchTimer = null;
+          try { steamPopup?.close(); } catch { /* cross-origin popup can still be discarded */ }
+          steamPopup = null;
+          if (!steamStatus.classList.contains('success')) setSteamStatus('Steam 로그인이 취소됐거나 시간이 초과됐습니다. 다시 시도해 주세요.', 'error');
+        }
+      }, 500);
+    } catch {
+      setSteamStatus('로그인 창을 열지 못했습니다. 팝업 허용 후 다시 눌러주세요.', 'error');
+    }
+  });
+  window.addEventListener('message', event => {
+    if (event.origin !== steamApiOrigin || event.source !== steamPopup) return;
+    clearInterval(steamWatchTimer); steamWatchTimer = null;
+    if (event.data?.type === 'playlog:steam-error') {
+      setSteamStatus('Steam 정보를 가져오지 못했습니다. 프로필의 게임 세부 정보를 공개한 뒤 다시 시도해 주세요.', 'error');
+      return;
+    }
+    if (event.data?.type !== 'playlog:steam-library' || !Array.isArray(event.data.games)) return;
+    try {
+      const result = convertSteamLibrary(event.data.games, allGames);
+      if (!result.library.length) throw new Error('steam-empty');
+      const clean = commitImportedLibrary(result.library, result.customGames);
+      const retainedIds = new Set(clean.map(entry => entry.gameId));
+      const retainedCustomCount = result.customGames.filter(game => retainedIds.has(game.id)).length;
+      const notes = [`Steam 게임 ${clean.length}개와 플레이 시간을 저장했습니다.`];
+      if (retainedCustomCount) notes.push(`카탈로그에 없던 ${retainedCustomCount}개도 내 게임으로 만들었습니다.`);
+      if (clean.length < result.library.length) notes.push(`전체 1,000개 상한 때문에 ${result.library.length - clean.length}개는 기존 기록을 지우지 않고 제외했습니다.`);
+      if (result.truncated || event.data.truncated) notes.push('Steam 응답은 최대 1,000개까지 처리했습니다.');
+      setSteamStatus(notes.join(' '), 'success');
+      $('#accountViewLibrary').hidden = false;
+      showToast(`Steam 게임 ${clean.length}개를 자동으로 가져왔습니다.`);
+    } catch (error) {
+      if (error?.message === 'steam-empty') setSteamStatus('가져올 공개 게임이 없습니다. Steam 프로필의 게임 세부 정보를 공개해 주세요.', 'error');
+      else setSteamStatus(importErrorMessage(error), 'error');
+    }
+  });
+}
+
 $('#exportLibrary').addEventListener('click', () => download('playlog-library.json', JSON.stringify({ version:2, exportedAt:new Date().toISOString(), customGames:state.customGames, library:state.library }, null, 2), 'application/json'));
 $('#importLibrary').addEventListener('click', () => $('#importFile').click());
 $('#accountFileImport').addEventListener('click', () => $('#importFile').click());
@@ -344,9 +416,15 @@ $('#profileName').addEventListener('input', event => { if (!sharedProfile) { sta
 $('#profileBio').addEventListener('input', event => { if (!sharedProfile) { state.profile.bio = event.target.value.slice(0,100); saveState(); } });
 $('#shareProfile').addEventListener('click', async () => {
   const encoded = encodeShare({ ...state.profile, customGames: state.customGames, library: state.library });
+  const sharedCount = decodeShare(encoded)?.library.length || 0;
+  const { policyOmitted, lengthOmitted } = shareOmissionCounts(state.library.length, sharedCount);
   const url = `${location.origin}${location.pathname}#share=${encoded}`;
-  try { await navigator.clipboard.writeText(url); showToast('공개 플레이 기록 링크를 복사했습니다.'); }
-  catch { prompt('아래 링크를 복사하세요.', url); }
+  const omissionNotes = [];
+  if (policyOmitted) omissionNotes.push(`공유 정책상 최근 100개만 포함해 ${policyOmitted}개를 제외했습니다.`);
+  if (lengthOmitted) omissionNotes.push(`주소 길이 때문에 ${lengthOmitted}개를 추가로 제외했습니다.`);
+  const message = omissionNotes.length ? `공개 링크를 복사했습니다. ${omissionNotes.join(' ')}` : '공개 플레이 기록 링크를 복사했습니다.';
+  try { await navigator.clipboard.writeText(url); showToast(message); }
+  catch { prompt(`${message}\n아래 링크를 복사하세요.`, url); }
 });
 
 function newsDate(item) {

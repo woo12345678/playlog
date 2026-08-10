@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { performance } from 'node:perf_hooks';
 import { games } from '../src/catalog.js';
 import { recommendGames } from '../src/recommender.js';
-import { calculateStats, encodeShare, decodeShare, normalizeLibrary } from '../src/library.js';
+import { calculateStats, encodeShare, decodeShare, normalizeLibrary, shareOmissionCounts } from '../src/library.js';
 import { findRememberedGames } from '../src/memory-finder.js';
 import { searchGames, createCustomGame, mergeCatalog } from '../src/game-entry.js';
 
@@ -71,6 +71,28 @@ test('공유 데이터는 최소 정보만 왕복하고 토큰·계정 ID는 제
   assert.equal(decodeShare('망가진값'), null);
 });
 
+test('사용자 게임 100개 공유 링크도 24000자 이내에서 자체 디코드된다', () => {
+  const customGames = Array.from({ length:100 }, (_, index) => createCustomGame({
+    title:`공유 사용자 게임 ${index}`,
+    genre:'Steam 가져오기',
+    platform:'Steam',
+    memory:Array.from({ length:8 }, (__, clue) => `사용자 기억 단서 ${index}-${clue}`),
+    summary:`Steam에서 자동으로 가져온 사용자 게임 ${index}의 공유 설명입니다.`
+  }, []));
+  const library = customGames.map((game, index) => ({ gameId:game.id, hours:index, platform:'Steam', status:'플레이 중', rating:0 }));
+  const encoded = encodeShare({ name:'대형 프로필', customGames, library });
+  const decoded = decodeShare(encoded);
+  assert(encoded.length <= 24000);
+  assert(decoded);
+  assert(decoded.library.length > 0);
+  assert.equal(decoded.customGames.length, decoded.library.length);
+});
+
+test('1,000개 라이브러리 공유는 정책 제외 900개와 URL 추가 제외를 구분한다', () => {
+  assert.deepEqual(shareOmissionCounts(1000, 100), { policyOmitted:900, lengthOmitted:0 });
+  assert.deepEqual(shareOmissionCounts(100, 29), { policyOmitted:0, lengthOmitted:71 });
+});
+
 test('가져온 라이브러리는 잘못된 행을 버리고 수치를 제한한다', () => {
   const clean = normalizeLibrary([
     { gameId: 'hades', hours: 9999999, platform: 'Steam', status: '완료', rating: 12 },
@@ -80,6 +102,15 @@ test('가져온 라이브러리는 잘못된 행을 버리고 수치를 제한�
   assert.equal(clean.length, 1);
   assert.equal(clean[0].hours, 100000);
   assert.equal(clean[0].rating, 5);
+});
+
+test('기존 카탈로그와 Steam 사용자 게임을 병합해도 최종 라이브러리는 1000개다', () => {
+  const customGames = Array.from({ length:1000 }, (_, index) => createCustomGame({ title:`Steam 상한 게임 ${index}`, platform:'Steam' }, games));
+  const catalog = mergeCatalog(games, customGames);
+  const entries = catalog.map((game, index) => ({ gameId:game.id, hours:index, platform:'Steam', status:'플레이 중', rating:0 }));
+  const clean = normalizeLibrary(entries, catalog);
+  assert.equal(clean.length, 1000);
+  assert.equal(new Set(clean.map(entry => entry.gameId)).size, 1000);
 });
 
 test('추억 단서로 후보·확신도·일치 근거를 돌려준다', () => {

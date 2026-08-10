@@ -77,10 +77,14 @@ export function createCustomGame(input, catalog = []) {
 export function normalizeCustomGames(items, baseCatalog = []) {
   if (!Array.isArray(items)) return [];
   const output = [];
-  for (const item of items.slice(0, 100)) {
+  const titles = new Set(baseCatalog.map(game => canonical(game.title)).filter(Boolean));
+  const ids = new Set(baseCatalog.map(game => game.id));
+  for (const item of items.slice(0, 1000)) {
     try {
-      const game = createCustomGame(item, [...baseCatalog, ...output]);
-      output.push(game);
+      const game = createCustomGame(item, []);
+      const title = canonical(game.title);
+      if (!title || titles.has(title) || ids.has(game.id)) continue;
+      titles.add(title); ids.add(game.id); output.push(game);
     } catch { /* invalid or duplicate custom game */ }
   }
   return output;

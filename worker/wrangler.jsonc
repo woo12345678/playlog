@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "playlog-steam-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-10",
+  "vars": {
+    "APP_RETURN_URLS": "https://woo12345678.github.io/playlog/"
+  },
+  "env": {
+    "dev": {
+      "name": "playlog-steam-api-dev",
+      "vars": {
+        "APP_RETURN_URLS": "http://127.0.0.1:4173/;http://localhost:4173/"
+      }
+    }
+  }
+}

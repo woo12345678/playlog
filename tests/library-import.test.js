@@ -57,14 +57,28 @@ test('CSV는 따옴표 속 쉼표·name 헤더·헤더 없는 첫 행과 플랫�
   assert.deepEqual(headerless.library.map(row => row.hours), [3, 4]);
 });
 
-test('가져오기 준비는 custom 100개 초과와 JSON 1000행 초과를 원본 변경 없이 거부한다', () => {
-  const existingCustom = parseQuickLibraryText(Array.from({ length: 100 }, (_, i) => `기존 ${i}`).join('\n'), games, 'PC').customGames;
+test('가져오기 준비는 custom 1000개 초과와 JSON 1000행 초과를 원본 변경 없이 거부한다', () => {
+  const existingCustom = Array.from({ length:1000 }, (_, i) => createCustomGame({ title:`기존 ${i}` }, []));
   const current = { library:[], customGames:existingCustom, seeds:[], newsGames:[], profile:{ name:'테스트', bio:'' } };
   const snapshot = JSON.stringify(current);
   const incoming = parseQuickLibraryText('새로운 101번째', [...games, ...existingCustom], 'PC');
   assert.throws(() => prepareImportedLibraryState(current, incoming.library, incoming.customGames, games), /custom-limit/);
   assert.throws(() => prepareImportedLibraryState(current, Array.from({ length:1001 }, () => ({ gameId:'hades' })), [], games), /library-limit/);
   assert.equal(JSON.stringify(current), snapshot);
+});
+
+test('최종 1000개 상한은 기존 기록을 지키고 제외된 Steam custom을 남기지 않는다', () => {
+  const currentCustom = Array.from({ length:282 }, (_, index) => createCustomGame({ title:`기존 사용자 게임 ${index}` }, games));
+  const currentLibrary = [...games, ...currentCustom].map(game => ({ gameId:game.id, hours:1, platform:'PC', status:'플레이 중', rating:0 }));
+  const incomingCustom = Array.from({ length:200 }, (_, index) => createCustomGame({ title:`신규 Steam 게임 ${index}` }, games));
+  const imported = incomingCustom.map(game => ({ gameId:game.id, hours:2, platform:'Steam', status:'플레이 중', rating:0 }));
+  const current = { library:currentLibrary, customGames:currentCustom, seeds:[], newsGames:[], profile:{ name:'테스트', bio:'' } };
+  const result = prepareImportedLibraryState(current, imported, incomingCustom, games);
+  assert.equal(result.nextState.library.length, 1000);
+  assert.equal(result.clean.length, 100);
+  assert.equal(result.droppedCount, 100);
+  assert.equal(result.nextState.customGames.length, 382);
+  assert(result.nextState.customGames.every(game => result.nextState.library.some(entry => entry.gameId === game.id)));
 });
 
 test('사용자 게임 ID가 기존 카탈로그 ID와 충돌하면 거부한다', () => {

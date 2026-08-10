@@ -4,7 +4,7 @@ import { normalizeLibrary } from './library.js';
 export const MAX_QUICK_GAMES = 100;
 export const MAX_IMPORT_FILE_BYTES = 1_000_000;
 export const MAX_JSON_LIBRARY_ROWS = 1000;
-export const MAX_CUSTOM_GAMES = 100;
+export const MAX_CUSTOM_GAMES = 1000;
 
 const normalizeIdentity = value => String(value || '')
   .toLocaleLowerCase('ko-KR')
@@ -168,6 +168,12 @@ export function prepareImportedLibraryState(currentState, imported, incomingCust
   if (!clean.length) throw new Error('empty-library');
   const merged = new Map(normalizeLibrary(currentState.library || [], catalog).map(entry => [entry.gameId, entry]));
   clean.forEach(entry => merged.set(entry.gameId, entry));
-  const nextState = { ...currentState, customGames:nextCustom, library:normalizeLibrary([...merged.values()], catalog) };
-  return { nextState, clean, catalog };
+  const finalLibrary = normalizeLibrary([...merged.values()], catalog);
+  const retainedIds = new Set(finalLibrary.map(entry => entry.gameId));
+  const retainedIncoming = clean.filter(entry => retainedIds.has(entry.gameId));
+  if (!retainedIncoming.length) throw new Error('library-limit');
+  const retainedCustom = normalizedIncoming.filter(game => retainedIds.has(game.id));
+  const finalCustom = normalizeCustomGames([...currentCustom, ...retainedCustom], baseCatalog);
+  const nextState = { ...currentState, customGames:finalCustom, library:finalLibrary };
+  return { nextState, clean:retainedIncoming, droppedCount:clean.length - retainedIncoming.length, catalog:mergeCatalog(baseCatalog, finalCustom) };
 }
