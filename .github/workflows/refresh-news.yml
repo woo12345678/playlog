@@ -38,32 +38,40 @@ jobs:
       - name: Verify release
         run: npm test
 
-  deploy-initial:
+  upload-initial:
     needs: verify
     if: github.event_name != 'schedule'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
       contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout verified release
         uses: actions/checkout@v4
         with:
           ref: ${{ needs.verify.outputs.sha }}
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
       - name: Upload verified static site
         uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages-initial
           path: .
+
+  deploy-initial:
+    needs:
+      - verify
+      - upload-initial
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Deploy verified site immediately
         id: deployment
@@ -109,7 +117,7 @@ jobs:
           git push origin HEAD:main
           echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-  deploy-refreshed:
+  upload-refreshed:
     needs:
       - refresh
       - deploy-initial
@@ -118,25 +126,31 @@ jobs:
     timeout-minutes: 10
     permissions:
       contents: read
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout exact refreshed release
         uses: actions/checkout@v4
         with:
           ref: ${{ needs.refresh.outputs.deploy-sha }}
 
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
-
       - name: Upload refreshed static site
         uses: actions/upload-pages-artifact@v3
         with:
           name: github-pages-refreshed
           path: .
+
+  deploy-refreshed:
+    needs: upload-refreshed
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
 
       - name: Deploy refreshed site
         id: deployment
