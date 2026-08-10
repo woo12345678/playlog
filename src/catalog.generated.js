@@ -17916,5 +17916,10371 @@ export default [
       "chart": "무료 차트",
       "capturedAt": "2026-08-09T15:17:38.557Z"
     }
+  },
+  {
+    "id": "alien-hominid",
+    "title": "Alien Hominid",
+    "year": 2002,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "노란 외계인",
+      "FBI 요원"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Alien Hominid",
+      "에일리언 호미니드",
+      "노란 외계인",
+      "FBI 요원",
+      "옆으로 총쏘기",
+      "뉴그라운즈",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/alien-hominid.svg",
+    "fallbackCoverUrl": "assets/covers/alien-hominid.svg",
+    "color": "#8d2a6c",
+    "summary": "2002년의 브라우저·Flash 추억 게임. 노란 외계인, FBI 요원, 옆으로 총쏘기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "madness-interactive",
+    "title": "Madness Interactive",
+    "year": 2003,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "회색 막대 인간",
+      "네바다"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Madness Interactive",
+      "매드니스 인터랙티브",
+      "회색 막대 인간",
+      "네바다",
+      "마우스 조준",
+      "총기 교체",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/madness-interactive.svg",
+    "fallbackCoverUrl": "assets/covers/madness-interactive.svg",
+    "color": "#822ba1",
+    "summary": "2003년의 브라우저·Flash 추억 게임. 회색 막대 인간, 네바다, 마우스 조준 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "motherload",
+    "title": "Motherload",
+    "year": 2004,
+    "genres": [
+      "채굴 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "채굴 시뮬레이션",
+      "화성 굴착기",
+      "지하 광물"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Motherload",
+      "마더로드",
+      "화성 굴착기",
+      "지하 광물",
+      "연료 관리",
+      "용암층",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/motherload.svg",
+    "fallbackCoverUrl": "assets/covers/motherload.svg",
+    "color": "#2da45f",
+    "summary": "2004년의 브라우저·Flash 추억 게임. 화성 굴착기, 지하 광물, 연료 관리 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "interactive-buddy",
+    "title": "Interactive Buddy",
+    "year": 2004,
+    "genres": [
+      "샌드박스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "샌드박스",
+      "회색 인형",
+      "마우스 장난"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Interactive Buddy",
+      "인터랙티브 버디",
+      "회색 인형",
+      "마우스 장난",
+      "무기 구매",
+      "돈 모으기",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/interactive-buddy.svg",
+    "fallbackCoverUrl": "assets/covers/interactive-buddy.svg",
+    "color": "#319636",
+    "summary": "2004년의 브라우저·Flash 추억 게임. 회색 인형, 마우스 장난, 무기 구매 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-classroom",
+    "title": "The Classroom",
+    "year": 2003,
+    "genres": [
+      "잠입 퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "잠입 퍼즐",
+      "시험지 커닝",
+      "선생님 시선"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "The Classroom",
+      "더 클래스룸",
+      "시험지 커닝",
+      "선생님 시선",
+      "교실 책상",
+      "파란 막대인간",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/the-classroom.svg",
+    "fallbackCoverUrl": "assets/covers/the-classroom.svg",
+    "color": "#a13a73",
+    "summary": "2003년의 브라우저·Flash 추억 게임. 시험지 커닝, 선생님 시선, 교실 책상 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-classroom-2",
+    "title": "The Classroom 2",
+    "year": 2004,
+    "genres": [
+      "잠입 퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "잠입 퍼즐",
+      "시험 커닝",
+      "시야 원뿔"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "The Classroom 2",
+      "더 클래스룸 2",
+      "시험 커닝",
+      "시야 원뿔",
+      "학교 교실",
+      "막대인간",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/the-classroom-2.svg",
+    "fallbackCoverUrl": "assets/covers/the-classroom-2.svg",
+    "color": "#9d2f71",
+    "summary": "2004년의 브라우저·Flash 추억 게임. 시험 커닝, 시야 원뿔, 학교 교실 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "n",
+    "title": "N",
+    "year": 2004,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "플랫포머",
+      "검은 닌자",
+      "금 조각"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "N",
+      "엔 게임",
+      "검은 닌자",
+      "금 조각",
+      "벽 점프",
+      "레이저 지뢰",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/n.svg",
+    "fallbackCoverUrl": "assets/covers/n.svg",
+    "color": "#389127",
+    "summary": "2004년의 브라우저·Flash 추억 게임. 검은 닌자, 금 조각, 벽 점프 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "grow-cube",
+    "title": "GROW CUBE",
+    "year": 2005,
+    "genres": [
+      "퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "퍼즐",
+      "하얀 큐브",
+      "아이템 순서"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "GROW CUBE",
+      "그로우 큐브",
+      "하얀 큐브",
+      "아이템 순서",
+      "문명 성장",
+      "레벨 맥스",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/grow-cube.svg",
+    "fallbackCoverUrl": "assets/covers/grow-cube.svg",
+    "color": "#a2982f",
+    "summary": "2005년의 브라우저·Flash 추억 게임. 하얀 큐브, 아이템 순서, 문명 성장 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "grow-rpg",
+    "title": "GROW RPG",
+    "year": 2005,
+    "genres": [
+      "퍼즐 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "퍼즐 RPG",
+      "아이콘 순서",
+      "용과 성"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "GROW RPG",
+      "그로우 RPG",
+      "아이콘 순서",
+      "용과 성",
+      "턴마다 성장",
+      "엔딩 조합",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/grow-rpg.svg",
+    "fallbackCoverUrl": "assets/covers/grow-rpg.svg",
+    "color": "#36a68d",
+    "summary": "2005년의 브라우저·Flash 추억 게임. 아이콘 순서, 용과 성, 턴마다 성장 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "heli-attack-3",
+    "title": "Heli Attack 3",
+    "year": 2005,
+    "genres": [
+      "런앤건"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "런앤건",
+      "헬리콥터",
+      "다양한 총"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Heli Attack 3",
+      "헬리 어택 3",
+      "헬리콥터",
+      "다양한 총",
+      "점프 사격",
+      "옆보기 전장",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/heli-attack-3.svg",
+    "fallbackCoverUrl": "assets/covers/heli-attack-3.svg",
+    "color": "#34b247",
+    "summary": "2005년의 브라우저·Flash 추억 게임. 헬리콥터, 다양한 총, 점프 사격 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "fancy-pants-adventures",
+    "title": "The Fancy Pants Adventures",
+    "year": 2006,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "플랫포머",
+      "주황 바지 막대인간",
+      "벽 달리기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "The Fancy Pants Adventures",
+      "팬시 팬츠",
+      "팬시팬츠",
+      "주황 바지 막대인간",
+      "벽 달리기",
+      "소용돌이 언덕",
+      "거미 적",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/fancy-pants-adventures.svg",
+    "fallbackCoverUrl": "assets/covers/fancy-pants-adventures.svg",
+    "color": "#81972b",
+    "summary": "2006년의 브라우저·Flash 추억 게임. 주황 바지 막대인간, 벽 달리기, 소용돌이 언덕 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "line-rider",
+    "title": "Line Rider",
+    "year": 2006,
+    "genres": [
+      "샌드박스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "샌드박스",
+      "썰매 탄 소년",
+      "선 그리기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Line Rider",
+      "라인 라이더",
+      "썰매 탄 소년",
+      "선 그리기",
+      "선 그려서 썰매 타기",
+      "물리 트랙",
+      "검은 선",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/line-rider.svg",
+    "fallbackCoverUrl": "assets/covers/line-rider.svg",
+    "color": "#3da94d",
+    "summary": "2006년의 브라우저·Flash 추억 게임. 썰매 탄 소년, 선 그리기, 물리 트랙 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "boxhead-the-rooms",
+    "title": "Boxhead: The Rooms",
+    "year": 2006,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "네모난 캐릭터",
+      "좀비 떼"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Boxhead: The Rooms",
+      "박스헤드 더 룸즈",
+      "막스헤드",
+      "네모난 캐릭터",
+      "좀비 떼",
+      "위에서 보는 방",
+      "총과 폭발물",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/boxhead-the-rooms.svg",
+    "fallbackCoverUrl": "assets/covers/boxhead-the-rooms.svg",
+    "color": "#9b3182",
+    "summary": "2006년의 브라우저·Flash 추억 게임. 네모난 캐릭터, 좀비 떼, 위에서 보는 방 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "boxhead-more-rooms",
+    "title": "Boxhead: More Rooms",
+    "year": 2007,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "네모난 사람",
+      "좀비 웨이브"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Boxhead: More Rooms",
+      "박스헤드 모어 룸즈",
+      "막스헤드",
+      "네모난 사람",
+      "좀비 웨이브",
+      "좁은 방",
+      "샷건과 통",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/boxhead-more-rooms.svg",
+    "fallbackCoverUrl": "assets/covers/boxhead-more-rooms.svg",
+    "color": "#afab31",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 네모난 사람, 좀비 웨이브, 좁은 방 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "boxhead-2play-rooms",
+    "title": "Boxhead 2Play Rooms",
+    "year": 2007,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "네모난 두 캐릭터",
+      "좀비 떼"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Boxhead 2Play Rooms",
+      "박스헤드 2인용",
+      "막스헤드",
+      "박스헤드",
+      "네모난 두 캐릭터",
+      "좀비 떼",
+      "한 키보드 2인용",
+      "네모난 사람 둘이",
+      "친구와 둘이 좀비 막기",
+      "총과 폭발통",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/boxhead-2play-rooms.svg",
+    "fallbackCoverUrl": "assets/covers/boxhead-2play-rooms.svg",
+    "color": "#2b5ea6",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 네모난 두 캐릭터, 좀비 떼, 한 키보드 2인용 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "boxhead-bounty-hunter",
+    "title": "Boxhead: Bounty Hunter",
+    "year": 2007,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "네모난 캐릭터",
+      "온라인 대전"
+    ],
+    "modes": [
+      "멀티",
+      "경쟁"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Boxhead: Bounty Hunter",
+      "박스헤드 바운티 헌터",
+      "네모난 캐릭터",
+      "온라인 대전",
+      "무기 업그레이드",
+      "좀비 사냥",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/boxhead-bounty-hunter.svg",
+    "fallbackCoverUrl": "assets/covers/boxhead-bounty-hunter.svg",
+    "color": "#323286",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 네모난 캐릭터, 온라인 대전, 무기 업그레이드 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "boxhead-the-zombie-wars",
+    "title": "Boxhead: The Zombie Wars",
+    "year": 2007,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "네모난 사람",
+      "좀비 전쟁"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Boxhead: The Zombie Wars",
+      "박스헤드 좀비 워즈",
+      "네모난 사람",
+      "좀비 전쟁",
+      "바리케이드",
+      "포탑 설치",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/boxhead-the-zombie-wars.svg",
+    "fallbackCoverUrl": "assets/covers/boxhead-the-zombie-wars.svg",
+    "color": "#422d95",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 네모난 사람, 좀비 전쟁, 바리케이드 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "age-of-war",
+    "title": "Age of War",
+    "year": 2007,
+    "genres": [
+      "전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "전략",
+      "원시시대부터 미래",
+      "기지 두 개"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Age of War",
+      "에이지 오브 워",
+      "원시시대부터 미래",
+      "기지 두 개",
+      "유닛 생산",
+      "공룡과 탱크",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/age-of-war.svg",
+    "fallbackCoverUrl": "assets/covers/age-of-war.svg",
+    "color": "#a72f5f",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 원시시대부터 미래, 기지 두 개, 유닛 생산 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "age-of-war-2",
+    "title": "Age of War 2",
+    "year": 2010,
+    "genres": [
+      "전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "전략",
+      "시대 진화",
+      "기지 방어"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Age of War 2",
+      "에이지 오브 워 2",
+      "시대 진화",
+      "기지 방어",
+      "특수 공격",
+      "유닛 줄세우기",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/age-of-war-2.svg",
+    "fallbackCoverUrl": "assets/covers/age-of-war-2.svg",
+    "color": "#8b8d30",
+    "summary": "2010년의 브라우저·Flash 추억 게임. 시대 진화, 기지 방어, 특수 공격 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "bloons",
+    "title": "Bloons",
+    "year": 2007,
+    "genres": [
+      "퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "퍼즐",
+      "다트 원숭이",
+      "풍선 묶음"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Bloons",
+      "블룬스",
+      "풍선 터뜨리기",
+      "다트 원숭이",
+      "풍선 묶음",
+      "각도 조절",
+      "제한된 다트",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/bloons.svg",
+    "fallbackCoverUrl": "assets/covers/bloons.svg",
+    "color": "#925935",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 다트 원숭이, 풍선 묶음, 각도 조절 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "bloons-tower-defense",
+    "title": "Bloons Tower Defense",
+    "year": 2007,
+    "genres": [
+      "타워 디펜스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "타워 디펜스",
+      "원숭이 타워",
+      "풍선 길"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Bloons Tower Defense",
+      "블룬스 타워 디펜스",
+      "풍선 타워 디펜스",
+      "원숭이 타워",
+      "풍선 길",
+      "다트 발사",
+      "라운드 방어",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/bloons-tower-defense.svg",
+    "fallbackCoverUrl": "assets/covers/bloons-tower-defense.svg",
+    "color": "#2b9752",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 원숭이 타워, 풍선 길, 다트 발사 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "bloons-tower-defense-2",
+    "title": "Bloons Tower Defense 2",
+    "year": 2008,
+    "genres": [
+      "타워 디펜스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "타워 디펜스",
+      "원숭이 타워",
+      "풍선 트랙"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Bloons Tower Defense 2",
+      "블룬스 TD 2",
+      "원숭이 타워",
+      "풍선 트랙",
+      "압정 타워",
+      "라운드",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/bloons-tower-defense-2.svg",
+    "fallbackCoverUrl": "assets/covers/bloons-tower-defense-2.svg",
+    "color": "#b23460",
+    "summary": "2008년의 브라우저·Flash 추억 게임. 원숭이 타워, 풍선 트랙, 압정 타워 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "bloons-tower-defense-3",
+    "title": "Bloons Tower Defense 3",
+    "year": 2008,
+    "genres": [
+      "타워 디펜스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "타워 디펜스",
+      "원숭이 다트",
+      "여러 맵"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Bloons Tower Defense 3",
+      "블룬스 TD 3",
+      "원숭이 다트",
+      "여러 맵",
+      "풍선 등급",
+      "타워 업그레이드",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/bloons-tower-defense-3.svg",
+    "fallbackCoverUrl": "assets/covers/bloons-tower-defense-3.svg",
+    "color": "#8f284b",
+    "summary": "2008년의 브라우저·Flash 추억 게임. 원숭이 다트, 여러 맵, 풍선 등급 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "bloons-tower-defense-4",
+    "title": "Bloons Tower Defense 4",
+    "year": 2009,
+    "genres": [
+      "타워 디펜스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "타워 디펜스",
+      "원숭이 타워",
+      "비행선 풍선"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Bloons Tower Defense 4",
+      "블룬스 TD 4",
+      "풍선디펜스4",
+      "원숭이 타워",
+      "비행선 풍선",
+      "트랙 방어",
+      "슈퍼 원숭이",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/bloons-tower-defense-4.svg",
+    "fallbackCoverUrl": "assets/covers/bloons-tower-defense-4.svg",
+    "color": "#94294b",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 원숭이 타워, 비행선 풍선, 트랙 방어 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "bloons-tower-defense-5",
+    "title": "Bloons Tower Defense 5",
+    "year": 2011,
+    "genres": [
+      "타워 디펜스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "타워 디펜스",
+      "원숭이 마을",
+      "MOAB 비행선"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Bloons Tower Defense 5",
+      "블룬스 TD 5",
+      "원숭이 마을",
+      "MOAB 비행선",
+      "타워 특성",
+      "협동 방어",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/bloons-tower-defense-5.svg",
+    "fallbackCoverUrl": "assets/covers/bloons-tower-defense-5.svg",
+    "color": "#99294a",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 원숭이 마을, MOAB 비행선, 타워 특성 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "fireboy-and-watergirl-forest-temple",
+    "title": "Fireboy and Watergirl in the Forest Temple",
+    "year": 2009,
+    "genres": [
+      "협동 퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "협동 퍼즐",
+      "불 소년과 물 소녀",
+      "숲의 사원"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Fireboy and Watergirl in the Forest Temple",
+      "불물게임",
+      "파이어보이 앤 워터걸",
+      "포레스트 템플",
+      "불 소년과 물 소녀",
+      "숲의 사원",
+      "빨강 파랑 보석",
+      "한 키보드 2인용",
+      "불과 물 둘이",
+      "불과 물 캐릭터 둘이",
+      "빨강 파랑 보석 먹기",
+      "원조 불물게임",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/fireboy-and-watergirl-forest-temple.svg",
+    "fallbackCoverUrl": "assets/covers/fireboy-and-watergirl-forest-temple.svg",
+    "color": "#a83887",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 불 소년과 물 소녀, 숲의 사원, 빨강 파랑 보석 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "fireboy-and-watergirl-2-the-light-temple",
+    "title": "Fireboy and Watergirl 2: The Light Temple",
+    "year": 2010,
+    "genres": [
+      "협동 퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "협동 퍼즐",
+      "불과 물 캐릭터",
+      "빛 반사 거울"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Fireboy and Watergirl 2: The Light Temple",
+      "불물게임2",
+      "빛의 사원",
+      "불과 물 캐릭터",
+      "빛 반사 거울",
+      "사원 퍼즐",
+      "2인용 협동",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/fireboy-and-watergirl-2-the-light-temple.svg",
+    "fallbackCoverUrl": "assets/covers/fireboy-and-watergirl-2-the-light-temple.svg",
+    "color": "#972e2b",
+    "summary": "2010년의 브라우저·Flash 추억 게임. 불과 물 캐릭터, 빛 반사 거울, 사원 퍼즐 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "fireboy-and-watergirl-3-the-ice-temple",
+    "title": "Fireboy and Watergirl 3: The Ice Temple",
+    "year": 2011,
+    "genres": [
+      "협동 퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "협동 퍼즐",
+      "불 소년 물 소녀",
+      "얼음 미끄럼"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Fireboy and Watergirl 3: The Ice Temple",
+      "불물게임3",
+      "얼음 사원",
+      "불 소년 물 소녀",
+      "얼음 미끄럼",
+      "녹색 독 웅덩이",
+      "둘이 스위치",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/fireboy-and-watergirl-3-the-ice-temple.svg",
+    "fallbackCoverUrl": "assets/covers/fireboy-and-watergirl-3-the-ice-temple.svg",
+    "color": "#8a2e4c",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 불 소년 물 소녀, 얼음 미끄럼, 녹색 독 웅덩이 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "fireboy-and-watergirl-4-the-crystal-temple",
+    "title": "Fireboy and Watergirl 4: The Crystal Temple",
+    "year": 2012,
+    "genres": [
+      "협동 퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "협동 퍼즐",
+      "불과 물",
+      "수정 포털"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Fireboy and Watergirl 4: The Crystal Temple",
+      "불물게임4",
+      "크리스탈 템플",
+      "불과 물",
+      "수정 포털",
+      "보석 수집",
+      "사원 협동",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/fireboy-and-watergirl-4-the-crystal-temple.svg",
+    "fallbackCoverUrl": "assets/covers/fireboy-and-watergirl-4-the-crystal-temple.svg",
+    "color": "#74a63a",
+    "summary": "2012년의 브라우저·Flash 추억 게임. 불과 물, 수정 포털, 보석 수집 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "papas-pizzeria",
+    "title": "Papa's Pizzeria",
+    "year": 2007,
+    "genres": [
+      "요리 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "요리 시뮬레이션",
+      "피자 주문표",
+      "토핑 배치"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Papa's Pizzeria",
+      "파파스 피제리아",
+      "피자가게 게임",
+      "피자 주문표",
+      "토핑 배치",
+      "오븐 시간",
+      "조각 자르기",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/papas-pizzeria.svg",
+    "fallbackCoverUrl": "assets/covers/papas-pizzeria.svg",
+    "color": "#509f38",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 피자 주문표, 토핑 배치, 오븐 시간 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "papas-burgeria",
+    "title": "Papa's Burgeria",
+    "year": 2010,
+    "genres": [
+      "요리 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "요리 시뮬레이션",
+      "햄버거 주문",
+      "패티 굽기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Papa's Burgeria",
+      "파파스 버거리아",
+      "햄버거 주문",
+      "패티 굽기",
+      "재료 쌓기",
+      "손님 점수",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/papas-burgeria.svg",
+    "fallbackCoverUrl": "assets/covers/papas-burgeria.svg",
+    "color": "#75a93d",
+    "summary": "2010년의 브라우저·Flash 추억 게임. 햄버거 주문, 패티 굽기, 재료 쌓기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "papas-freezeria",
+    "title": "Papa's Freezeria",
+    "year": 2011,
+    "genres": [
+      "요리 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "요리 시뮬레이션",
+      "아이스크림 컵",
+      "믹서기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Papa's Freezeria",
+      "파파스 프리저리아",
+      "아이스크림 컵",
+      "믹서기",
+      "시럽 토핑",
+      "휴양지 손님",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/papas-freezeria.svg",
+    "fallbackCoverUrl": "assets/covers/papas-freezeria.svg",
+    "color": "#9731a0",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 아이스크림 컵, 믹서기, 시럽 토핑 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "papas-pancakeria",
+    "title": "Papa's Pancakeria",
+    "year": 2012,
+    "genres": [
+      "요리 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "요리 시뮬레이션",
+      "팬케이크 굽기",
+      "시럽 붓기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Papa's Pancakeria",
+      "파파스 팬케이크리아",
+      "팬케이크 굽기",
+      "시럽 붓기",
+      "아침 식사",
+      "주문표",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/papas-pancakeria.svg",
+    "fallbackCoverUrl": "assets/covers/papas-pancakeria.svg",
+    "color": "#b44531",
+    "summary": "2012년의 브라우저·Flash 추억 게임. 팬케이크 굽기, 시럽 붓기, 아침 식사 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "papas-wingeria",
+    "title": "Papa's Wingeria",
+    "year": 2012,
+    "genres": [
+      "요리 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "요리 시뮬레이션",
+      "치킨 윙",
+      "튀김 타이머"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Papa's Wingeria",
+      "파파스 윙거리아",
+      "치킨 윙",
+      "튀김 타이머",
+      "소스 섞기",
+      "접시 배치",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/papas-wingeria.svg",
+    "fallbackCoverUrl": "assets/covers/papas-wingeria.svg",
+    "color": "#2d9587",
+    "summary": "2012년의 브라우저·Flash 추억 게임. 치킨 윙, 튀김 타이머, 소스 섞기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "papas-cupcakeria",
+    "title": "Papa's Cupcakeria",
+    "year": 2013,
+    "genres": [
+      "요리 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "요리 시뮬레이션",
+      "컵케이크 반죽",
+      "프로스팅"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Papa's Cupcakeria",
+      "파파스 컵케이크리아",
+      "컵케이크 반죽",
+      "프로스팅",
+      "토핑",
+      "손님 주문",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/papas-cupcakeria.svg",
+    "fallbackCoverUrl": "assets/covers/papas-cupcakeria.svg",
+    "color": "#9d31a5",
+    "summary": "2013년의 브라우저·Flash 추억 게임. 컵케이크 반죽, 프로스팅, 토핑 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "papas-donuteria",
+    "title": "Papa's Donuteria",
+    "year": 2014,
+    "genres": [
+      "요리 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "요리 시뮬레이션",
+      "도넛 반죽",
+      "기름 튀김"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Papa's Donuteria",
+      "파파스 도넛리아",
+      "도넛 반죽",
+      "기름 튀김",
+      "글레이즈",
+      "토핑",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/papas-donuteria.svg",
+    "fallbackCoverUrl": "assets/covers/papas-donuteria.svg",
+    "color": "#2f9834",
+    "summary": "2014년의 브라우저·Flash 추억 게임. 도넛 반죽, 기름 튀김, 글레이즈 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "papas-cheeseria",
+    "title": "Papa's Cheeseria",
+    "year": 2015,
+    "genres": [
+      "요리 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "요리 시뮬레이션",
+      "그릴 치즈",
+      "빵 굽기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Papa's Cheeseria",
+      "파파스 치즈리아",
+      "그릴 치즈",
+      "빵 굽기",
+      "감자튀김",
+      "샌드위치 재료",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/papas-cheeseria.svg",
+    "fallbackCoverUrl": "assets/covers/papas-cheeseria.svg",
+    "color": "#87ab3b",
+    "summary": "2015년의 브라우저·Flash 추억 게임. 그릴 치즈, 빵 굽기, 감자튀김 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "raft-wars",
+    "title": "Raft Wars",
+    "year": 2007,
+    "genres": [
+      "턴제 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "턴제 슈팅",
+      "아기 형제",
+      "뗏목"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Raft Wars",
+      "래프트 워즈",
+      "뗏목 전쟁",
+      "아기 형제",
+      "뗏목",
+      "테니스공 포물선",
+      "해적",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/raft-wars.svg",
+    "fallbackCoverUrl": "assets/covers/raft-wars.svg",
+    "color": "#9e2f29",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 아기 형제, 뗏목, 테니스공 포물선 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "raft-wars-2",
+    "title": "Raft Wars 2",
+    "year": 2013,
+    "genres": [
+      "턴제 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "턴제 슈팅",
+      "워터파크",
+      "뗏목 형제"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Raft Wars 2",
+      "래프트 워즈 2",
+      "워터파크",
+      "뗏목 형제",
+      "각도 사격",
+      "보물 되찾기",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/raft-wars-2.svg",
+    "fallbackCoverUrl": "assets/covers/raft-wars-2.svg",
+    "color": "#2da9a1",
+    "summary": "2013년의 브라우저·Flash 추억 게임. 워터파크, 뗏목 형제, 각도 사격 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "bowman-2",
+    "title": "Bowman 2",
+    "year": 2006,
+    "genres": [
+      "아케이드 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "아케이드 슈팅",
+      "막대인간 궁수",
+      "각도와 힘"
+    ],
+    "modes": [
+      "싱글",
+      "경쟁"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Bowman 2",
+      "보우맨 2",
+      "활쏘기 게임",
+      "막대인간 궁수",
+      "각도와 힘",
+      "화살 궤적",
+      "새 사냥",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/bowman-2.svg",
+    "fallbackCoverUrl": "assets/covers/bowman-2.svg",
+    "color": "#924935",
+    "summary": "2006년의 브라우저·Flash 추억 게임. 막대인간 궁수, 각도와 힘, 화살 궤적 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-impossible-quiz",
+    "title": "The Impossible Quiz",
+    "year": 2007,
+    "genres": [
+      "퀴즈"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "퀴즈",
+      "엉뚱한 문제",
+      "숨은 답"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "The Impossible Quiz",
+      "임파서블 퀴즈",
+      "엉뚱한 문제",
+      "숨은 답",
+      "목숨 세 개",
+      "Skip 버튼",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/the-impossible-quiz.svg",
+    "fallbackCoverUrl": "assets/covers/the-impossible-quiz.svg",
+    "color": "#6d902c",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 엉뚱한 문제, 숨은 답, 목숨 세 개 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-impossible-quiz-2",
+    "title": "The Impossible Quiz 2",
+    "year": 2007,
+    "genres": [
+      "퀴즈"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "퀴즈",
+      "말장난 문제",
+      "폭탄 타이머"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "The Impossible Quiz 2",
+      "임파서블 퀴즈 2",
+      "말장난 문제",
+      "폭탄 타이머",
+      "마우스 트릭",
+      "목숨",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/the-impossible-quiz-2.svg",
+    "fallbackCoverUrl": "assets/covers/the-impossible-quiz-2.svg",
+    "color": "#2f73a7",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 말장난 문제, 폭탄 타이머, 마우스 트릭 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "learn-to-fly",
+    "title": "Learn to Fly",
+    "year": 2009,
+    "genres": [
+      "비행 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "비행 시뮬레이션",
+      "펭귄",
+      "빙판 점프대"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Learn to Fly",
+      "런 투 플라이",
+      "펭귄 날리기",
+      "펭귄",
+      "빙판 점프대",
+      "글라이더",
+      "거리 업그레이드",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/learn-to-fly.svg",
+    "fallbackCoverUrl": "assets/covers/learn-to-fly.svg",
+    "color": "#a7632f",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 펭귄, 빙판 점프대, 글라이더 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "learn-to-fly-2",
+    "title": "Learn to Fly 2",
+    "year": 2011,
+    "genres": [
+      "비행 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "비행 시뮬레이션",
+      "펭귄",
+      "더미 파괴"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Learn to Fly 2",
+      "런 투 플라이 2",
+      "펭귄",
+      "더미 파괴",
+      "로켓 부스터",
+      "비행 연구",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/learn-to-fly-2.svg",
+    "fallbackCoverUrl": "assets/covers/learn-to-fly-2.svg",
+    "color": "#2e3d8e",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 펭귄, 더미 파괴, 로켓 부스터 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "learn-to-fly-3",
+    "title": "Learn to Fly 3",
+    "year": 2014,
+    "genres": [
+      "비행 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "비행 시뮬레이션",
+      "펭귄 우주비행",
+      "수직 발사"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Learn to Fly 3",
+      "런 투 플라이 3",
+      "펭귄 우주비행",
+      "수직 발사",
+      "로켓 부품",
+      "고도 기록",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/learn-to-fly-3.svg",
+    "fallbackCoverUrl": "assets/covers/learn-to-fly-3.svg",
+    "color": "#2f3c93",
+    "summary": "2014년의 브라우저·Flash 추억 게임. 펭귄 우주비행, 수직 발사, 로켓 부품 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "duck-life",
+    "title": "Duck Life",
+    "year": 2007,
+    "genres": [
+      "육성 레이싱"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "육성 레이싱",
+      "노란 오리",
+      "달리기 훈련"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Duck Life",
+      "덕 라이프",
+      "오리 키우기",
+      "노란 오리",
+      "달리기 훈련",
+      "수영 훈련",
+      "레이스",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/duck-life.svg",
+    "fallbackCoverUrl": "assets/covers/duck-life.svg",
+    "color": "#9f9838",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 노란 오리, 달리기 훈련, 수영 훈련 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "duck-life-2",
+    "title": "Duck Life 2",
+    "year": 2010,
+    "genres": [
+      "육성 레이싱"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "육성 레이싱",
+      "오리 훈련",
+      "등반"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Duck Life 2",
+      "덕 라이프 2",
+      "오리 훈련",
+      "등반",
+      "나라별 레이스",
+      "왕관",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/duck-life-2.svg",
+    "fallbackCoverUrl": "assets/covers/duck-life-2.svg",
+    "color": "#40379a",
+    "summary": "2010년의 브라우저·Flash 추억 게임. 오리 훈련, 등반, 나라별 레이스 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "duck-life-3-evolution",
+    "title": "Duck Life 3: Evolution",
+    "year": 2011,
+    "genres": [
+      "육성 레이싱"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "육성 레이싱",
+      "진화 오리",
+      "종족 선택"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Duck Life 3: Evolution",
+      "덕 라이프 3",
+      "진화 오리",
+      "종족 선택",
+      "훈련 미니게임",
+      "리그",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/duck-life-3-evolution.svg",
+    "fallbackCoverUrl": "assets/covers/duck-life-3-evolution.svg",
+    "color": "#9bab36",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 진화 오리, 종족 선택, 훈련 미니게임 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "duck-life-4",
+    "title": "Duck Life 4",
+    "year": 2012,
+    "genres": [
+      "육성 레이싱"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "육성 레이싱",
+      "오리 팀",
+      "상점과 마을"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Duck Life 4",
+      "덕 라이프 4",
+      "오리 팀",
+      "상점과 마을",
+      "여러 훈련",
+      "챔피언 레이스",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/duck-life-4.svg",
+    "fallbackCoverUrl": "assets/covers/duck-life-4.svg",
+    "color": "#4438a3",
+    "summary": "2012년의 브라우저·Flash 추억 게임. 오리 팀, 상점과 마을, 여러 훈련 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "raze",
+    "title": "Raze",
+    "year": 2010,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "갑옷 병사",
+      "레이저 총"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Raze",
+      "레이즈",
+      "갑옷 병사",
+      "레이저 총",
+      "플랫폼 전장",
+      "외계인",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/raze.svg",
+    "fallbackCoverUrl": "assets/covers/raze.svg",
+    "color": "#2f839d",
+    "summary": "2010년의 브라우저·Flash 추억 게임. 갑옷 병사, 레이저 총, 플랫폼 전장 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "raze-2",
+    "title": "Raze 2",
+    "year": 2011,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "미래 병사",
+      "에너지 무기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Raze 2",
+      "레이즈 2",
+      "미래 병사",
+      "에너지 무기",
+      "캠페인",
+      "팀 데스매치",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/raze-2.svg",
+    "fallbackCoverUrl": "assets/covers/raze-2.svg",
+    "color": "#ad3888",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 미래 병사, 에너지 무기, 캠페인 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "raze-3",
+    "title": "Raze 3",
+    "year": 2014,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "우주 병사",
+      "공중 대시"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Raze 3",
+      "레이즈 3",
+      "우주 병사",
+      "공중 대시",
+      "외계 전쟁",
+      "무기 상자",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/raze-3.svg",
+    "fallbackCoverUrl": "assets/covers/raze-3.svg",
+    "color": "#8c2c6c",
+    "summary": "2014년의 브라우저·Flash 추억 게임. 우주 병사, 공중 대시, 외계 전쟁 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "strike-force-heroes",
+    "title": "Strike Force Heroes",
+    "year": 2012,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "병사 병과",
+      "비행기 추락"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Strike Force Heroes",
+      "스트라이크 포스 히어로즈",
+      "병사 병과",
+      "비행기 추락",
+      "옆보기 총격",
+      "킬스트릭",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/strike-force-heroes.svg",
+    "fallbackCoverUrl": "assets/covers/strike-force-heroes.svg",
+    "color": "#b07136",
+    "summary": "2012년의 브라우저·Flash 추억 게임. 병사 병과, 비행기 추락, 옆보기 총격 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "strike-force-heroes-2",
+    "title": "Strike Force Heroes 2",
+    "year": 2013,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "우주 정거장",
+      "병과 커스터마이즈"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Strike Force Heroes 2",
+      "스트라이크 포스 히어로즈 2",
+      "우주 정거장",
+      "병과 커스터마이즈",
+      "총기 등급",
+      "팀 전투",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/strike-force-heroes-2.svg",
+    "fallbackCoverUrl": "assets/covers/strike-force-heroes-2.svg",
+    "color": "#2e5c8a",
+    "summary": "2013년의 브라우저·Flash 추억 게임. 우주 정거장, 병과 커스터마이즈, 총기 등급 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "strike-force-heroes-3",
+    "title": "Strike Force Heroes 3",
+    "year": 2015,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "용병 분대",
+      "병사 육성"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Strike Force Heroes 3",
+      "스트라이크 포스 히어로즈 3",
+      "용병 분대",
+      "병사 육성",
+      "무기 조합",
+      "임무 지도",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/strike-force-heroes-3.svg",
+    "fallbackCoverUrl": "assets/covers/strike-force-heroes-3.svg",
+    "color": "#2e5d8e",
+    "summary": "2015년의 브라우저·Flash 추억 게임. 용병 분대, 병사 육성, 무기 조합 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "sonny",
+    "title": "Sonny",
+    "year": 2007,
+    "genres": [
+      "턴제 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "턴제 RPG",
+      "좀비 주인공",
+      "턴제 전투"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Sonny",
+      "소니",
+      "좀비 주인공",
+      "턴제 전투",
+      "능력 트리",
+      "배 위 탈출",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/sonny.svg",
+    "fallbackCoverUrl": "assets/covers/sonny.svg",
+    "color": "#363ba6",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 좀비 주인공, 턴제 전투, 능력 트리 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "sonny-2",
+    "title": "Sonny 2",
+    "year": 2009,
+    "genres": [
+      "턴제 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "턴제 RPG",
+      "좀비 영웅",
+      "직업 선택"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Sonny 2",
+      "소니 2",
+      "좀비 영웅",
+      "직업 선택",
+      "턴제 스킬",
+      "테이프 음성",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/sonny-2.svg",
+    "fallbackCoverUrl": "assets/covers/sonny-2.svg",
+    "color": "#3460ad",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 좀비 영웅, 직업 선택, 턴제 스킬 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "swords-and-sandals-2",
+    "title": "Swords and Sandals 2",
+    "year": 2007,
+    "genres": [
+      "검투 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "검투 RPG",
+      "대머리 검투사",
+      "능력치 분배"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Swords and Sandals 2",
+      "소드 앤 샌들 2",
+      "검투사 게임",
+      "대머리 검투사",
+      "능력치 분배",
+      "콜로세움",
+      "상점 장비",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/swords-and-sandals-2.svg",
+    "fallbackCoverUrl": "assets/covers/swords-and-sandals-2.svg",
+    "color": "#7633a3",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 대머리 검투사, 능력치 분배, 콜로세움 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "thing-thing-arena-2",
+    "title": "Thing-Thing Arena 2",
+    "year": 2007,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "회색 캐릭터",
+      "쌍권총"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Thing-Thing Arena 2",
+      "씽씽 아레나 2",
+      "회색 캐릭터",
+      "쌍권총",
+      "아레나 생존",
+      "무기 줍기",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/thing-thing-arena-2.svg",
+    "fallbackCoverUrl": "assets/covers/thing-thing-arena-2.svg",
+    "color": "#3aab36",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 회색 캐릭터, 쌍권총, 아레나 생존 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "thing-thing-arena-3",
+    "title": "Thing-Thing Arena 3",
+    "year": 2008,
+    "genres": [
+      "액션 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 슈팅",
+      "마스크 캐릭터",
+      "피격 효과"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Thing-Thing Arena 3",
+      "씽씽 아레나 3",
+      "마스크 캐릭터",
+      "피격 효과",
+      "총기 교체",
+      "무한 웨이브",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/thing-thing-arena-3.svg",
+    "fallbackCoverUrl": "assets/covers/thing-thing-arena-3.svg",
+    "color": "#38b036",
+    "summary": "2008년의 브라우저·Flash 추억 게임. 마스크 캐릭터, 피격 효과, 총기 교체 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "meat-boy",
+    "title": "Meat Boy",
+    "year": 2008,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "플랫포머",
+      "빨간 고기 캐릭터",
+      "톱날"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Meat Boy",
+      "미트 보이",
+      "빨간 고기 캐릭터",
+      "톱날",
+      "벽 점프",
+      "붕대 소녀",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/meat-boy.svg",
+    "fallbackCoverUrl": "assets/covers/meat-boy.svg",
+    "color": "#35976d",
+    "summary": "2008년의 브라우저·Flash 추억 게임. 빨간 고기 캐릭터, 톱날, 벽 점프 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "canabalt",
+    "title": "Canabalt",
+    "year": 2009,
+    "genres": [
+      "러닝 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "러닝 액션",
+      "정장 남자",
+      "옥상 달리기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Canabalt",
+      "카나발트",
+      "정장 남자",
+      "옥상 달리기",
+      "한 버튼 점프",
+      "무너지는 도시",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/canabalt.svg",
+    "fallbackCoverUrl": "assets/covers/canabalt.svg",
+    "color": "#9534ad",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 정장 남자, 옥상 달리기, 한 버튼 점프 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "crush-the-castle",
+    "title": "Crush the Castle",
+    "year": 2009,
+    "genres": [
+      "물리 퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "물리 퍼즐",
+      "투석기",
+      "성 무너뜨리기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Crush the Castle",
+      "크러시 더 캐슬",
+      "투석기",
+      "성 무너뜨리기",
+      "왕과 병사",
+      "돌 발사",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/crush-the-castle.svg",
+    "fallbackCoverUrl": "assets/covers/crush-the-castle.svg",
+    "color": "#a53173",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 투석기, 성 무너뜨리기, 왕과 병사 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "crush-the-castle-2",
+    "title": "Crush the Castle 2",
+    "year": 2010,
+    "genres": [
+      "물리 퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "물리 퍼즐",
+      "투석기 탄종",
+      "목재와 돌 성"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Crush the Castle 2",
+      "크러시 더 캐슬 2",
+      "투석기 탄종",
+      "목재와 돌 성",
+      "왕 처치",
+      "메달",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/crush-the-castle-2.svg",
+    "fallbackCoverUrl": "assets/covers/crush-the-castle-2.svg",
+    "color": "#968527",
+    "summary": "2010년의 브라우저·Flash 추억 게임. 투석기 탄종, 목재와 돌 성, 왕 처치 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "cursed-treasure-dont-touch-my-gems",
+    "title": "Cursed Treasure: Don't Touch My Gems!",
+    "year": 2009,
+    "genres": [
+      "타워 디펜스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "타워 디펜스",
+      "악당 타워",
+      "보석 동굴"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Cursed Treasure: Don't Touch My Gems!",
+      "커스드 트레저",
+      "보석 지키기",
+      "악당 타워",
+      "보석 동굴",
+      "숲과 눈 맵",
+      "도둑 영웅",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/cursed-treasure-dont-touch-my-gems.svg",
+    "fallbackCoverUrl": "assets/covers/cursed-treasure-dont-touch-my-gems.svg",
+    "color": "#8f324e",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 악당 타워, 보석 동굴, 숲과 눈 맵 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "cursed-treasure-2",
+    "title": "Cursed Treasure 2",
+    "year": 2013,
+    "genres": [
+      "타워 디펜스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "타워 디펜스",
+      "보석 방어",
+      "오크와 언데드 타워"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Cursed Treasure 2",
+      "커스드 트레저 2",
+      "보석 방어",
+      "오크와 언데드 타워",
+      "영웅 적",
+      "마법 주문",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/cursed-treasure-2.svg",
+    "fallbackCoverUrl": "assets/covers/cursed-treasure-2.svg",
+    "color": "#602994",
+    "summary": "2013년의 브라우저·Flash 추억 게임. 보석 방어, 오크와 언데드 타워, 영웅 적 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "gemcraft",
+    "title": "GemCraft",
+    "year": 2008,
+    "genres": [
+      "타워 디펜스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "타워 디펜스",
+      "보석 조합",
+      "마법 타워"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "GemCraft",
+      "젬크래프트",
+      "보석 조합",
+      "마법 타워",
+      "몬스터 길",
+      "마나 웅덩이",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/gemcraft.svg",
+    "fallbackCoverUrl": "assets/covers/gemcraft.svg",
+    "color": "#5f2da4",
+    "summary": "2008년의 브라우저·Flash 추억 게임. 보석 조합, 마법 타워, 몬스터 길 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "gemcraft-labyrinth",
+    "title": "GemCraft Labyrinth",
+    "year": 2011,
+    "genres": [
+      "타워 디펜스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "타워 디펜스",
+      "보석 합성",
+      "육각 지도"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "GemCraft Labyrinth",
+      "젬크래프트 라비린스",
+      "보석 합성",
+      "육각 지도",
+      "마나 파밍",
+      "미로 방어",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/gemcraft-labyrinth.svg",
+    "fallbackCoverUrl": "assets/covers/gemcraft-labyrinth.svg",
+    "color": "#6f9433",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 보석 합성, 육각 지도, 마나 파밍 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "desktop-tower-defense",
+    "title": "Desktop Tower Defense",
+    "year": 2007,
+    "genres": [
+      "타워 디펜스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "타워 디펜스",
+      "바탕화면 같은 맵",
+      "자유 배치"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Desktop Tower Defense",
+      "데스크톱 타워 디펜스",
+      "바탕화면 같은 맵",
+      "자유 배치",
+      "크립 길막",
+      "스웜",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/desktop-tower-defense.svg",
+    "fallbackCoverUrl": "assets/covers/desktop-tower-defense.svg",
+    "color": "#ad5d38",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 바탕화면 같은 맵, 자유 배치, 크립 길막 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "warfare-1917",
+    "title": "Warfare 1917",
+    "year": 2008,
+    "genres": [
+      "전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "전략",
+      "참호전",
+      "영국과 독일"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Warfare 1917",
+      "워페어 1917",
+      "참호전",
+      "영국과 독일",
+      "가스 공격",
+      "부대 사기",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/warfare-1917.svg",
+    "fallbackCoverUrl": "assets/covers/warfare-1917.svg",
+    "color": "#9aab3b",
+    "summary": "2008년의 브라우저·Flash 추억 게임. 참호전, 영국과 독일, 가스 공격 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "warfare-1944",
+    "title": "Warfare 1944",
+    "year": 2009,
+    "genres": [
+      "전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "전략",
+      "노르망디",
+      "분대 진격"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Warfare 1944",
+      "워페어 1944",
+      "노르망디",
+      "분대 진격",
+      "엄폐 참호",
+      "포격 지원",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/warfare-1944.svg",
+    "fallbackCoverUrl": "assets/covers/warfare-1944.svg",
+    "color": "#34b286",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 노르망디, 분대 진격, 엄폐 참호 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "stick-war",
+    "title": "Stick War",
+    "year": 2009,
+    "genres": [
+      "전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "전략",
+      "막대인간 군대",
+      "광부"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Stick War",
+      "스틱 워",
+      "스틱맨 전쟁",
+      "막대인간 군대",
+      "광부",
+      "석상 파괴",
+      "직접 유닛 조작",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/stick-war.svg",
+    "fallbackCoverUrl": "assets/covers/stick-war.svg",
+    "color": "#3aa031",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 막대인간 군대, 광부, 석상 파괴 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "stick-war-2-order-empire",
+    "title": "Stick War 2: Order Empire",
+    "year": 2012,
+    "genres": [
+      "전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "전략",
+      "막대인간 대군",
+      "진형 선택"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Stick War 2: Order Empire",
+      "스틱 워 2",
+      "막대인간 대군",
+      "진형 선택",
+      "마법사",
+      "석상 방어",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/stick-war-2-order-empire.svg",
+    "fallbackCoverUrl": "assets/covers/stick-war-2-order-empire.svg",
+    "color": "#3660a1",
+    "summary": "2012년의 브라우저·Flash 추억 게임. 막대인간 대군, 진형 선택, 마법사 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-last-stand",
+    "title": "The Last Stand",
+    "year": 2007,
+    "genres": [
+      "생존 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "생존 슈팅",
+      "바리케이드",
+      "밤의 좀비"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "The Last Stand",
+      "더 라스트 스탠드",
+      "바리케이드",
+      "밤의 좀비",
+      "생존자 찾기",
+      "총 수리",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/the-last-stand.svg",
+    "fallbackCoverUrl": "assets/covers/the-last-stand.svg",
+    "color": "#5d8d30",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 바리케이드, 밤의 좀비, 생존자 찾기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-last-stand-2",
+    "title": "The Last Stand 2",
+    "year": 2008,
+    "genres": [
+      "생존 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "생존 슈팅",
+      "좀비 도시 지도",
+      "바리케이드"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "The Last Stand 2",
+      "더 라스트 스탠드 2",
+      "좀비 도시 지도",
+      "바리케이드",
+      "식량 탐색",
+      "생존자",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/the-last-stand-2.svg",
+    "fallbackCoverUrl": "assets/covers/the-last-stand-2.svg",
+    "color": "#314d9b",
+    "summary": "2008년의 브라우저·Flash 추억 게임. 좀비 도시 지도, 바리케이드, 식량 탐색 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-last-stand-union-city",
+    "title": "The Last Stand: Union City",
+    "year": 2011,
+    "genres": [
+      "액션 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 RPG",
+      "좀비 도시",
+      "가방 인벤토리"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "The Last Stand: Union City",
+      "더 라스트 스탠드 유니온 시티",
+      "좀비 도시",
+      "가방 인벤토리",
+      "건물 수색",
+      "생존자 퀘스트",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/the-last-stand-union-city.svg",
+    "fallbackCoverUrl": "assets/covers/the-last-stand-union-city.svg",
+    "color": "#8e802e",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 좀비 도시, 가방 인벤토리, 건물 수색 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "earn-to-die",
+    "title": "Earn to Die",
+    "year": 2011,
+    "genres": [
+      "차량 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "차량 액션",
+      "좀비 사막",
+      "낡은 자동차"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Earn to Die",
+      "언 투 다이",
+      "좀비 자동차",
+      "좀비 사막",
+      "낡은 자동차",
+      "연료 업그레이드",
+      "차량 돌진",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/earn-to-die.svg",
+    "fallbackCoverUrl": "assets/covers/earn-to-die.svg",
+    "color": "#a13a95",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 좀비 사막, 낡은 자동차, 연료 업그레이드 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "earn-to-die-2-exodus",
+    "title": "Earn to Die 2: Exodus",
+    "year": 2012,
+    "genres": [
+      "차량 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "차량 액션",
+      "좀비 고속도로",
+      "여러 차량"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Earn to Die 2: Exodus",
+      "언 투 다이 2",
+      "좀비 고속도로",
+      "여러 차량",
+      "부품 업그레이드",
+      "부서지는 차",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/earn-to-die-2-exodus.svg",
+    "fallbackCoverUrl": "assets/covers/earn-to-die-2-exodus.svg",
+    "color": "#732ba6",
+    "summary": "2012년의 브라우저·Flash 추억 게임. 좀비 고속도로, 여러 차량, 부품 업그레이드 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "zombotron",
+    "title": "Zombotron",
+    "year": 2011,
+    "genres": [
+      "액션 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 플랫포머",
+      "우주 헬멧 남자",
+      "좀비 행성"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Zombotron",
+      "좀보트론",
+      "우주 헬멧 남자",
+      "좀비 행성",
+      "엘리베이터",
+      "폭발 통",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/zombotron.svg",
+    "fallbackCoverUrl": "assets/covers/zombotron.svg",
+    "color": "#93752f",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 우주 헬멧 남자, 좀비 행성, 엘리베이터 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "zombotron-2",
+    "title": "Zombotron 2",
+    "year": 2012,
+    "genres": [
+      "액션 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "액션 플랫포머",
+      "외계 행성",
+      "좀비와 로봇"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Zombotron 2",
+      "좀보트론 2",
+      "외계 행성",
+      "좀비와 로봇",
+      "차량 탑승",
+      "상자 물리",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/zombotron-2.svg",
+    "fallbackCoverUrl": "assets/covers/zombotron-2.svg",
+    "color": "#3a922a",
+    "summary": "2012년의 브라우저·Flash 추억 게임. 외계 행성, 좀비와 로봇, 차량 탑승 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "burrito-bison",
+    "title": "Burrito Bison",
+    "year": 2011,
+    "genres": [
+      "발사 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "발사 액션",
+      "레슬러 들소",
+      "젤리곰"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Burrito Bison",
+      "부리토 바이슨",
+      "레슬러 들소",
+      "젤리곰",
+      "캔디랜드",
+      "멀리 날리기",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/burrito-bison.svg",
+    "fallbackCoverUrl": "assets/covers/burrito-bison.svg",
+    "color": "#2e7d8e",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 레슬러 들소, 젤리곰, 캔디랜드 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "burrito-bison-revenge",
+    "title": "Burrito Bison Revenge",
+    "year": 2012,
+    "genres": [
+      "발사 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "발사 액션",
+      "들소 레슬러",
+      "젤리곰 밟기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Burrito Bison Revenge",
+      "부리토 바이슨 리벤지",
+      "들소 레슬러",
+      "젤리곰 밟기",
+      "벽 돌파",
+      "발사 업그레이드",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/burrito-bison-revenge.svg",
+    "fallbackCoverUrl": "assets/covers/burrito-bison-revenge.svg",
+    "color": "#888830",
+    "summary": "2012년의 브라우저·Flash 추억 게임. 들소 레슬러, 젤리곰 밟기, 벽 돌파 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "cyclomaniacs",
+    "title": "Cyclomaniacs",
+    "year": 2009,
+    "genres": [
+      "자전거 레이싱"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "자전거 레이싱",
+      "괴짜 자전거 선수",
+      "공중 묘기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Cyclomaniacs",
+      "사이클로매니악스",
+      "괴짜 자전거 선수",
+      "공중 묘기",
+      "언덕 코스",
+      "캐릭터 해금",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/cyclomaniacs.svg",
+    "fallbackCoverUrl": "assets/covers/cyclomaniacs.svg",
+    "color": "#917f27",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 괴짜 자전거 선수, 공중 묘기, 언덕 코스 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "electric-man-2",
+    "title": "Electric Man 2",
+    "year": 2007,
+    "genres": [
+      "격투 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "격투 액션",
+      "막대인간 격투",
+      "슬로모션 기술"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Electric Man 2",
+      "일렉트릭 맨 2",
+      "막대인간 격투",
+      "슬로모션 기술",
+      "전기 오라",
+      "다수 적",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/electric-man-2.svg",
+    "fallbackCoverUrl": "assets/covers/electric-man-2.svg",
+    "color": "#2f4d98",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 막대인간 격투, 슬로모션 기술, 전기 오라 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "portal-the-flash-version",
+    "title": "Portal: The Flash Version",
+    "year": 2007,
+    "genres": [
+      "퍼즐 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "퍼즐 플랫포머",
+      "파랑 주황 포털",
+      "테스트 방"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Portal: The Flash Version",
+      "포탈 플래시 버전",
+      "파랑 주황 포털",
+      "테스트 방",
+      "큐브",
+      "2D 포털 퍼즐",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/portal-the-flash-version.svg",
+    "fallbackCoverUrl": "assets/covers/portal-the-flash-version.svg",
+    "color": "#942d9f",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 파랑 주황 포털, 테스트 방, 큐브 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "super-mario-63",
+    "title": "Super Mario 63",
+    "year": 2009,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "플랫포머",
+      "마리오 팬게임",
+      "샤인 스프라이트"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Super Mario 63",
+      "슈퍼 마리오 63",
+      "마리오 팬게임",
+      "샤인 스프라이트",
+      "물대포",
+      "성 허브",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/super-mario-63.svg",
+    "fallbackCoverUrl": "assets/covers/super-mario-63.svg",
+    "color": "#91307e",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 마리오 팬게임, 샤인 스프라이트, 물대포 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "red-ball",
+    "title": "Red Ball",
+    "year": 2008,
+    "genres": [
+      "물리 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "물리 플랫포머",
+      "빨간 공",
+      "상자 밀기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Red Ball",
+      "레드 볼",
+      "빨간공 게임",
+      "빨간 공",
+      "상자 밀기",
+      "별 수집",
+      "물리 경사",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/red-ball.svg",
+    "fallbackCoverUrl": "assets/covers/red-ball.svg",
+    "color": "#339e71",
+    "summary": "2008년의 브라우저·Flash 추억 게임. 빨간 공, 상자 밀기, 별 수집 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "red-ball-4",
+    "title": "Red Ball 4",
+    "year": 2012,
+    "genres": [
+      "물리 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "물리 플랫포머",
+      "빨간 공",
+      "검은 네모 적"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Red Ball 4",
+      "레드 볼 4",
+      "빨간 공",
+      "검은 네모 적",
+      "공장",
+      "상자 퍼즐",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/red-ball-4.svg",
+    "fallbackCoverUrl": "assets/covers/red-ball-4.svg",
+    "color": "#36ab59",
+    "summary": "2012년의 브라우저·Flash 추억 게임. 빨간 공, 검은 네모 적, 공장 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "snail-bob",
+    "title": "Snail Bob",
+    "year": 2010,
+    "genres": [
+      "퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "퍼즐",
+      "달팽이",
+      "버튼과 레버"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Snail Bob",
+      "스네일 밥",
+      "달팽이 밥",
+      "달팽이",
+      "버튼과 레버",
+      "위험한 길",
+      "속도 조절",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/snail-bob.svg",
+    "fallbackCoverUrl": "assets/covers/snail-bob.svg",
+    "color": "#959e33",
+    "summary": "2010년의 브라우저·Flash 추억 게임. 달팽이, 버튼과 레버, 위험한 길 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "sugar-sugar",
+    "title": "Sugar, Sugar",
+    "year": 2011,
+    "genres": [
+      "그리기 퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "그리기 퍼즐",
+      "설탕 알갱이",
+      "컵 채우기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Sugar, Sugar",
+      "슈가 슈가",
+      "설탕 알갱이",
+      "컵 채우기",
+      "선 그리기",
+      "중력",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/sugar-sugar.svg",
+    "fallbackCoverUrl": "assets/covers/sugar-sugar.svg",
+    "color": "#95339e",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 설탕 알갱이, 컵 채우기, 선 그리기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "this-is-the-only-level",
+    "title": "This Is the Only Level",
+    "year": 2009,
+    "genres": [
+      "퍼즐 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "퍼즐 플랫포머",
+      "파란 코끼리",
+      "같은 방"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "This Is the Only Level",
+      "디스 이즈 디 온리 레벨",
+      "파란 코끼리",
+      "같은 방",
+      "매번 다른 규칙",
+      "주황 버튼",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/this-is-the-only-level.svg",
+    "fallbackCoverUrl": "assets/covers/this-is-the-only-level.svg",
+    "color": "#9a322d",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 파란 코끼리, 같은 방, 매번 다른 규칙 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "achievement-unlocked",
+    "title": "Achievement Unlocked",
+    "year": 2008,
+    "genres": [
+      "메타 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "메타 플랫포머",
+      "파란 코끼리",
+      "도전과제 수백 개"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Achievement Unlocked",
+      "어치브먼트 언락드",
+      "파란 코끼리",
+      "도전과제 수백 개",
+      "한 화면",
+      "풍자",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/achievement-unlocked.svg",
+    "fallbackCoverUrl": "assets/covers/achievement-unlocked.svg",
+    "color": "#2dae52",
+    "summary": "2008년의 브라우저·Flash 추억 게임. 파란 코끼리, 도전과제 수백 개, 한 화면 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "toss-the-turtle",
+    "title": "Toss the Turtle",
+    "year": 2009,
+    "genres": [
+      "발사 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "발사 액션",
+      "거북이",
+      "대포 발사"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Toss the Turtle",
+      "터틀 날리기",
+      "거북이 대포",
+      "거북이",
+      "대포 발사",
+      "총으로 가속",
+      "가시와 폭탄",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/toss-the-turtle.svg",
+    "fallbackCoverUrl": "assets/covers/toss-the-turtle.svg",
+    "color": "#a03da4",
+    "summary": "2009년의 브라우저·Flash 추억 게임. 거북이, 대포 발사, 총으로 가속 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "run-2",
+    "title": "Run 2",
+    "year": 2011,
+    "genres": [
+      "러닝 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "러닝 플랫포머",
+      "회색 외계인",
+      "우주 터널"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Run 2",
+      "런 2",
+      "회색 외계인",
+      "우주 터널",
+      "벽 회전",
+      "구멍 피하기",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/run-2.svg",
+    "fallbackCoverUrl": "assets/covers/run-2.svg",
+    "color": "#9f5338",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 회색 외계인, 우주 터널, 벽 회전 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "qwop",
+    "title": "QWOP",
+    "year": 2008,
+    "genres": [
+      "물리 스포츠"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "물리 스포츠",
+      "육상 선수",
+      "Q W O P 키"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "QWOP",
+      "큐웝",
+      "육상 선수",
+      "Q W O P 키",
+      "휘청이는 다리",
+      "100미터",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/qwop.svg",
+    "fallbackCoverUrl": "assets/covers/qwop.svg",
+    "color": "#35609c",
+    "summary": "2008년의 브라우저·Flash 추억 게임. 육상 선수, Q W O P 키, 휘청이는 다리 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-worlds-hardest-game",
+    "title": "The World's Hardest Game",
+    "year": 2008,
+    "genres": [
+      "회피 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "회피 액션",
+      "빨간 네모",
+      "파란 공 피하기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "The World's Hardest Game",
+      "세상에서 가장 어려운 게임",
+      "빨간 네모",
+      "파란 공 피하기",
+      "초록 안전지대",
+      "노란 동전",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/the-worlds-hardest-game.svg",
+    "fallbackCoverUrl": "assets/covers/the-worlds-hardest-game.svg",
+    "color": "#6f9537",
+    "summary": "2008년의 브라우저·Flash 추억 게임. 빨간 네모, 파란 공 피하기, 초록 안전지대 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "transformice",
+    "title": "Transformice",
+    "year": 2010,
+    "genres": [
+      "멀티 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "멀티 플랫포머",
+      "여러 마리 쥐",
+      "치즈"
+    ],
+    "modes": [
+      "멀티",
+      "협동"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Transformice",
+      "트랜스포마이스",
+      "쥐게임",
+      "여러 마리 쥐",
+      "치즈",
+      "샤먼 건축",
+      "온라인 방",
+      "웹게임",
+      "2010년 게임"
+    ],
+    "storeUrl": "https://www.transformice.com/",
+    "coverUrl": "assets/covers/transformice.svg",
+    "fallbackCoverUrl": "assets/covers/transformice.svg",
+    "color": "#327a8b",
+    "summary": "2010년의 브라우저·Flash 추억 게임. 여러 마리 쥐, 치즈, 샤먼 건축 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "realm-of-the-mad-god",
+    "title": "Realm of the Mad God",
+    "year": 2011,
+    "genres": [
+      "온라인 슈팅 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "온라인 슈팅 RPG",
+      "픽셀 탄막",
+      "영구 죽음"
+    ],
+    "modes": [
+      "멀티",
+      "협동"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Realm of the Mad God",
+      "렐름 오브 더 매드 갓",
+      "픽셀 탄막",
+      "영구 죽음",
+      "온라인 협동",
+      "신 보스",
+      "웹게임",
+      "2011년 게임"
+    ],
+    "storeUrl": "https://www.realmofthemadgod.com/",
+    "coverUrl": "assets/covers/realm-of-the-mad-god.svg",
+    "fallbackCoverUrl": "assets/covers/realm-of-the-mad-god.svg",
+    "color": "#2b35a6",
+    "summary": "2011년의 브라우저·Flash 추억 게임. 픽셀 탄막, 영구 죽음, 온라인 협동 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "adventurequest",
+    "title": "AdventureQuest",
+    "year": 2002,
+    "genres": [
+      "브라우저 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "브라우저 RPG",
+      "턴제 판타지",
+      "주간 업데이트"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "AdventureQuest",
+      "어드벤처퀘스트",
+      "턴제 판타지",
+      "주간 업데이트",
+      "검과 마법",
+      "용 전투",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/adventurequest.svg",
+    "fallbackCoverUrl": "assets/covers/adventurequest.svg",
+    "color": "#91306e",
+    "summary": "2002년의 브라우저·Flash 추억 게임. 턴제 판타지, 주간 업데이트, 검과 마법 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "dragonfable",
+    "title": "DragonFable",
+    "year": 2006,
+    "genres": [
+      "브라우저 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "브라우저 RPG",
+      "작은 용 동료",
+      "턴제 파티"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "DragonFable",
+      "드래곤페이블",
+      "작은 용 동료",
+      "턴제 파티",
+      "팔코리 마을",
+      "클래스 갑옷",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/dragonfable.svg",
+    "fallbackCoverUrl": "assets/covers/dragonfable.svg",
+    "color": "#9aab3b",
+    "summary": "2006년의 브라우저·Flash 추억 게임. 작은 용 동료, 턴제 파티, 팔코리 마을 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "mechquest",
+    "title": "MechQuest",
+    "year": 2007,
+    "genres": [
+      "브라우저 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "브라우저 RPG",
+      "거대 로봇",
+      "우주 학교"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "MechQuest",
+      "메크퀘스트",
+      "거대 로봇",
+      "우주 학교",
+      "턴제 전투",
+      "메카 장비",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/mechquest.svg",
+    "fallbackCoverUrl": "assets/covers/mechquest.svg",
+    "color": "#3aa17a",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 거대 로봇, 우주 학교, 턴제 전투 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "poptropica",
+    "title": "Poptropica",
+    "year": 2007,
+    "genres": [
+      "어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "어드벤처",
+      "둥근 캐릭터",
+      "섬 모험"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web",
+      "Flash"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Poptropica",
+      "팝트로피카",
+      "둥근 캐릭터",
+      "섬 모험",
+      "의상 수집",
+      "퍼즐 퀘스트",
+      "웹게임",
+      "플래시게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/poptropica.svg",
+    "fallbackCoverUrl": "assets/covers/poptropica.svg",
+    "color": "#29989e",
+    "summary": "2007년의 브라우저·Flash 추억 게임. 둥근 캐릭터, 섬 모험, 의상 수집 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "8-ball-pool",
+    "title": "8 Ball Pool",
+    "year": 2010,
+    "genres": [
+      "스포츠"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "스포츠",
+      "온라인 당구대",
+      "큐 조준선"
+    ],
+    "modes": [
+      "멀티",
+      "경쟁"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "8 Ball Pool",
+      "미니클립 당구",
+      "8볼 풀",
+      "온라인 당구대",
+      "큐 조준선",
+      "동전 내기",
+      "미니클립",
+      "웹게임",
+      "2010년 게임"
+    ],
+    "storeUrl": "https://www.miniclip.com/games/8-ball-pool-multiplayer/",
+    "coverUrl": "assets/covers/8-ball-pool.svg",
+    "fallbackCoverUrl": "assets/covers/8-ball-pool.svg",
+    "color": "#392fa2",
+    "summary": "2010년의 브라우저·Flash 추억 게임. 온라인 당구대, 큐 조준선, 동전 내기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "year": 2013,
+    "genres": [
+      "방치형"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "방치형",
+      "큰 쿠키 클릭",
+      "할머니"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Cookie Clicker",
+      "쿠키 클리커",
+      "큰 쿠키 클릭",
+      "할머니",
+      "초당 쿠키",
+      "끝없는 업그레이드",
+      "웹게임",
+      "2013년 게임"
+    ],
+    "storeUrl": "https://orteil.dashnet.org/cookieclicker/",
+    "coverUrl": "assets/covers/cookie-clicker.svg",
+    "fallbackCoverUrl": "assets/covers/cookie-clicker.svg",
+    "color": "#a83899",
+    "summary": "2013년의 브라우저·Flash 추억 게임. 큰 쿠키 클릭, 할머니, 초당 쿠키 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "year": 2014,
+    "genres": [
+      "퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "퍼즐",
+      "숫자 타일",
+      "밀어서 합치기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "2048",
+      "이공사팔",
+      "숫자 타일",
+      "밀어서 합치기",
+      "4x4 격자",
+      "2048 타일",
+      "웹게임",
+      "2014년 게임"
+    ],
+    "storeUrl": "https://play2048.co/",
+    "coverUrl": "assets/covers/2048.svg",
+    "fallbackCoverUrl": "assets/covers/2048.svg",
+    "color": "#33a364",
+    "summary": "2014년의 브라우저·Flash 추억 게임. 숫자 타일, 밀어서 합치기, 4x4 격자 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "a-dark-room",
+    "title": "A Dark Room",
+    "year": 2013,
+    "genres": [
+      "텍스트 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "텍스트 RPG",
+      "어두운 방",
+      "불 피우기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "A Dark Room",
+      "어 다크 룸",
+      "어두운 방",
+      "불 피우기",
+      "텍스트 마을",
+      "황무지 탐험",
+      "웹게임",
+      "2013년 게임"
+    ],
+    "storeUrl": "https://flashpointarchive.org/",
+    "coverUrl": "assets/covers/a-dark-room.svg",
+    "fallbackCoverUrl": "assets/covers/a-dark-room.svg",
+    "color": "#2a7d8d",
+    "summary": "2013년의 브라우저·Flash 추억 게임. 어두운 방, 불 피우기, 텍스트 마을 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "agar-io",
+    "title": "Agar.io",
+    "year": 2015,
+    "genres": [
+      "온라인 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "온라인 액션",
+      "동그란 세포",
+      "작은 점 먹기"
+    ],
+    "modes": [
+      "멀티",
+      "경쟁"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Agar.io",
+      "아가리오",
+      "세포 키우기",
+      "동그란 세포",
+      "작은 점 먹기",
+      "큰 세포 피하기",
+      "온라인 순위",
+      "웹게임",
+      "2015년 게임"
+    ],
+    "storeUrl": "https://agar.io/",
+    "coverUrl": "assets/covers/agar-io.svg",
+    "fallbackCoverUrl": "assets/covers/agar-io.svg",
+    "color": "#93862f",
+    "summary": "2015년의 브라우저·Flash 추억 게임. 동그란 세포, 작은 점 먹기, 큰 세포 피하기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "slither-io",
+    "title": "Slither.io",
+    "year": 2016,
+    "genres": [
+      "온라인 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "웹게임 추억",
+      "온라인 액션",
+      "빛나는 뱀",
+      "알갱이 먹기"
+    ],
+    "modes": [
+      "멀티",
+      "경쟁"
+    ],
+    "platforms": [
+      "Web"
+    ],
+    "priceKRW": 0,
+    "length": "짧음",
+    "difficulty": "보통",
+    "mood": "복고풍",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Slither.io",
+      "슬리더리오",
+      "지렁이 키우기",
+      "빛나는 뱀",
+      "알갱이 먹기",
+      "상대 몸에 충돌",
+      "온라인 순위",
+      "웹게임",
+      "2016년 게임"
+    ],
+    "storeUrl": "https://slither.io/",
+    "coverUrl": "assets/covers/slither-io.svg",
+    "fallbackCoverUrl": "assets/covers/slither-io.svg",
+    "color": "#3a939c",
+    "summary": "2016년의 브라우저·Flash 추억 게임. 빛나는 뱀, 알갱이 먹기, 상대 몸에 충돌 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "bully-scholarship-edition",
+    "title": "Bully: Scholarship Edition",
+    "year": 2008,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "학교 기숙사",
+      "새총"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Bully: Scholarship Edition",
+      "불리 스콜라십 에디션",
+      "학교 기숙사",
+      "새총",
+      "수업 미니게임",
+      "교복 학생"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Bully%3A%20Scholarship%20Edition",
+    "coverUrl": "assets/covers/bully-scholarship-edition.svg",
+    "fallbackCoverUrl": "assets/covers/bully-scholarship-edition.svg",
+    "color": "#2e8a8a",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 학교 기숙사, 새총, 수업 미니게임 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "okami",
+    "title": "Okami",
+    "year": 2006,
+    "genres": [
+      "액션 어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 어드벤처",
+      "하얀 늑대 아마테라스",
+      "붓으로 그리기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Okami",
+      "오오카미",
+      "하얀 늑대 아마테라스",
+      "붓으로 그리기",
+      "일본 신화",
+      "먹물 원"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Okami",
+    "coverUrl": "assets/covers/okami.svg",
+    "fallbackCoverUrl": "assets/covers/okami.svg",
+    "color": "#31b49c",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 하얀 늑대 아마테라스, 붓으로 그리기, 일본 신화 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "gears-of-war",
+    "title": "Gears of War",
+    "year": 2006,
+    "genres": [
+      "3인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "3인칭 슈팅",
+      "전기톱 총",
+      "엄폐 사격"
+    ],
+    "modes": [
+      "싱글",
+      "협동",
+      "멀티"
+    ],
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Gears of War",
+      "기어스 오브 워",
+      "전기톱 총",
+      "엄폐 사격",
+      "로커스트",
+      "회색 폐허"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Gears%20of%20War",
+    "coverUrl": "assets/covers/gears-of-war.svg",
+    "fallbackCoverUrl": "assets/covers/gears-of-war.svg",
+    "color": "#31b4b2",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 전기톱 총, 엄폐 사격, 로커스트 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "dead-rising",
+    "title": "Dead Rising",
+    "year": 2006,
+    "genres": [
+      "생존 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "생존 액션",
+      "쇼핑몰",
+      "사진 기자 프랭크"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Xbox",
+      "PC",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Dead Rising",
+      "데드 라이징",
+      "쇼핑몰",
+      "사진 기자 프랭크",
+      "수많은 좀비",
+      "물건을 무기로"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Dead%20Rising",
+    "coverUrl": "assets/covers/dead-rising.svg",
+    "fallbackCoverUrl": "assets/covers/dead-rising.svg",
+    "color": "#2d4c9a",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 쇼핑몰, 사진 기자 프랭크, 수많은 좀비 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "company-of-heroes",
+    "title": "Company of Heroes",
+    "year": 2006,
+    "genres": [
+      "실시간 전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "실시간 전략",
+      "노르망디 상륙",
+      "분대 엄폐"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Company of Heroes",
+      "컴퍼니 오브 히어로즈",
+      "노르망디 상륙",
+      "분대 엄폐",
+      "거점 점령",
+      "전차"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Company%20of%20Heroes",
+    "coverUrl": "assets/covers/company-of-heroes.svg",
+    "fallbackCoverUrl": "assets/covers/company-of-heroes.svg",
+    "color": "#73a531",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 노르망디 상륙, 분대 엄폐, 거점 점령 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "hitman-blood-money",
+    "title": "Hitman: Blood Money",
+    "year": 2006,
+    "genres": [
+      "잠입 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "잠입 액션",
+      "대머리 요원 47",
+      "변장"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation",
+      "Xbox"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Hitman: Blood Money",
+      "히트맨 블러드 머니",
+      "대머리 요원 47",
+      "변장",
+      "섬유 와이어",
+      "사고사 위장"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Hitman%3A%20Blood%20Money",
+    "coverUrl": "assets/covers/hitman-blood-money.svg",
+    "fallbackCoverUrl": "assets/covers/hitman-blood-money.svg",
+    "color": "#2f5fa2",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 대머리 요원 47, 변장, 섬유 와이어 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "resistance-fall-of-man",
+    "title": "Resistance: Fall of Man",
+    "year": 2006,
+    "genres": [
+      "1인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "1인칭 슈팅",
+      "키메라 외계인",
+      "영국 전장"
+    ],
+    "modes": [
+      "싱글",
+      "협동",
+      "멀티"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Resistance: Fall of Man",
+      "레지스탕스 폴 오브 맨",
+      "키메라 외계인",
+      "영국 전장",
+      "괴상한 총",
+      "PS3 초기작"
+    ],
+    "storeUrl": "https://store.playstation.com/en-us/search/Resistance%3A%20Fall%20of%20Man",
+    "coverUrl": "assets/covers/resistance-fall-of-man.svg",
+    "fallbackCoverUrl": "assets/covers/resistance-fall-of-man.svg",
+    "color": "#8c3c2c",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 키메라 외계인, 영국 전장, 괴상한 총 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "wii-sports",
+    "title": "Wii Sports",
+    "year": 2006,
+    "genres": [
+      "스포츠"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "스포츠",
+      "리모컨 휘두르기",
+      "테니스"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Wii Sports",
+      "위 스포츠",
+      "리모컨 휘두르기",
+      "테니스",
+      "볼링",
+      "미이 캐릭터"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Wii%20Sports",
+    "coverUrl": "assets/covers/wii-sports.svg",
+    "fallbackCoverUrl": "assets/covers/wii-sports.svg",
+    "color": "#9e3371",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 리모컨 휘두르기, 테니스, 볼링 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "new-super-mario-bros",
+    "title": "New Super Mario Bros.",
+    "year": 2006,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "플랫포머",
+      "거대 버섯",
+      "DS 두 화면"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "New Super Mario Bros.",
+      "뉴 슈퍼 마리오브라더스",
+      "거대 버섯",
+      "DS 두 화면",
+      "쿠파",
+      "옆보기 마리오"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=New%20Super%20Mario%20Bros.",
+    "coverUrl": "assets/covers/new-super-mario-bros.svg",
+    "fallbackCoverUrl": "assets/covers/new-super-mario-bros.svg",
+    "color": "#a9782d",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 거대 버섯, DS 두 화면, 쿠파 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "need-for-speed-carbon",
+    "title": "Need for Speed: Carbon",
+    "year": 2006,
+    "genres": [
+      "레이싱"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "레이싱",
+      "밤의 협곡",
+      "드리프트"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Need for Speed: Carbon",
+      "니드 포 스피드 카본",
+      "밤의 협곡",
+      "드리프트",
+      "크루 영토",
+      "튜닝 자동차"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Need%20for%20Speed%3A%20Carbon",
+    "coverUrl": "assets/covers/need-for-speed-carbon.svg",
+    "fallbackCoverUrl": "assets/covers/need-for-speed-carbon.svg",
+    "color": "#91277f",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 밤의 협곡, 드리프트, 크루 영토 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-elder-scrolls-iv-oblivion",
+    "title": "The Elder Scrolls IV: Oblivion",
+    "year": 2006,
+    "genres": [
+      "오픈월드 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 RPG",
+      "오블리비언 게이트",
+      "황제 암살"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "The Elder Scrolls IV: Oblivion",
+      "엘더스크롤 4 오블리비언",
+      "오블리비언 게이트",
+      "황제 암살",
+      "말 타기",
+      "얼굴 확대 대화"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=The%20Elder%20Scrolls%20IV%3A%20Oblivion",
+    "coverUrl": "assets/covers/the-elder-scrolls-iv-oblivion.svg",
+    "fallbackCoverUrl": "assets/covers/the-elder-scrolls-iv-oblivion.svg",
+    "color": "#35a92d",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 오블리비언 게이트, 황제 암살, 말 타기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "guitar-hero-ii",
+    "title": "Guitar Hero II",
+    "year": 2006,
+    "genres": [
+      "리듬"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "리듬",
+      "플라스틱 기타",
+      "다섯 색 노트"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PlayStation",
+      "Xbox"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Guitar Hero II",
+      "기타 히어로 2",
+      "플라스틱 기타",
+      "다섯 색 노트",
+      "록 음악",
+      "스타 파워"
+    ],
+    "storeUrl": "https://store.playstation.com/en-us/search/Guitar%20Hero%20II",
+    "coverUrl": "assets/covers/guitar-hero-ii.svg",
+    "fallbackCoverUrl": "assets/covers/guitar-hero-ii.svg",
+    "color": "#75b12f",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 플라스틱 기타, 다섯 색 노트, 록 음악 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "just-cause",
+    "title": "Just Cause",
+    "year": 2006,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "낙하산",
+      "갈고리"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Just Cause",
+      "저스트 코즈",
+      "낙하산",
+      "갈고리",
+      "열대 섬",
+      "차량 탈취"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Just%20Cause",
+    "coverUrl": "assets/covers/just-cause.svg",
+    "fallbackCoverUrl": "assets/covers/just-cause.svg",
+    "color": "#3174af",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 낙하산, 갈고리, 열대 섬 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "prey",
+    "title": "Prey",
+    "year": 2006,
+    "genres": [
+      "1인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "1인칭 슈팅",
+      "체로키 주인공",
+      "중력 뒤집기"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Prey",
+      "프레이 2006",
+      "체로키 주인공",
+      "중력 뒤집기",
+      "외계 우주선",
+      "영혼 걷기"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Prey",
+    "coverUrl": "assets/covers/prey.svg",
+    "fallbackCoverUrl": "assets/covers/prey.svg",
+    "color": "#3438ad",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 체로키 주인공, 중력 뒤집기, 외계 우주선 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "test-drive-unlimited",
+    "title": "Test Drive Unlimited",
+    "year": 2006,
+    "genres": [
+      "오픈월드 레이싱"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 레이싱",
+      "하와이 오아후",
+      "고급 자동차"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Test Drive Unlimited",
+      "테스트 드라이브 언리미티드",
+      "하와이 오아후",
+      "고급 자동차",
+      "집과 차고",
+      "온라인 도로"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Test%20Drive%20Unlimited",
+    "coverUrl": "assets/covers/test-drive-unlimited.svg",
+    "fallbackCoverUrl": "assets/covers/test-drive-unlimited.svg",
+    "color": "#3699a6",
+    "summary": "2006년의 PC·콘솔·휴대용 추억 게임. 하와이 오아후, 고급 자동차, 집과 차고 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "bioshock",
+    "title": "BioShock",
+    "year": 2007,
+    "genres": [
+      "1인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "1인칭 슈팅",
+      "해저도시 랩처",
+      "빅 대디"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "BioShock",
+      "바이오쇼크",
+      "해저도시 랩처",
+      "빅 대디",
+      "리틀 시스터",
+      "손에서 번개"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=BioShock",
+    "coverUrl": "assets/covers/bioshock.svg",
+    "fallbackCoverUrl": "assets/covers/bioshock.svg",
+    "color": "#8d7d2a",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 해저도시 랩처, 빅 대디, 리틀 시스터 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "mass-effect",
+    "title": "Mass Effect",
+    "year": 2007,
+    "genres": [
+      "액션 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 RPG",
+      "셰퍼드 사령관",
+      "노르망디 우주선"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Mass Effect",
+      "매스 이펙트",
+      "셰퍼드 사령관",
+      "노르망디 우주선",
+      "대화 선택",
+      "시타델"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Mass%20Effect",
+    "coverUrl": "assets/covers/mass-effect.svg",
+    "fallbackCoverUrl": "assets/covers/mass-effect.svg",
+    "color": "#992970",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 셰퍼드 사령관, 노르망디 우주선, 대화 선택 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "assassins-creed",
+    "title": "Assassin's Creed",
+    "year": 2007,
+    "genres": [
+      "잠입 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "잠입 액션",
+      "알타이르",
+      "하얀 후드"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Assassin's Creed",
+      "어쌔신 크리드",
+      "알타이르",
+      "하얀 후드",
+      "건물 오르기",
+      "숨은 칼"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Assassin%27s%20Creed",
+    "coverUrl": "assets/covers/assassins-creed.svg",
+    "fallbackCoverUrl": "assets/covers/assassins-creed.svg",
+    "color": "#8d5c2a",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 알타이르, 하얀 후드, 건물 오르기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "crysis",
+    "title": "Crysis",
+    "year": 2007,
+    "genres": [
+      "1인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "1인칭 슈팅",
+      "나노슈트",
+      "정글 섬"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Crysis",
+      "크라이시스",
+      "나노슈트",
+      "정글 섬",
+      "은신과 힘 모드",
+      "외계인"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Crysis",
+    "coverUrl": "assets/covers/crysis.svg",
+    "fallbackCoverUrl": "assets/covers/crysis.svg",
+    "color": "#5eb62f",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 나노슈트, 정글 섬, 은신과 힘 모드 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "uncharted-drakes-fortune",
+    "title": "Uncharted: Drake's Fortune",
+    "year": 2007,
+    "genres": [
+      "액션 어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 어드벤처",
+      "네이선 드레이크",
+      "열대 유적"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Uncharted: Drake's Fortune",
+      "언차티드 엘도라도의 보물",
+      "네이선 드레이크",
+      "열대 유적",
+      "엄폐 사격",
+      "보물 지도"
+    ],
+    "storeUrl": "https://store.playstation.com/en-us/search/Uncharted%3A%20Drake%27s%20Fortune",
+    "coverUrl": "assets/covers/uncharted-drakes-fortune.svg",
+    "fallbackCoverUrl": "assets/covers/uncharted-drakes-fortune.svg",
+    "color": "#aa314b",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 네이선 드레이크, 열대 유적, 엄폐 사격 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-witcher",
+    "title": "The Witcher",
+    "year": 2007,
+    "genres": [
+      "액션 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 RPG",
+      "리비아의 게롤트",
+      "은검"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "The Witcher",
+      "더 위쳐",
+      "리비아의 게롤트",
+      "은검",
+      "물약",
+      "카드 수집"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=The%20Witcher",
+    "coverUrl": "assets/covers/the-witcher.svg",
+    "fallbackCoverUrl": "assets/covers/the-witcher.svg",
+    "color": "#973590",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 리비아의 게롤트, 은검, 물약 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "call-of-duty-4-modern-warfare",
+    "title": "Call of Duty 4: Modern Warfare",
+    "year": 2007,
+    "genres": [
+      "1인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "1인칭 슈팅",
+      "프라이스 대위",
+      "길리슈트 저격"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Call of Duty 4: Modern Warfare",
+      "콜 오브 듀티 4 모던 워페어",
+      "프라이스 대위",
+      "길리슈트 저격",
+      "핵폭발",
+      "킬스트릭"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Call%20of%20Duty%204%3A%20Modern%20Warfare",
+    "coverUrl": "assets/covers/call-of-duty-4-modern-warfare.svg",
+    "fallbackCoverUrl": "assets/covers/call-of-duty-4-modern-warfare.svg",
+    "color": "#308d32",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 프라이스 대위, 길리슈트 저격, 핵폭발 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "super-mario-galaxy",
+    "title": "Super Mario Galaxy",
+    "year": 2007,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "플랫포머",
+      "작은 행성",
+      "중력 회전"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Super Mario Galaxy",
+      "슈퍼 마리오 갤럭시",
+      "작은 행성",
+      "중력 회전",
+      "로젤리나",
+      "별 조각"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Super%20Mario%20Galaxy",
+    "coverUrl": "assets/covers/super-mario-galaxy.svg",
+    "fallbackCoverUrl": "assets/covers/super-mario-galaxy.svg",
+    "color": "#b231b4",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 작은 행성, 중력 회전, 로젤리나 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "halo-3",
+    "title": "Halo 3",
+    "year": 2007,
+    "genres": [
+      "1인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "1인칭 슈팅",
+      "마스터 치프",
+      "에너지 검"
+    ],
+    "modes": [
+      "싱글",
+      "협동",
+      "멀티"
+    ],
+    "platforms": [
+      "Xbox"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Halo 3",
+      "헤일로 3",
+      "마스터 치프",
+      "에너지 검",
+      "워트호그",
+      "온라인 멀티"
+    ],
+    "storeUrl": "https://www.xbox.com/en-US/search/results?q=Halo%203",
+    "coverUrl": "assets/covers/halo-3.svg",
+    "fallbackCoverUrl": "assets/covers/halo-3.svg",
+    "color": "#a13696",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 마스터 치프, 에너지 검, 워트호그 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "skate",
+    "title": "Skate",
+    "year": 2007,
+    "genres": [
+      "스포츠"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "스포츠",
+      "오른쪽 스틱 플릭",
+      "스케이트보드"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Skate",
+      "스케이트",
+      "오른쪽 스틱 플릭",
+      "스케이트보드",
+      "도시 계단",
+      "리플레이 카메라"
+    ],
+    "storeUrl": "https://store.playstation.com/en-us/search/Skate",
+    "coverUrl": "assets/covers/skate.svg",
+    "fallbackCoverUrl": "assets/covers/skate.svg",
+    "color": "#389f64",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 오른쪽 스틱 플릭, 스케이트보드, 도시 계단 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "rock-band",
+    "title": "Rock Band",
+    "year": 2007,
+    "genres": [
+      "리듬"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "리듬",
+      "기타 드럼 마이크",
+      "네 명 합주"
+    ],
+    "modes": [
+      "싱글",
+      "협동",
+      "멀티"
+    ],
+    "platforms": [
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Rock Band",
+      "록 밴드",
+      "기타 드럼 마이크",
+      "네 명 합주",
+      "색 노트",
+      "월드 투어"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Rock%20Band",
+    "coverUrl": "assets/covers/rock-band.svg",
+    "fallbackCoverUrl": "assets/covers/rock-band.svg",
+    "color": "#922a4b",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 기타 드럼 마이크, 네 명 합주, 색 노트 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "s-t-a-l-k-e-r-shadow-of-chernobyl",
+    "title": "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+    "year": 2007,
+    "genres": [
+      "생존 FPS"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "생존 FPS",
+      "체르노빌 존",
+      "방사능"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "S.T.A.L.K.E.R.: Shadow of Chernobyl",
+      "스토커 섀도 오브 체르노빌",
+      "체르노빌 존",
+      "방사능",
+      "볼트 던지기",
+      "뮤턴트"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=S.T.A.L.K.E.R.%3A%20Shadow%20of%20Chernobyl",
+    "coverUrl": "assets/covers/s-t-a-l-k-e-r-shadow-of-chernobyl.svg",
+    "fallbackCoverUrl": "assets/covers/s-t-a-l-k-e-r-shadow-of-chernobyl.svg",
+    "color": "#7e3399",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 체르노빌 존, 방사능, 볼트 던지기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-world-ends-with-you",
+    "title": "The World Ends with You",
+    "year": 2007,
+    "genres": [
+      "액션 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 RPG",
+      "시부야",
+      "핀 배지"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "The World Ends with You",
+      "멋진 이 세계",
+      "시부야",
+      "핀 배지",
+      "DS 두 화면 전투",
+      "네쿠 헤드폰"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=The%20World%20Ends%20with%20You",
+    "coverUrl": "assets/covers/the-world-ends-with-you.svg",
+    "fallbackCoverUrl": "assets/covers/the-world-ends-with-you.svg",
+    "color": "#a53d31",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 시부야, 핀 배지, DS 두 화면 전투 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "professor-layton-and-the-curious-village",
+    "title": "Professor Layton and the Curious Village",
+    "year": 2007,
+    "genres": [
+      "퍼즐 어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "퍼즐 어드벤처",
+      "실크햇 교수",
+      "수수께끼 문제"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Professor Layton and the Curious Village",
+      "레이튼 교수와 이상한 마을",
+      "실크햇 교수",
+      "수수께끼 문제",
+      "루크",
+      "기계 마을"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Professor%20Layton%20and%20the%20Curious%20Village",
+    "coverUrl": "assets/covers/professor-layton-and-the-curious-village.svg",
+    "fallbackCoverUrl": "assets/covers/professor-layton-and-the-curious-village.svg",
+    "color": "#279629",
+    "summary": "2007년의 PC·콘솔·휴대용 추억 게임. 실크햇 교수, 수수께끼 문제, 루크 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "grand-theft-auto-iv",
+    "title": "Grand Theft Auto IV",
+    "year": 2008,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "니코 벨릭",
+      "리버티 시티"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Grand Theft Auto IV",
+      "GTA 4",
+      "그랜드 테프트 오토 4",
+      "니코 벨릭",
+      "리버티 시티",
+      "휴대전화",
+      "볼링 약속"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Grand%20Theft%20Auto%20IV",
+    "coverUrl": "assets/covers/grand-theft-auto-iv.svg",
+    "fallbackCoverUrl": "assets/covers/grand-theft-auto-iv.svg",
+    "color": "#a53139",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 니코 벨릭, 리버티 시티, 휴대전화 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "left-4-dead",
+    "title": "Left 4 Dead",
+    "year": 2008,
+    "genres": [
+      "협동 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "협동 슈팅",
+      "4인 생존자",
+      "좀비 러시"
+    ],
+    "modes": [
+      "싱글",
+      "협동",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Left 4 Dead",
+      "레프트 4 데드",
+      "4인 생존자",
+      "좀비 러시",
+      "탱크와 위치",
+      "세이프룸"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Left%204%20Dead",
+    "coverUrl": "assets/covers/left-4-dead.svg",
+    "fallbackCoverUrl": "assets/covers/left-4-dead.svg",
+    "color": "#b231b4",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 4인 생존자, 좀비 러시, 탱크와 위치 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "fallout-3",
+    "title": "Fallout 3",
+    "year": 2008,
+    "genres": [
+      "오픈월드 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 RPG",
+      "볼트 101",
+      "핍보이"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Fallout 3",
+      "폴아웃 3",
+      "볼트 101",
+      "핍보이",
+      "VATS 조준",
+      "황무지"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Fallout%203",
+    "coverUrl": "assets/covers/fallout-3.svg",
+    "fallbackCoverUrl": "assets/covers/fallout-3.svg",
+    "color": "#6f308d",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 볼트 101, 핍보이, VATS 조준 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "dead-space",
+    "title": "Dead Space",
+    "year": 2008,
+    "genres": [
+      "서바이벌 호러"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "서바이벌 호러",
+      "아이작 우주복",
+      "네크로모프"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Dead Space",
+      "데드 스페이스",
+      "아이작 우주복",
+      "네크로모프",
+      "사지 절단",
+      "이시무라 호"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Dead%20Space",
+    "coverUrl": "assets/covers/dead-space.svg",
+    "fallbackCoverUrl": "assets/covers/dead-space.svg",
+    "color": "#2d9a44",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 아이작 우주복, 네크로모프, 사지 절단 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "mirrors-edge",
+    "title": "Mirror's Edge",
+    "year": 2008,
+    "genres": [
+      "1인칭 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "1인칭 액션",
+      "페이스",
+      "빨간 길 표시"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Mirror's Edge",
+      "미러스 엣지",
+      "페이스",
+      "빨간 길 표시",
+      "옥상 파쿠르",
+      "하얀 도시"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Mirror%27s%20Edge",
+    "coverUrl": "assets/covers/mirrors-edge.svg",
+    "fallbackCoverUrl": "assets/covers/mirrors-edge.svg",
+    "color": "#7f3aa6",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 페이스, 빨간 길 표시, 옥상 파쿠르 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "far-cry-2",
+    "title": "Far Cry 2",
+    "year": 2008,
+    "genres": [
+      "오픈월드 FPS"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 FPS",
+      "아프리카 사바나",
+      "말라리아 약"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Far Cry 2",
+      "파 크라이 2",
+      "아프리카 사바나",
+      "말라리아 약",
+      "불 번짐",
+      "총기 고장"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Far%20Cry%202",
+    "coverUrl": "assets/covers/far-cry-2.svg",
+    "fallbackCoverUrl": "assets/covers/far-cry-2.svg",
+    "color": "#532fac",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 아프리카 사바나, 말라리아 약, 불 번짐 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "littlebigplanet",
+    "title": "LittleBigPlanet",
+    "year": 2008,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "플랫포머",
+      "봉제인형 색보이",
+      "스티커"
+    ],
+    "modes": [
+      "싱글",
+      "협동",
+      "멀티"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "LittleBigPlanet",
+      "리틀빅플래닛",
+      "봉제인형 색보이",
+      "스티커",
+      "레벨 만들기",
+      "골판지 세계"
+    ],
+    "storeUrl": "https://store.playstation.com/en-us/search/LittleBigPlanet",
+    "coverUrl": "assets/covers/littlebigplanet.svg",
+    "fallbackCoverUrl": "assets/covers/littlebigplanet.svg",
+    "color": "#9da92d",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 봉제인형 색보이, 스티커, 레벨 만들기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "spore",
+    "title": "Spore",
+    "year": 2008,
+    "genres": [
+      "생명 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "생명 시뮬레이션",
+      "세포부터 우주",
+      "생물 만들기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Spore",
+      "스포어",
+      "세포부터 우주",
+      "생물 만들기",
+      "다리와 입 조립",
+      "행성 탐험"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Spore",
+    "coverUrl": "assets/covers/spore.svg",
+    "fallbackCoverUrl": "assets/covers/spore.svg",
+    "color": "#319647",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 세포부터 우주, 생물 만들기, 다리와 입 조립 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "burnout-paradise",
+    "title": "Burnout Paradise",
+    "year": 2008,
+    "genres": [
+      "오픈월드 레이싱"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 레이싱",
+      "파라다이스 시티",
+      "충돌 슬로모션"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Burnout Paradise",
+      "번아웃 파라다이스",
+      "파라다이스 시티",
+      "충돌 슬로모션",
+      "교차로 레이스",
+      "자동차 점프"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Burnout%20Paradise",
+    "coverUrl": "assets/covers/burnout-paradise.svg",
+    "fallbackCoverUrl": "assets/covers/burnout-paradise.svg",
+    "color": "#9c2b5e",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 파라다이스 시티, 충돌 슬로모션, 교차로 레이스 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "persona-4",
+    "title": "Persona 4",
+    "year": 2008,
+    "genres": [
+      "JRPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "JRPG",
+      "노란 안개",
+      "TV 속 세계"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Persona 4",
+      "페르소나 4",
+      "노란 안개",
+      "TV 속 세계",
+      "시골 이나바",
+      "곰 캐릭터"
+    ],
+    "storeUrl": "https://store.playstation.com/en-us/search/Persona%204",
+    "coverUrl": "assets/covers/persona-4.svg",
+    "fallbackCoverUrl": "assets/covers/persona-4.svg",
+    "color": "#39a22f",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 노란 안개, TV 속 세계, 시골 이나바 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "mario-kart-wii",
+    "title": "Mario Kart Wii",
+    "year": 2008,
+    "genres": [
+      "카트 레이싱"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "카트 레이싱",
+      "Wii 핸들",
+      "오토바이"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Mario Kart Wii",
+      "마리오 카트 Wii",
+      "Wii 핸들",
+      "오토바이",
+      "무지개 로드",
+      "파란 등껍질"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Mario%20Kart%20Wii",
+    "coverUrl": "assets/covers/mario-kart-wii.svg",
+    "fallbackCoverUrl": "assets/covers/mario-kart-wii.svg",
+    "color": "#943833",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. Wii 핸들, 오토바이, 무지개 로드 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "super-smash-bros-brawl",
+    "title": "Super Smash Bros. Brawl",
+    "year": 2008,
+    "genres": [
+      "대전 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "대전 액션",
+      "닌텐도 캐릭터",
+      "최후의 일격"
+    ],
+    "modes": [
+      "싱글",
+      "협동",
+      "경쟁"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Super Smash Bros. Brawl",
+      "대난투 스매시브라더스 X",
+      "닌텐도 캐릭터",
+      "최후의 일격",
+      "아공의 사자",
+      "4인 대전"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Super%20Smash%20Bros.%20Brawl",
+    "coverUrl": "assets/covers/super-smash-bros-brawl.svg",
+    "fallbackCoverUrl": "assets/covers/super-smash-bros-brawl.svg",
+    "color": "#6b8a2e",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 닌텐도 캐릭터, 최후의 일격, 아공의 사자 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "world-of-goo",
+    "title": "World of Goo",
+    "year": 2008,
+    "genres": [
+      "물리 퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "물리 퍼즐",
+      "검은 구슬",
+      "구조물 연결"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "World of Goo",
+      "월드 오브 구",
+      "검은 구슬",
+      "구조물 연결",
+      "파이프",
+      "흔들리는 탑"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=World%20of%20Goo",
+    "coverUrl": "assets/covers/world-of-goo.svg",
+    "fallbackCoverUrl": "assets/covers/world-of-goo.svg",
+    "color": "#6f9537",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 검은 구슬, 구조물 연결, 파이프 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "braid",
+    "title": "Braid",
+    "year": 2008,
+    "genres": [
+      "퍼즐 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "퍼즐 플랫포머",
+      "시간 되감기",
+      "정장 남자 팀"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Braid",
+      "브레이드",
+      "시간 되감기",
+      "정장 남자 팀",
+      "퍼즐 조각",
+      "불타는 도시"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Braid",
+    "coverUrl": "assets/covers/braid.svg",
+    "fallbackCoverUrl": "assets/covers/braid.svg",
+    "color": "#a1332b",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 시간 되감기, 정장 남자 팀, 퍼즐 조각 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "castle-crashers",
+    "title": "Castle Crashers",
+    "year": 2008,
+    "genres": [
+      "벨트스크롤 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "벨트스크롤 액션",
+      "색깔 기사 네 명",
+      "야만인"
+    ],
+    "modes": [
+      "싱글",
+      "협동",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Castle Crashers",
+      "캐슬 크래셔",
+      "색깔 기사 네 명",
+      "야만인",
+      "동물 동료",
+      "4인 난투"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Castle%20Crashers",
+    "coverUrl": "assets/covers/castle-crashers.svg",
+    "fallbackCoverUrl": "assets/covers/castle-crashers.svg",
+    "color": "#2d9f34",
+    "summary": "2008년의 PC·콘솔·휴대용 추억 게임. 색깔 기사 네 명, 야만인, 동물 동료 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "borderlands",
+    "title": "Borderlands",
+    "year": 2009,
+    "genres": [
+      "루트 슈터"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "루트 슈터",
+      "판도라 사막",
+      "카툰 셰이딩"
+    ],
+    "modes": [
+      "싱글",
+      "협동",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Borderlands",
+      "보더랜드",
+      "판도라 사막",
+      "카툰 셰이딩",
+      "수많은 총",
+      "볼트"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Borderlands",
+    "coverUrl": "assets/covers/borderlands.svg",
+    "fallbackCoverUrl": "assets/covers/borderlands.svg",
+    "color": "#2fa0b1",
+    "summary": "2009년의 PC·콘솔·휴대용 추억 게임. 판도라 사막, 카툰 셰이딩, 수많은 총 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "assassins-creed-ii",
+    "title": "Assassin's Creed II",
+    "year": 2009,
+    "genres": [
+      "잠입 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "잠입 액션",
+      "에지오",
+      "르네상스 이탈리아"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Assassin's Creed II",
+      "어쌔신 크리드 2",
+      "에지오",
+      "르네상스 이탈리아",
+      "다빈치",
+      "쌍 히든 블레이드"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Assassin%27s%20Creed%20II",
+    "coverUrl": "assets/covers/assassins-creed-ii.svg",
+    "fallbackCoverUrl": "assets/covers/assassins-creed-ii.svg",
+    "color": "#8e9235",
+    "summary": "2009년의 PC·콘솔·휴대용 추억 게임. 에지오, 르네상스 이탈리아, 다빈치 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "batman-arkham-asylum",
+    "title": "Batman: Arkham Asylum",
+    "year": 2009,
+    "genres": [
+      "액션 어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 어드벤처",
+      "탐정 모드",
+      "조커"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Batman: Arkham Asylum",
+      "배트맨 아캄 어사일럼",
+      "탐정 모드",
+      "조커",
+      "리듬 격투",
+      "정신병원"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Batman%3A%20Arkham%20Asylum",
+    "coverUrl": "assets/covers/batman-arkham-asylum.svg",
+    "fallbackCoverUrl": "assets/covers/batman-arkham-asylum.svg",
+    "color": "#34ad95",
+    "summary": "2009년의 PC·콘솔·휴대용 추억 게임. 탐정 모드, 조커, 리듬 격투 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "dragon-age-origins",
+    "title": "Dragon Age: Origins",
+    "year": 2009,
+    "genres": [
+      "파티 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "파티 RPG",
+      "회색 감시자",
+      "전술 일시정지"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Dragon Age: Origins",
+      "드래곤 에이지 오리진",
+      "회색 감시자",
+      "전술 일시정지",
+      "동료 대화",
+      "다크스폰"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Dragon%20Age%3A%20Origins",
+    "coverUrl": "assets/covers/dragon-age-origins.svg",
+    "fallbackCoverUrl": "assets/covers/dragon-age-origins.svg",
+    "color": "#2c4c90",
+    "summary": "2009년의 PC·콘솔·휴대용 추억 게임. 회색 감시자, 전술 일시정지, 동료 대화 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "prototype",
+    "title": "Prototype",
+    "year": 2009,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "알렉스 머서",
+      "검은 바이러스"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Prototype",
+      "프로토타입",
+      "알렉스 머서",
+      "검은 바이러스",
+      "팔이 칼로 변형",
+      "뉴욕 활공"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Prototype",
+    "coverUrl": "assets/covers/prototype.svg",
+    "fallbackCoverUrl": "assets/covers/prototype.svg",
+    "color": "#864032",
+    "summary": "2009년의 PC·콘솔·휴대용 추억 게임. 알렉스 머서, 검은 바이러스, 팔이 칼로 변형 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "infamous",
+    "title": "inFAMOUS",
+    "year": 2009,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "콜 맥그래스",
+      "전기 능력"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "inFAMOUS",
+      "인퍼머스",
+      "콜 맥그래스",
+      "전기 능력",
+      "도덕 선택",
+      "철로 타기"
+    ],
+    "storeUrl": "https://store.playstation.com/en-us/search/inFAMOUS",
+    "coverUrl": "assets/covers/infamous.svg",
+    "fallbackCoverUrl": "assets/covers/infamous.svg",
+    "color": "#326a86",
+    "summary": "2009년의 PC·콘솔·휴대용 추억 게임. 콜 맥그래스, 전기 능력, 도덕 선택 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "bayonetta",
+    "title": "Bayonetta",
+    "year": 2009,
+    "genres": [
+      "액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션",
+      "안경 마녀",
+      "머리카락 악마"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Xbox",
+      "PlayStation",
+      "Nintendo",
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2000년대",
+    "memory": [
+      "Bayonetta",
+      "베요네타",
+      "안경 마녀",
+      "머리카락 악마",
+      "위치 타임",
+      "하이힐 총"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Bayonetta",
+    "coverUrl": "assets/covers/bayonetta.svg",
+    "fallbackCoverUrl": "assets/covers/bayonetta.svg",
+    "color": "#2da486",
+    "summary": "2009년의 PC·콘솔·휴대용 추억 게임. 안경 마녀, 머리카락 악마, 위치 타임 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "plants-vs-zombies",
+    "title": "Plants vs. Zombies",
+    "year": 2009,
+    "genres": [
+      "타워 디펜스"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "타워 디펜스",
+      "해바라기",
+      "잔디 다섯 줄"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Plants vs. Zombies",
+      "식물 대 좀비",
+      "해바라기",
+      "잔디 다섯 줄",
+      "완두콩 슈터",
+      "양동이 좀비"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Plants%20vs.%20Zombies",
+    "coverUrl": "assets/covers/plants-vs-zombies.svg",
+    "fallbackCoverUrl": "assets/covers/plants-vs-zombies.svg",
+    "color": "#7e288f",
+    "summary": "2009년의 PC·콘솔·휴대용 추억 게임. 해바라기, 잔디 다섯 줄, 완두콩 슈터 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "angry-birds",
+    "title": "Angry Birds",
+    "year": 2009,
+    "genres": [
+      "물리 퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "물리 퍼즐",
+      "새총",
+      "초록 돼지"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Mobile",
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2000년대",
+    "memory": [
+      "Angry Birds",
+      "앵그리버드",
+      "새총",
+      "초록 돼지",
+      "빨간 새",
+      "블록 성 무너뜨리기"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Angry%20Birds",
+    "coverUrl": "assets/covers/angry-birds.svg",
+    "fallbackCoverUrl": "assets/covers/angry-birds.svg",
+    "color": "#9d922f",
+    "summary": "2009년의 PC·콘솔·휴대용 추억 게임. 새총, 초록 돼지, 빨간 새 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "mass-effect-2",
+    "title": "Mass Effect 2",
+    "year": 2010,
+    "genres": [
+      "액션 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 RPG",
+      "셰퍼드 부활",
+      "동료 충성 임무"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Mass Effect 2",
+      "매스 이펙트 2",
+      "셰퍼드 부활",
+      "동료 충성 임무",
+      "노르망디",
+      "자살 임무"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Mass%20Effect%202",
+    "coverUrl": "assets/covers/mass-effect-2.svg",
+    "fallbackCoverUrl": "assets/covers/mass-effect-2.svg",
+    "color": "#95339e",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 셰퍼드 부활, 동료 충성 임무, 노르망디 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "red-dead-redemption",
+    "title": "Red Dead Redemption",
+    "year": 2010,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "존 마스턴",
+      "서부 황야"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Red Dead Redemption",
+      "레드 데드 리뎀션",
+      "존 마스턴",
+      "서부 황야",
+      "데드아이",
+      "말 타기"
+    ],
+    "storeUrl": "https://store.playstation.com/en-us/search/Red%20Dead%20Redemption",
+    "coverUrl": "assets/covers/red-dead-redemption.svg",
+    "fallbackCoverUrl": "assets/covers/red-dead-redemption.svg",
+    "color": "#8c2c2c",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 존 마스턴, 서부 황야, 데드아이 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "fallout-new-vegas",
+    "title": "Fallout: New Vegas",
+    "year": 2010,
+    "genres": [
+      "오픈월드 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 RPG",
+      "모하비 사막",
+      "카지노 스트립"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Fallout: New Vegas",
+      "폴아웃 뉴 베가스",
+      "모하비 사막",
+      "카지노 스트립",
+      "배달부",
+      "세력 선택"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Fallout%3A%20New%20Vegas",
+    "coverUrl": "assets/covers/fallout-new-vegas.svg",
+    "fallbackCoverUrl": "assets/covers/fallout-new-vegas.svg",
+    "color": "#ac2f9e",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 모하비 사막, 카지노 스트립, 배달부 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "starcraft-ii-wings-of-liberty",
+    "title": "StarCraft II: Wings of Liberty",
+    "year": 2010,
+    "genres": [
+      "실시간 전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "실시간 전략",
+      "짐 레이너",
+      "테란 캠페인"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "StarCraft II: Wings of Liberty",
+      "스타크래프트 2 자유의 날개",
+      "짐 레이너",
+      "테란 캠페인",
+      "광물과 가스",
+      "배틀넷 래더"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=StarCraft%20II%3A%20Wings%20of%20Liberty",
+    "coverUrl": "assets/covers/starcraft-ii-wings-of-liberty.svg",
+    "fallbackCoverUrl": "assets/covers/starcraft-ii-wings-of-liberty.svg",
+    "color": "#9bab36",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 짐 레이너, 테란 캠페인, 광물과 가스 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "sid-meiers-civilization-v",
+    "title": "Sid Meier's Civilization V",
+    "year": 2010,
+    "genres": [
+      "턴제 전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "턴제 전략",
+      "육각 타일",
+      "한 턴만 더"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Sid Meier's Civilization V",
+      "문명 5",
+      "육각 타일",
+      "한 턴만 더",
+      "간디",
+      "불가사의"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Sid%20Meier%27s%20Civilization%20V",
+    "coverUrl": "assets/covers/sid-meiers-civilization-v.svg",
+    "fallbackCoverUrl": "assets/covers/sid-meiers-civilization-v.svg",
+    "color": "#3da9a7",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 육각 타일, 한 턴만 더, 간디 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "alan-wake",
+    "title": "Alan Wake",
+    "year": 2010,
+    "genres": [
+      "액션 어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 어드벤처",
+      "작가 앨런",
+      "손전등"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Xbox",
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Alan Wake",
+      "앨런 웨이크",
+      "작가 앨런",
+      "손전등",
+      "어둠에 씌인 적",
+      "브라이트 폴즈"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Alan%20Wake",
+    "coverUrl": "assets/covers/alan-wake.svg",
+    "fallbackCoverUrl": "assets/covers/alan-wake.svg",
+    "color": "#a35638",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 작가 앨런, 손전등, 어둠에 씌인 적 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "heavy-rain",
+    "title": "Heavy Rain",
+    "year": 2010,
+    "genres": [
+      "인터랙티브 드라마"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "인터랙티브 드라마",
+      "종이접기 살인마",
+      "네 명 주인공"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PlayStation",
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Heavy Rain",
+      "헤비 레인",
+      "종이접기 살인마",
+      "네 명 주인공",
+      "버튼 선택",
+      "폭우"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Heavy%20Rain",
+    "coverUrl": "assets/covers/heavy-rain.svg",
+    "fallbackCoverUrl": "assets/covers/heavy-rain.svg",
+    "color": "#325c86",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 종이접기 살인마, 네 명 주인공, 버튼 선택 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "darksiders",
+    "title": "Darksiders",
+    "year": 2010,
+    "genres": [
+      "액션 어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 어드벤처",
+      "묵시록의 기수 워",
+      "거대한 검"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Darksiders",
+      "다크사이더스",
+      "묵시록의 기수 워",
+      "거대한 검",
+      "폐허 도시",
+      "천사와 악마"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Darksiders",
+    "coverUrl": "assets/covers/darksiders.svg",
+    "fallbackCoverUrl": "assets/covers/darksiders.svg",
+    "color": "#3688ab",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 묵시록의 기수 워, 거대한 검, 폐허 도시 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "just-cause-2",
+    "title": "Just Cause 2",
+    "year": 2010,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "갈고리와 낙하산",
+      "파나우 섬"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Just Cause 2",
+      "저스트 코즈 2",
+      "갈고리와 낙하산",
+      "파나우 섬",
+      "물체 연결",
+      "거대한 폭발"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Just%20Cause%202",
+    "coverUrl": "assets/covers/just-cause-2.svg",
+    "fallbackCoverUrl": "assets/covers/just-cause-2.svg",
+    "color": "#359287",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 갈고리와 낙하산, 파나우 섬, 물체 연결 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "mafia-ii",
+    "title": "Mafia II",
+    "year": 2010,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "비토 스칼레타",
+      "1940년대 도시"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Mafia II",
+      "마피아 2",
+      "비토 스칼레타",
+      "1940년대 도시",
+      "겨울 자동차",
+      "마피아 가족"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Mafia%20II",
+    "coverUrl": "assets/covers/mafia-ii.svg",
+    "fallbackCoverUrl": "assets/covers/mafia-ii.svg",
+    "color": "#3a50a1",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 비토 스칼레타, 1940년대 도시, 겨울 자동차 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "metro-2033",
+    "title": "Metro 2033",
+    "year": 2010,
+    "genres": [
+      "생존 FPS"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "생존 FPS",
+      "모스크바 지하철",
+      "방독면 필터"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Metro 2033",
+      "메트로 2033",
+      "모스크바 지하철",
+      "방독면 필터",
+      "돌연변이",
+      "총알 화폐"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Metro%202033",
+    "coverUrl": "assets/covers/metro-2033.svg",
+    "fallbackCoverUrl": "assets/covers/metro-2033.svg",
+    "color": "#2f3a9d",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 모스크바 지하철, 방독면 필터, 돌연변이 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "super-meat-boy",
+    "title": "Super Meat Boy",
+    "year": 2010,
+    "genres": [
+      "정밀 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "정밀 플랫포머",
+      "빨간 고기 소년",
+      "톱날"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Super Meat Boy",
+      "슈퍼 미트 보이",
+      "빨간 고기 소년",
+      "톱날",
+      "벽 점프",
+      "붕대걸"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Super%20Meat%20Boy",
+    "coverUrl": "assets/covers/super-meat-boy.svg",
+    "fallbackCoverUrl": "assets/covers/super-meat-boy.svg",
+    "color": "#2f49b1",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 빨간 고기 소년, 톱날, 벽 점프 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "amnesia-the-dark-descent",
+    "title": "Amnesia: The Dark Descent",
+    "year": 2010,
+    "genres": [
+      "서바이벌 호러"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "서바이벌 호러",
+      "등불 기름",
+      "정신력"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Amnesia: The Dark Descent",
+      "암네시아 더 다크 디센트",
+      "등불 기름",
+      "정신력",
+      "어두운 성",
+      "괴물에게 숨기"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Amnesia%3A%20The%20Dark%20Descent",
+    "coverUrl": "assets/covers/amnesia-the-dark-descent.svg",
+    "fallbackCoverUrl": "assets/covers/amnesia-the-dark-descent.svg",
+    "color": "#2c4c8c",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 등불 기름, 정신력, 어두운 성 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "skate-3",
+    "title": "Skate 3",
+    "year": 2010,
+    "genres": [
+      "스포츠"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "스포츠",
+      "스틱 트릭",
+      "홀 오브 미트"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Skate 3",
+      "스케이트 3",
+      "스틱 트릭",
+      "홀 오브 미트",
+      "스케이트 팀",
+      "도시 공원"
+    ],
+    "storeUrl": "https://store.playstation.com/en-us/search/Skate%203",
+    "coverUrl": "assets/covers/skate-3.svg",
+    "fallbackCoverUrl": "assets/covers/skate-3.svg",
+    "color": "#4231af",
+    "summary": "2010년의 PC·콘솔·휴대용 추억 게임. 스틱 트릭, 홀 오브 미트, 스케이트 팀 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "l-a-noire",
+    "title": "L.A. Noire",
+    "year": 2011,
+    "genres": [
+      "수사 어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "수사 어드벤처",
+      "형사 콜 펠프스",
+      "표정 읽기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "L.A. Noire",
+      "LA 느와르",
+      "형사 콜 펠프스",
+      "표정 읽기",
+      "신문 단서",
+      "1940년대 LA"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=L.A.%20Noire",
+    "coverUrl": "assets/covers/l-a-noire.svg",
+    "fallbackCoverUrl": "assets/covers/l-a-noire.svg",
+    "color": "#9c443a",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 형사 콜 펠프스, 표정 읽기, 신문 단서 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "deus-ex-human-revolution",
+    "title": "Deus Ex: Human Revolution",
+    "year": 2011,
+    "genres": [
+      "액션 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 RPG",
+      "아담 젠슨",
+      "황금색 미래"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Deus Ex: Human Revolution",
+      "데이어스 엑스 휴먼 레볼루션",
+      "아담 젠슨",
+      "황금색 미래",
+      "신체 증강",
+      "환풍구 잠입"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Deus%20Ex%3A%20Human%20Revolution",
+    "coverUrl": "assets/covers/deus-ex-human-revolution.svg",
+    "fallbackCoverUrl": "assets/covers/deus-ex-human-revolution.svg",
+    "color": "#308d50",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 아담 젠슨, 황금색 미래, 신체 증강 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "dead-space-2",
+    "title": "Dead Space 2",
+    "year": 2011,
+    "genres": [
+      "서바이벌 호러"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "서바이벌 호러",
+      "아이작",
+      "스프로울 우주도시"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Dead Space 2",
+      "데드 스페이스 2",
+      "아이작",
+      "스프로울 우주도시",
+      "네크로모프",
+      "무중력 비행"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Dead%20Space%202",
+    "coverUrl": "assets/covers/dead-space-2.svg",
+    "fallbackCoverUrl": "assets/covers/dead-space-2.svg",
+    "color": "#afab31",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 아이작, 스프로울 우주도시, 네크로모프 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "batman-arkham-city",
+    "title": "Batman: Arkham City",
+    "year": 2011,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "도시 활공",
+      "캣우먼"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Batman: Arkham City",
+      "배트맨 아캄 시티",
+      "도시 활공",
+      "캣우먼",
+      "프리즈",
+      "연속 콤보"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Batman%3A%20Arkham%20City",
+    "coverUrl": "assets/covers/batman-arkham-city.svg",
+    "fallbackCoverUrl": "assets/covers/batman-arkham-city.svg",
+    "color": "#8c2da9",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 도시 활공, 캣우먼, 프리즈 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "battlefield-3",
+    "title": "Battlefield 3",
+    "year": 2011,
+    "genres": [
+      "1인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "1인칭 슈팅",
+      "파란 렌즈 플레어",
+      "제트기"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Battlefield 3",
+      "배틀필드 3",
+      "파란 렌즈 플레어",
+      "제트기",
+      "64인 전장",
+      "건물 파괴"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Battlefield%203",
+    "coverUrl": "assets/covers/battlefield-3.svg",
+    "fallbackCoverUrl": "assets/covers/battlefield-3.svg",
+    "color": "#8f6432",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 파란 렌즈 플레어, 제트기, 64인 전장 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "gears-of-war-3",
+    "title": "Gears of War 3",
+    "year": 2011,
+    "genres": [
+      "3인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "3인칭 슈팅",
+      "마커스 피닉스",
+      "랜서 전기톱"
+    ],
+    "modes": [
+      "싱글",
+      "협동",
+      "멀티"
+    ],
+    "platforms": [
+      "Xbox"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Gears of War 3",
+      "기어스 오브 워 3",
+      "마커스 피닉스",
+      "랜서 전기톱",
+      "램번트",
+      "4인 협동"
+    ],
+    "storeUrl": "https://www.xbox.com/en-US/search/results?q=Gears%20of%20War%203",
+    "coverUrl": "assets/covers/gears-of-war-3.svg",
+    "fallbackCoverUrl": "assets/covers/gears-of-war-3.svg",
+    "color": "#5e2ba6",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 마커스 피닉스, 랜서 전기톱, 램번트 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "saints-row-the-third",
+    "title": "Saints Row: The Third",
+    "year": 2011,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "보라색 갱단",
+      "스틸포트"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Saints Row: The Third",
+      "세인츠 로우 더 서드",
+      "보라색 갱단",
+      "스틸포트",
+      "황당한 무기",
+      "캐릭터 꾸미기"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Saints%20Row%3A%20The%20Third",
+    "coverUrl": "assets/covers/saints-row-the-third.svg",
+    "fallbackCoverUrl": "assets/covers/saints-row-the-third.svg",
+    "color": "#349fb2",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 보라색 갱단, 스틸포트, 황당한 무기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "to-the-moon",
+    "title": "To the Moon",
+    "year": 2011,
+    "genres": [
+      "스토리 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "스토리 RPG",
+      "두 의사",
+      "죽어가는 노인 조니"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "To the Moon",
+      "투 더 문",
+      "두 의사",
+      "죽어가는 노인 조니",
+      "기억 속 여행",
+      "종이 토끼"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=To%20the%20Moon",
+    "coverUrl": "assets/covers/to-the-moon.svg",
+    "fallbackCoverUrl": "assets/covers/to-the-moon.svg",
+    "color": "#902c7e",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 두 의사, 죽어가는 노인 조니, 기억 속 여행 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "rayman-origins",
+    "title": "Rayman Origins",
+    "year": 2011,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "플랫포머",
+      "팔다리 없는 레이맨",
+      "손그림 숲"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Rayman Origins",
+      "레이맨 오리진",
+      "팔다리 없는 레이맨",
+      "손그림 숲",
+      "음악 스테이지",
+      "4인 협동"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Rayman%20Origins",
+    "coverUrl": "assets/covers/rayman-origins.svg",
+    "fallbackCoverUrl": "assets/covers/rayman-origins.svg",
+    "color": "#4434ad",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 팔다리 없는 레이맨, 손그림 숲, 음악 스테이지 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "littlebigplanet-2",
+    "title": "LittleBigPlanet 2",
+    "year": 2011,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "플랫포머",
+      "색보이",
+      "창작 도구"
+    ],
+    "modes": [
+      "싱글",
+      "협동",
+      "멀티"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "LittleBigPlanet 2",
+      "리틀빅플래닛 2",
+      "색보이",
+      "창작 도구",
+      "그래비네이터",
+      "커뮤니티 레벨"
+    ],
+    "storeUrl": "https://store.playstation.com/en-us/search/LittleBigPlanet%202",
+    "coverUrl": "assets/covers/littlebigplanet-2.svg",
+    "fallbackCoverUrl": "assets/covers/littlebigplanet-2.svg",
+    "color": "#8e2e3d",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 색보이, 창작 도구, 그래비네이터 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "catherine",
+    "title": "Catherine",
+    "year": 2011,
+    "genres": [
+      "퍼즐 어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "퍼즐 어드벤처",
+      "양 뿔 남자",
+      "블록 탑 오르기"
+    ],
+    "modes": [
+      "싱글",
+      "경쟁"
+    ],
+    "platforms": [
+      "Xbox",
+      "PlayStation",
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Catherine",
+      "캐서린",
+      "양 뿔 남자",
+      "블록 탑 오르기",
+      "연애 선택",
+      "악몽"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Catherine",
+    "coverUrl": "assets/covers/catherine.svg",
+    "fallbackCoverUrl": "assets/covers/catherine.svg",
+    "color": "#5fae2d",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 양 뿔 남자, 블록 탑 오르기, 연애 선택 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "sonic-generations",
+    "title": "Sonic Generations",
+    "year": 2011,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "플랫포머",
+      "클래식과 모던 소닉",
+      "초록 언덕"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Sonic Generations",
+      "소닉 제너레이션즈",
+      "클래식과 모던 소닉",
+      "초록 언덕",
+      "부스트",
+      "2D와 3D"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Sonic%20Generations",
+    "coverUrl": "assets/covers/sonic-generations.svg",
+    "fallbackCoverUrl": "assets/covers/sonic-generations.svg",
+    "color": "#36a164",
+    "summary": "2011년의 PC·콘솔·휴대용 추억 게임. 클래식과 모던 소닉, 초록 언덕, 부스트 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "dishonored",
+    "title": "Dishonored",
+    "year": 2012,
+    "genres": [
+      "잠입 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "잠입 액션",
+      "코르보 가면",
+      "순간이동"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Dishonored",
+      "디스아너드",
+      "코르보 가면",
+      "순간이동",
+      "쥐 떼",
+      "고래기름 도시"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Dishonored",
+    "coverUrl": "assets/covers/dishonored.svg",
+    "fallbackCoverUrl": "assets/covers/dishonored.svg",
+    "color": "#325d8b",
+    "summary": "2012년의 PC·콘솔·휴대용 추억 게임. 코르보 가면, 순간이동, 쥐 떼 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "mass-effect-3",
+    "title": "Mass Effect 3",
+    "year": 2012,
+    "genres": [
+      "액션 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 RPG",
+      "리퍼 침공",
+      "셰퍼드"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Mass Effect 3",
+      "매스 이펙트 3",
+      "리퍼 침공",
+      "셰퍼드",
+      "은하 전쟁",
+      "결말 선택"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Mass%20Effect%203",
+    "coverUrl": "assets/covers/mass-effect-3.svg",
+    "fallbackCoverUrl": "assets/covers/mass-effect-3.svg",
+    "color": "#9b33a3",
+    "summary": "2012년의 PC·콘솔·휴대용 추억 게임. 리퍼 침공, 셰퍼드, 은하 전쟁 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "far-cry-3",
+    "title": "Far Cry 3",
+    "year": 2012,
+    "genres": [
+      "오픈월드 FPS"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 FPS",
+      "바스",
+      "열대 섬"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Far Cry 3",
+      "파 크라이 3",
+      "바스",
+      "열대 섬",
+      "라디오 타워",
+      "동물 가죽 지갑"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Far%20Cry%203",
+    "coverUrl": "assets/covers/far-cry-3.svg",
+    "fallbackCoverUrl": "assets/covers/far-cry-3.svg",
+    "color": "#562fb1",
+    "summary": "2012년의 PC·콘솔·휴대용 추억 게임. 바스, 열대 섬, 라디오 타워 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "xcom-enemy-unknown",
+    "title": "XCOM: Enemy Unknown",
+    "year": 2012,
+    "genres": [
+      "턴제 전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "턴제 전략",
+      "외계인 침공",
+      "분대 엄폐"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "XCOM: Enemy Unknown",
+      "엑스컴 에너미 언노운",
+      "외계인 침공",
+      "분대 엄폐",
+      "영구 사망",
+      "기지 연구"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=XCOM%3A%20Enemy%20Unknown",
+    "coverUrl": "assets/covers/xcom-enemy-unknown.svg",
+    "fallbackCoverUrl": "assets/covers/xcom-enemy-unknown.svg",
+    "color": "#359268",
+    "summary": "2012년의 PC·콘솔·휴대용 추억 게임. 외계인 침공, 분대 엄폐, 영구 사망 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "dragons-dogma",
+    "title": "Dragon's Dogma",
+    "year": 2012,
+    "genres": [
+      "액션 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 RPG",
+      "거대한 그리핀 타기",
+      "폰 동료"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Xbox",
+      "PlayStation",
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Dragon's Dogma",
+      "드래곤즈 도그마",
+      "거대한 그리핀 타기",
+      "폰 동료",
+      "심장을 훔친 용",
+      "밤의 랜턴"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Dragon%27s%20Dogma",
+    "coverUrl": "assets/covers/dragons-dogma.svg",
+    "fallbackCoverUrl": "assets/covers/dragons-dogma.svg",
+    "color": "#a66836",
+    "summary": "2012년의 PC·콘솔·휴대용 추억 게임. 거대한 그리핀 타기, 폰 동료, 심장을 훔친 용 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "sleeping-dogs",
+    "title": "Sleeping Dogs",
+    "year": 2012,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "홍콩",
+      "웨이 션 잠입경찰"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Sleeping Dogs",
+      "슬리핑 독스",
+      "홍콩",
+      "웨이 션 잠입경찰",
+      "무술 격투",
+      "오토바이"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Sleeping%20Dogs",
+    "coverUrl": "assets/covers/sleeping-dogs.svg",
+    "fallbackCoverUrl": "assets/covers/sleeping-dogs.svg",
+    "color": "#36a655",
+    "summary": "2012년의 PC·콘솔·휴대용 추억 게임. 홍콩, 웨이 션 잠입경찰, 무술 격투 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "spec-ops-the-line",
+    "title": "Spec Ops: The Line",
+    "year": 2012,
+    "genres": [
+      "3인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "3인칭 슈팅",
+      "모래에 묻힌 두바이",
+      "워커 대위"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Spec Ops: The Line",
+      "스펙 옵스 더 라인",
+      "모래에 묻힌 두바이",
+      "워커 대위",
+      "백린탄",
+      "도덕 선택"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Spec%20Ops%3A%20The%20Line",
+    "coverUrl": "assets/covers/spec-ops-the-line.svg",
+    "fallbackCoverUrl": "assets/covers/spec-ops-the-line.svg",
+    "color": "#872ba6",
+    "summary": "2012년의 PC·콘솔·휴대용 추억 게임. 모래에 묻힌 두바이, 워커 대위, 백린탄 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "fez",
+    "title": "FEZ",
+    "year": 2012,
+    "genres": [
+      "퍼즐 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "퍼즐 플랫포머",
+      "하얀 모자 고메즈",
+      "2D 세계 회전"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "FEZ",
+      "페즈",
+      "하얀 모자 고메즈",
+      "2D 세계 회전",
+      "큐브 조각",
+      "픽셀 언어"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=FEZ",
+    "coverUrl": "assets/covers/fez.svg",
+    "fallbackCoverUrl": "assets/covers/fez.svg",
+    "color": "#35a62b",
+    "summary": "2012년의 PC·콘솔·휴대용 추억 게임. 하얀 모자 고메즈, 2D 세계 회전, 큐브 조각 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "guild-wars-2",
+    "title": "Guild Wars 2",
+    "year": 2012,
+    "genres": [
+      "MMORPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "MMORPG",
+      "티리아",
+      "월드 이벤트"
+    ],
+    "modes": [
+      "멀티"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Guild Wars 2",
+      "길드 워 2",
+      "티리아",
+      "월드 이벤트",
+      "무기별 스킬",
+      "월드 대 월드"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Guild%20Wars%202",
+    "coverUrl": "assets/covers/guild-wars-2.svg",
+    "fallbackCoverUrl": "assets/covers/guild-wars-2.svg",
+    "color": "#653a9c",
+    "summary": "2012년의 PC·콘솔·휴대용 추억 게임. 티리아, 월드 이벤트, 무기별 스킬 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "bioshock-infinite",
+    "title": "BioShock Infinite",
+    "year": 2013,
+    "genres": [
+      "1인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "1인칭 슈팅",
+      "하늘도시 컬럼비아",
+      "엘리자베스"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "BioShock Infinite",
+      "바이오쇼크 인피니트",
+      "하늘도시 컬럼비아",
+      "엘리자베스",
+      "스카이라인 갈고리",
+      "송버드"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=BioShock%20Infinite",
+    "coverUrl": "assets/covers/bioshock-infinite.svg",
+    "fallbackCoverUrl": "assets/covers/bioshock-infinite.svg",
+    "color": "#88ad38",
+    "summary": "2013년의 PC·콘솔·휴대용 추억 게임. 하늘도시 컬럼비아, 엘리자베스, 스카이라인 갈고리 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "tomb-raider",
+    "title": "Tomb Raider",
+    "year": 2013,
+    "genres": [
+      "액션 어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 어드벤처",
+      "젊은 라라",
+      "야마타이 섬"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Tomb Raider",
+      "툼 레이더 리부트",
+      "젊은 라라",
+      "야마타이 섬",
+      "활",
+      "생존 캠프"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Tomb%20Raider",
+    "coverUrl": "assets/covers/tomb-raider.svg",
+    "fallbackCoverUrl": "assets/covers/tomb-raider.svg",
+    "color": "#2a8d8d",
+    "summary": "2013년의 PC·콘솔·휴대용 추억 게임. 젊은 라라, 야마타이 섬, 활 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-stanley-parable",
+    "title": "The Stanley Parable",
+    "year": 2013,
+    "genres": [
+      "어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "어드벤처",
+      "빈 사무실",
+      "내레이터"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "The Stanley Parable",
+      "스탠리 패러블",
+      "빈 사무실",
+      "내레이터",
+      "두 문 선택",
+      "빗자루 벽장"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=The%20Stanley%20Parable",
+    "coverUrl": "assets/covers/the-stanley-parable.svg",
+    "fallbackCoverUrl": "assets/covers/the-stanley-parable.svg",
+    "color": "#ad344c",
+    "summary": "2013년의 PC·콘솔·휴대용 추억 게임. 빈 사무실, 내레이터, 두 문 선택 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "saints-row-iv",
+    "title": "Saints Row IV",
+    "year": 2013,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "가상 도시",
+      "슈퍼 점프"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Saints Row IV",
+      "세인츠 로우 4",
+      "가상 도시",
+      "슈퍼 점프",
+      "외계인 지냑",
+      "미국 대통령"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Saints%20Row%20IV",
+    "coverUrl": "assets/covers/saints-row-iv.svg",
+    "fallbackCoverUrl": "assets/covers/saints-row-iv.svg",
+    "color": "#2f9834",
+    "summary": "2013년의 PC·콘솔·휴대용 추억 게임. 가상 도시, 슈퍼 점프, 외계인 지냑 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "assassins-creed-iv-black-flag",
+    "title": "Assassin's Creed IV: Black Flag",
+    "year": 2013,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "해적 에드워드",
+      "범선 잭도우"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Assassin's Creed IV: Black Flag",
+      "어쌔신 크리드 4 블랙 플래그",
+      "해적 에드워드",
+      "범선 잭도우",
+      "바다 판자",
+      "고래 사냥"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Assassin%27s%20Creed%20IV%3A%20Black%20Flag",
+    "coverUrl": "assets/covers/assassins-creed-iv-black-flag.svg",
+    "fallbackCoverUrl": "assets/covers/assassins-creed-iv-black-flag.svg",
+    "color": "#349aa8",
+    "summary": "2013년의 PC·콘솔·휴대용 추억 게임. 해적 에드워드, 범선 잭도우, 바다 판자 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "poke-mon-x-and-y",
+    "title": "Pokémon X and Y",
+    "year": 2013,
+    "genres": [
+      "수집 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "수집 RPG",
+      "칼로스 지방",
+      "메가진화"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Pokémon X and Y",
+      "포켓몬스터 X Y",
+      "칼로스 지방",
+      "메가진화",
+      "3D 포켓몬",
+      "파리 같은 도시"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Pok%C3%A9mon%20X%20and%20Y",
+    "coverUrl": "assets/covers/poke-mon-x-and-y.svg",
+    "fallbackCoverUrl": "assets/covers/poke-mon-x-and-y.svg",
+    "color": "#a62fac",
+    "summary": "2013년의 PC·콘솔·휴대용 추억 게임. 칼로스 지방, 메가진화, 3D 포켓몬 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-legend-of-zelda-a-link-between-worlds",
+    "title": "The Legend of Zelda: A Link Between Worlds",
+    "year": 2013,
+    "genres": [
+      "액션 어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 어드벤처",
+      "벽화로 변신",
+      "하이랄과 로우랄"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "The Legend of Zelda: A Link Between Worlds",
+      "젤다 신들의 트라이포스 2",
+      "벽화로 변신",
+      "하이랄과 로우랄",
+      "아이템 대여",
+      "3DS"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=The%20Legend%20of%20Zelda%3A%20A%20Link%20Between%20Worlds",
+    "coverUrl": "assets/covers/the-legend-of-zelda-a-link-between-worlds.svg",
+    "fallbackCoverUrl": "assets/covers/the-legend-of-zelda-a-link-between-worlds.svg",
+    "color": "#37957c",
+    "summary": "2013년의 PC·콘솔·휴대용 추억 게임. 벽화로 변신, 하이랄과 로우랄, 아이템 대여 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "super-mario-3d-world",
+    "title": "Super Mario 3D World",
+    "year": 2013,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "플랫포머",
+      "고양이 마리오",
+      "투명 파이프"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Super Mario 3D World",
+      "슈퍼 마리오 3D 월드",
+      "고양이 마리오",
+      "투명 파이프",
+      "4인 협동",
+      "깃발 꼭대기"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Super%20Mario%203D%20World",
+    "coverUrl": "assets/covers/super-mario-3d-world.svg",
+    "fallbackCoverUrl": "assets/covers/super-mario-3d-world.svg",
+    "color": "#3da995",
+    "summary": "2013년의 PC·콘솔·휴대용 추억 게임. 고양이 마리오, 투명 파이프, 4인 협동 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "hearthstone",
+    "title": "Hearthstone",
+    "year": 2014,
+    "genres": [
+      "카드 전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "카드 전략",
+      "워크래프트 카드",
+      "마나 수정"
+    ],
+    "modes": [
+      "싱글",
+      "멀티",
+      "경쟁"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Hearthstone",
+      "하스스톤",
+      "워크래프트 카드",
+      "마나 수정",
+      "여관 주인",
+      "영웅 능력"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Hearthstone",
+    "coverUrl": "assets/covers/hearthstone.svg",
+    "fallbackCoverUrl": "assets/covers/hearthstone.svg",
+    "color": "#84a031",
+    "summary": "2014년의 PC·콘솔·휴대용 추억 게임. 워크래프트 카드, 마나 수정, 여관 주인 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "titanfall",
+    "title": "Titanfall",
+    "year": 2014,
+    "genres": [
+      "멀티 FPS"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "멀티 FPS",
+      "벽 달리기 파일럿",
+      "거대 타이탄"
+    ],
+    "modes": [
+      "멀티",
+      "경쟁"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Titanfall",
+      "타이탄폴",
+      "벽 달리기 파일럿",
+      "거대 타이탄",
+      "낙하 호출",
+      "온라인 전투"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Titanfall",
+    "coverUrl": "assets/covers/titanfall.svg",
+    "fallbackCoverUrl": "assets/covers/titanfall.svg",
+    "color": "#ac2f74",
+    "summary": "2014년의 PC·콘솔·휴대용 추억 게임. 벽 달리기 파일럿, 거대 타이탄, 낙하 호출 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "wolfenstein-the-new-order",
+    "title": "Wolfenstein: The New Order",
+    "year": 2014,
+    "genres": [
+      "1인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "1인칭 슈팅",
+      "BJ 블라즈코윅즈",
+      "나치 대체역사"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Wolfenstein: The New Order",
+      "울펜슈타인 더 뉴 오더",
+      "BJ 블라즈코윅즈",
+      "나치 대체역사",
+      "쌍수 총",
+      "기계견"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Wolfenstein%3A%20The%20New%20Order",
+    "coverUrl": "assets/covers/wolfenstein-the-new-order.svg",
+    "fallbackCoverUrl": "assets/covers/wolfenstein-the-new-order.svg",
+    "color": "#798830",
+    "summary": "2014년의 PC·콘솔·휴대용 추억 게임. BJ 블라즈코윅즈, 나치 대체역사, 쌍수 총 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "alien-isolation",
+    "title": "Alien: Isolation",
+    "year": 2014,
+    "genres": [
+      "서바이벌 호러"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "서바이벌 호러",
+      "아만다 리플리",
+      "모션 트래커"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Alien: Isolation",
+      "에일리언 아이솔레이션",
+      "아만다 리플리",
+      "모션 트래커",
+      "환풍구 제노모프",
+      "우주정거장"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Alien%3A%20Isolation",
+    "coverUrl": "assets/covers/alien-isolation.svg",
+    "fallbackCoverUrl": "assets/covers/alien-isolation.svg",
+    "color": "#6d8f28",
+    "summary": "2014년의 PC·콘솔·휴대용 추억 게임. 아만다 리플리, 모션 트래커, 환풍구 제노모프 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "middle-earth-shadow-of-mordor",
+    "title": "Middle-earth: Shadow of Mordor",
+    "year": 2014,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "탈리온",
+      "오크 네메시스"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Middle-earth: Shadow of Mordor",
+      "미들어스 섀도우 오브 모르도르",
+      "탈리온",
+      "오크 네메시스",
+      "유령 능력",
+      "모르도르"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Middle-earth%3A%20Shadow%20of%20Mordor",
+    "coverUrl": "assets/covers/middle-earth-shadow-of-mordor.svg",
+    "fallbackCoverUrl": "assets/covers/middle-earth-shadow-of-mordor.svg",
+    "color": "#709a2d",
+    "summary": "2014년의 PC·콘솔·휴대용 추억 게임. 탈리온, 오크 네메시스, 유령 능력 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "dragon-age-inquisition",
+    "title": "Dragon Age: Inquisition",
+    "year": 2014,
+    "genres": [
+      "파티 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "파티 RPG",
+      "심문관",
+      "손의 균열"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Dragon Age: Inquisition",
+      "드래곤 에이지 인퀴지션",
+      "심문관",
+      "손의 균열",
+      "드래곤 사냥",
+      "스카이홀드"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Dragon%20Age%3A%20Inquisition",
+    "coverUrl": "assets/covers/dragon-age-inquisition.svg",
+    "fallbackCoverUrl": "assets/covers/dragon-age-inquisition.svg",
+    "color": "#af315f",
+    "summary": "2014년의 PC·콘솔·휴대용 추억 게임. 심문관, 손의 균열, 드래곤 사냥 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "mario-kart-8",
+    "title": "Mario Kart 8",
+    "year": 2014,
+    "genres": [
+      "카트 레이싱"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "카트 레이싱",
+      "반중력 바퀴",
+      "무지개 로드"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Mario Kart 8",
+      "마리오 카트 8",
+      "반중력 바퀴",
+      "무지개 로드",
+      "파란 등껍질",
+      "8자 로고"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Mario%20Kart%208",
+    "coverUrl": "assets/covers/mario-kart-8.svg",
+    "fallbackCoverUrl": "assets/covers/mario-kart-8.svg",
+    "color": "#914a27",
+    "summary": "2014년의 PC·콘솔·휴대용 추억 게임. 반중력 바퀴, 무지개 로드, 파란 등껍질 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "this-war-of-mine",
+    "title": "This War of Mine",
+    "year": 2014,
+    "genres": [
+      "생존 시뮬레이션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "생존 시뮬레이션",
+      "민간인 생존자",
+      "포위된 도시"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile",
+      "PlayStation",
+      "Xbox",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "This War of Mine",
+      "디스 워 오브 마인",
+      "민간인 생존자",
+      "포위된 도시",
+      "밤 수색",
+      "도덕적 선택"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=This%20War%20of%20Mine",
+    "coverUrl": "assets/covers/this-war-of-mine.svg",
+    "fallbackCoverUrl": "assets/covers/this-war-of-mine.svg",
+    "color": "#949627",
+    "summary": "2014년의 PC·콘솔·휴대용 추억 게임. 민간인 생존자, 포위된 도시, 밤 수색 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "shovel-knight",
+    "title": "Shovel Knight",
+    "year": 2014,
+    "genres": [
+      "액션 플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 플랫포머",
+      "삽 기사",
+      "삽으로 튕기기"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "PC",
+      "Nintendo",
+      "PlayStation",
+      "Xbox"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Shovel Knight",
+      "쇼벨 나이트",
+      "삽 기사",
+      "삽으로 튕기기",
+      "8비트",
+      "기사단 보스"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Shovel%20Knight",
+    "coverUrl": "assets/covers/shovel-knight.svg",
+    "fallbackCoverUrl": "assets/covers/shovel-knight.svg",
+    "color": "#9c2ba6",
+    "summary": "2014년의 PC·콘솔·휴대용 추억 게임. 삽 기사, 삽으로 튕기기, 8비트 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "five-nights-at-freddys",
+    "title": "Five Nights at Freddy's",
+    "year": 2014,
+    "genres": [
+      "서바이벌 호러"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "서바이벌 호러",
+      "야간 경비실",
+      "감시 카메라"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Five Nights at Freddy's",
+      "프레디의 피자가게",
+      "FNAF",
+      "야간 경비실",
+      "감시 카메라",
+      "애니마트로닉스",
+      "전력 제한"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Five%20Nights%20at%20Freddy%27s",
+    "coverUrl": "assets/covers/five-nights-at-freddys.svg",
+    "fallbackCoverUrl": "assets/covers/five-nights-at-freddys.svg",
+    "color": "#2d8095",
+    "summary": "2014년의 PC·콘솔·휴대용 추억 게임. 야간 경비실, 감시 카메라, 애니마트로닉스 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "watch-dogs",
+    "title": "Watch Dogs",
+    "year": 2014,
+    "genres": [
+      "오픈월드 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 액션",
+      "에이든 피어스",
+      "스마트폰 해킹"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Watch Dogs",
+      "와치독",
+      "에이든 피어스",
+      "스마트폰 해킹",
+      "시카고",
+      "교통 신호 조작"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Watch%20Dogs",
+    "coverUrl": "assets/covers/watch-dogs.svg",
+    "fallbackCoverUrl": "assets/covers/watch-dogs.svg",
+    "color": "#2da486",
+    "summary": "2014년의 PC·콘솔·휴대용 추억 게임. 에이든 피어스, 스마트폰 해킹, 시카고 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "life-is-strange",
+    "title": "Life Is Strange",
+    "year": 2015,
+    "genres": [
+      "어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "어드벤처",
+      "맥스와 클로이",
+      "시간 되감기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Life Is Strange",
+      "라이프 이즈 스트레인지",
+      "맥스와 클로이",
+      "시간 되감기",
+      "폴라로이드",
+      "아카디아 베이"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Life%20Is%20Strange",
+    "coverUrl": "assets/covers/life-is-strange.svg",
+    "fallbackCoverUrl": "assets/covers/life-is-strange.svg",
+    "color": "#632fa7",
+    "summary": "2015년의 PC·콘솔·휴대용 추억 게임. 맥스와 클로이, 시간 되감기, 폴라로이드 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "dying-light",
+    "title": "Dying Light",
+    "year": 2015,
+    "genres": [
+      "오픈월드 생존"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 생존",
+      "1인칭 파쿠르",
+      "밤의 볼래틸"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Dying Light",
+      "다잉 라이트",
+      "1인칭 파쿠르",
+      "밤의 볼래틸",
+      "좀비 도시 하란",
+      "UV 손전등"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Dying%20Light",
+    "coverUrl": "assets/covers/dying-light.svg",
+    "fallbackCoverUrl": "assets/covers/dying-light.svg",
+    "color": "#798830",
+    "summary": "2015년의 PC·콘솔·휴대용 추억 게임. 1인칭 파쿠르, 밤의 볼래틸, 좀비 도시 하란 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "ori-and-the-blind-forest",
+    "title": "Ori and the Blind Forest",
+    "year": 2015,
+    "genres": [
+      "메트로배니아"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "메트로배니아",
+      "하얀 정령 오리",
+      "빛나는 숲"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Ori and the Blind Forest",
+      "오리와 눈먼 숲",
+      "하얀 정령 오리",
+      "빛나는 숲",
+      "배시 이동",
+      "슬픈 나루"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Ori%20and%20the%20Blind%20Forest",
+    "coverUrl": "assets/covers/ori-and-the-blind-forest.svg",
+    "fallbackCoverUrl": "assets/covers/ori-and-the-blind-forest.svg",
+    "color": "#a92d73",
+    "summary": "2015년의 PC·콘솔·휴대용 추억 게임. 하얀 정령 오리, 빛나는 숲, 배시 이동 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "until-dawn",
+    "title": "Until Dawn",
+    "year": 2015,
+    "genres": [
+      "인터랙티브 호러"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "인터랙티브 호러",
+      "산장 친구들",
+      "나비 효과"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Until Dawn",
+      "언틸 던",
+      "산장 친구들",
+      "나비 효과",
+      "웬디고",
+      "움직이지 마세요"
+    ],
+    "storeUrl": "https://store.playstation.com/en-us/search/Until%20Dawn",
+    "coverUrl": "assets/covers/until-dawn.svg",
+    "fallbackCoverUrl": "assets/covers/until-dawn.svg",
+    "color": "#672dae",
+    "summary": "2015년의 PC·콘솔·휴대용 추억 게임. 산장 친구들, 나비 효과, 웬디고 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "metal-gear-solid-v-the-phantom-pain",
+    "title": "Metal Gear Solid V: The Phantom Pain",
+    "year": 2015,
+    "genres": [
+      "잠입 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "잠입 액션",
+      "베놈 스네이크",
+      "풀턴 풍선"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Metal Gear Solid V: The Phantom Pain",
+      "메탈 기어 솔리드 5 팬텀 페인",
+      "베놈 스네이크",
+      "풀턴 풍선",
+      "아프가니스탄",
+      "다이아몬드 독스"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Metal%20Gear%20Solid%20V%3A%20The%20Phantom%20Pain",
+    "coverUrl": "assets/covers/metal-gear-solid-v-the-phantom-pain.svg",
+    "fallbackCoverUrl": "assets/covers/metal-gear-solid-v-the-phantom-pain.svg",
+    "color": "#719e29",
+    "summary": "2015년의 PC·콘솔·휴대용 추억 게임. 베놈 스네이크, 풀턴 풍선, 아프가니스탄 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "fallout-4",
+    "title": "Fallout 4",
+    "year": 2015,
+    "genres": [
+      "오픈월드 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "오픈월드 RPG",
+      "볼트 111",
+      "도그밋"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Fallout 4",
+      "폴아웃 4",
+      "볼트 111",
+      "도그밋",
+      "정착지 건설",
+      "파워 아머"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Fallout%204",
+    "coverUrl": "assets/covers/fallout-4.svg",
+    "fallbackCoverUrl": "assets/covers/fallout-4.svg",
+    "color": "#743091",
+    "summary": "2015년의 PC·콘솔·휴대용 추억 게임. 볼트 111, 도그밋, 정착지 건설 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "splatoon",
+    "title": "Splatoon",
+    "year": 2015,
+    "genres": [
+      "3인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "3인칭 슈팅",
+      "오징어 아이돌",
+      "잉크 칠하기"
+    ],
+    "modes": [
+      "싱글",
+      "멀티",
+      "경쟁"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Splatoon",
+      "스플래툰",
+      "오징어 아이돌",
+      "잉크 칠하기",
+      "오징어 변신",
+      "영역 배틀"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Splatoon",
+    "coverUrl": "assets/covers/splatoon.svg",
+    "fallbackCoverUrl": "assets/covers/splatoon.svg",
+    "color": "#868632",
+    "summary": "2015년의 PC·콘솔·휴대용 추억 게임. 오징어 아이돌, 잉크 칠하기, 오징어 변신 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "super-mario-maker",
+    "title": "Super Mario Maker",
+    "year": 2015,
+    "genres": [
+      "플랫포머 제작"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "플랫포머 제작",
+      "마리오 맵 만들기",
+      "터치펜"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Super Mario Maker",
+      "슈퍼 마리오 메이커",
+      "마리오 맵 만들기",
+      "터치펜",
+      "괴상한 버섯",
+      "온라인 코스"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Super%20Mario%20Maker",
+    "coverUrl": "assets/covers/super-mario-maker.svg",
+    "fallbackCoverUrl": "assets/covers/super-mario-maker.svg",
+    "color": "#6d8e2e",
+    "summary": "2015년의 PC·콘솔·휴대용 추억 게임. 마리오 맵 만들기, 터치펜, 괴상한 버섯 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "her-story",
+    "title": "Her Story",
+    "year": 2015,
+    "genres": [
+      "추리 어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "추리 어드벤처",
+      "경찰 인터뷰 영상",
+      "검색어"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Her Story",
+      "허 스토리",
+      "경찰 인터뷰 영상",
+      "검색어",
+      "낡은 컴퓨터",
+      "여성의 증언"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Her%20Story",
+    "coverUrl": "assets/covers/her-story.svg",
+    "fallbackCoverUrl": "assets/covers/her-story.svg",
+    "color": "#9e295e",
+    "summary": "2015년의 PC·콘솔·휴대용 추억 게임. 경찰 인터뷰 영상, 검색어, 낡은 컴퓨터 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "titanfall-2",
+    "title": "Titanfall 2",
+    "year": 2016,
+    "genres": [
+      "1인칭 슈팅"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "1인칭 슈팅",
+      "파일럿 잭 쿠퍼",
+      "타이탄 BT"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Titanfall 2",
+      "타이탄폴 2",
+      "파일럿 잭 쿠퍼",
+      "타이탄 BT",
+      "벽 달리기",
+      "시간 전환"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Titanfall%202",
+    "coverUrl": "assets/covers/titanfall-2.svg",
+    "fallbackCoverUrl": "assets/covers/titanfall-2.svg",
+    "color": "#3d96a4",
+    "summary": "2016년의 PC·콘솔·휴대용 추억 게임. 파일럿 잭 쿠퍼, 타이탄 BT, 벽 달리기 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "firewatch",
+    "title": "Firewatch",
+    "year": 2016,
+    "genres": [
+      "어드벤처"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "어드벤처",
+      "산불 감시탑",
+      "무전기 델라일라"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Firewatch",
+      "파이어워치",
+      "산불 감시탑",
+      "무전기 델라일라",
+      "와이오밍 숲",
+      "빨간 하늘"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Firewatch",
+    "coverUrl": "assets/covers/firewatch.svg",
+    "fallbackCoverUrl": "assets/covers/firewatch.svg",
+    "color": "#8b3332",
+    "summary": "2016년의 PC·콘솔·휴대용 추억 게임. 산불 감시탑, 무전기 델라일라, 와이오밍 숲 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "dishonored-2",
+    "title": "Dishonored 2",
+    "year": 2016,
+    "genres": [
+      "잠입 액션"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "잠입 액션",
+      "에밀리와 코르보",
+      "도미노 능력"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "Dishonored 2",
+      "디스아너드 2",
+      "에밀리와 코르보",
+      "도미노 능력",
+      "시계태엽 저택",
+      "카르나카"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=Dishonored%202",
+    "coverUrl": "assets/covers/dishonored-2.svg",
+    "fallbackCoverUrl": "assets/covers/dishonored-2.svg",
+    "color": "#3a619c",
+    "summary": "2016년의 PC·콘솔·휴대용 추억 게임. 에밀리와 코르보, 도미노 능력, 시계태엽 저택 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "xcom-2",
+    "title": "XCOM 2",
+    "year": 2016,
+    "genres": [
+      "턴제 전략"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "턴제 전략",
+      "외계인 점령 지구",
+      "어벤저 기지"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "XCOM 2",
+      "엑스컴 2",
+      "외계인 점령 지구",
+      "어벤저 기지",
+      "분대 영구사망",
+      "턴 제한"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=XCOM%202",
+    "coverUrl": "assets/covers/xcom-2.svg",
+    "fallbackCoverUrl": "assets/covers/xcom-2.svg",
+    "color": "#958c37",
+    "summary": "2016년의 PC·콘솔·휴대용 추억 게임. 외계인 점령 지구, 어벤저 기지, 분대 영구사망 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "the-witness",
+    "title": "The Witness",
+    "year": 2016,
+    "genres": [
+      "퍼즐"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "퍼즐",
+      "알록달록한 섬",
+      "선 긋기 패널"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Mobile"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "The Witness",
+      "더 위트니스",
+      "알록달록한 섬",
+      "선 긋기 패널",
+      "레이저 산",
+      "환경 퍼즐"
+    ],
+    "storeUrl": "https://store.steampowered.com/search/?term=The%20Witness",
+    "coverUrl": "assets/covers/the-witness.svg",
+    "fallbackCoverUrl": "assets/covers/the-witness.svg",
+    "color": "#39a834",
+    "summary": "2016년의 PC·콘솔·휴대용 추억 게임. 알록달록한 섬, 선 긋기 패널, 레이저 산 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "no-mans-sky",
+    "title": "No Man's Sky",
+    "year": 2016,
+    "genres": [
+      "우주 탐험"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "우주 탐험",
+      "절차 생성 행성",
+      "우주선"
+    ],
+    "modes": [
+      "싱글",
+      "멀티"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "3D",
+    "era": "2010년대",
+    "memory": [
+      "No Man's Sky",
+      "노 맨즈 스카이",
+      "절차 생성 행성",
+      "우주선",
+      "멀티툴",
+      "아틀라스"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=No%20Man%27s%20Sky",
+    "coverUrl": "assets/covers/no-mans-sky.svg",
+    "fallbackCoverUrl": "assets/covers/no-mans-sky.svg",
+    "color": "#2e8e30",
+    "summary": "2016년의 PC·콘솔·휴대용 추억 게임. 절차 생성 행성, 우주선, 멀티툴 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "hyper-light-drifter",
+    "title": "Hyper Light Drifter",
+    "year": 2016,
+    "genres": [
+      "액션 RPG"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "액션 RPG",
+      "분홍 망토 방랑자",
+      "대시"
+    ],
+    "modes": [
+      "싱글",
+      "협동"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "매우 김",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "빠름",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Hyper Light Drifter",
+      "하이퍼 라이트 드리프터",
+      "분홍 망토 방랑자",
+      "대시",
+      "네온 폐허",
+      "말 없는 이야기"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Hyper%20Light%20Drifter",
+    "coverUrl": "assets/covers/hyper-light-drifter.svg",
+    "fallbackCoverUrl": "assets/covers/hyper-light-drifter.svg",
+    "color": "#609537",
+    "summary": "2016년의 PC·콘솔·휴대용 추억 게임. 분홍 망토 방랑자, 대시, 네온 폐허 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
+  },
+  {
+    "id": "owlboy",
+    "title": "Owlboy",
+    "year": 2016,
+    "genres": [
+      "플랫포머"
+    ],
+    "tags": [
+      "추억 게임 확장",
+      "2006~2016 추억",
+      "플랫포머",
+      "올빼미 소년 오투스",
+      "동료 들기"
+    ],
+    "modes": [
+      "싱글"
+    ],
+    "platforms": [
+      "PC",
+      "Xbox",
+      "PlayStation",
+      "Nintendo"
+    ],
+    "priceKRW": 0,
+    "length": "중간",
+    "difficulty": "보통",
+    "mood": "다채로움",
+    "pace": "보통",
+    "perspective": "2D",
+    "era": "2010년대",
+    "memory": [
+      "Owlboy",
+      "아울보이",
+      "올빼미 소년 오투스",
+      "동료 들기",
+      "하늘 섬",
+      "픽셀 마을"
+    ],
+    "storeUrl": "https://www.nintendo.com/us/search/#q=Owlboy",
+    "coverUrl": "assets/covers/owlboy.svg",
+    "fallbackCoverUrl": "assets/covers/owlboy.svg",
+    "color": "#2fb140",
+    "summary": "2016년의 PC·콘솔·휴대용 추억 게임. 올빼미 소년 오투스, 동료 들기, 하늘 섬 단서로 기억을 찾을 수 있다.",
+    "source": "PLAYLOG curated nostalgia expansion"
   }
 ];

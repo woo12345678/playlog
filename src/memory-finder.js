@@ -1,10 +1,11 @@
 const normalize = value => String(value || '').toLocaleLowerCase('ko-KR').replace(/[^0-9a-z가-힣]+/g, ' ').trim();
 const words = value => normalize(value).split(/\s+/).filter(word => word.length >= 1);
 const gameIndex = new WeakMap();
+const ignoredTextClues = new Set(['게임', '추억게임', '웹게임', '플래시게임', '브라우저게임', '추억게임확장', '웹게임추억']);
 
 function indexGame(game) {
   if (gameIndex.has(game)) return gameIndex.get(game);
-  const searchable = [game.title, ...game.genres, ...game.tags, ...(game.memory || [])].map(clue => ({
+  const searchable = [game.title, ...game.genres, ...game.tags, ...(game.memory || [])].filter(clue => !ignoredTextClues.has(normalize(clue).replace(/\s/g, ''))).map(clue => ({
     label: String(clue),
     compact: normalize(clue).replace(/\s/g, ''),
     words: words(clue),
@@ -17,15 +18,16 @@ function indexGame(game) {
 
 function clueMatches(input, clue) {
   if (!clue.compact) return false;
-  if (input.compact.includes(clue.compact) || clue.compact.includes(input.compact)) return true;
-  return clue.words.some(word => word.length >= 2 && input.words.some(inputWord => inputWord.includes(word) || word.includes(inputWord)));
+  if (input.compact.length >= 2 && clue.compact.length >= 2 && (input.compact.includes(clue.compact) || clue.compact.includes(input.compact))) return true;
+  return clue.words.some(word => word.length >= 2 && input.words.some(inputWord => inputWord.length >= 2 && (inputWord.includes(word) || word.includes(inputWord))));
 }
 
 export function findRememberedGames(catalog, query = {}) {
   const text = normalize(query.text);
-  const input = text ? { compact: text.replace(/\s/g, ''), words: words(text) } : null;
   const hasFilters = [query.era, query.perspective, query.mode, query.platform].some(Boolean);
-  if (!text && !hasFilters) return [];
+  const compactText = text.replace(/\s/g, '');
+  const input = compactText.length >= 2 && !ignoredTextClues.has(compactText) ? { compact: compactText, words: words(text) } : null;
+  if (!input && !hasFilters) return [];
   return catalog.map(game => {
     const matchedClues = [];
     let score = 0;
@@ -40,7 +42,7 @@ export function findRememberedGames(catalog, query = {}) {
     if (query.perspective && game.perspective === query.perspective) { score += 6; matchedClues.push(`${query.perspective} 화면`); }
     if (query.mode && game.modes.includes(query.mode)) { score += 6; matchedClues.push(`${query.mode} 플레이`); }
     if (query.platform && game.platforms.includes(query.platform)) { score += 5; matchedClues.push(query.platform); }
-    if (text && indexed.titleParts.some(part => part.length > 2 && text.includes(part))) score += 12;
+    if (input && indexed.titleParts.some(part => part.length > 2 && text.includes(part))) score += 12;
     return { game, rawScore: score, matchedClues: [...new Set(matchedClues)].slice(0, 8) };
   }).filter(item => item.rawScore > 0)
     .sort((a, b) => b.rawScore - a.rawScore || a.game.year - b.game.year)

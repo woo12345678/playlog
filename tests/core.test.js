@@ -139,17 +139,62 @@ test('요청한 모바일 게임 5개와 추가 10개를 더해 186개 이상 �
   assert(searchGames(games, '매직브릭 인피니티')[0], '매직브릭 인피니티 검색 실패');
 });
 
-test('요청한 플랫폼 확장 배치는 Steam 100개, 모바일 50개, Nintendo 50개를 정확히 더한다', () => {
+test('요청한 플랫폼 확장 배치와 대규모 추억 게임 카탈로그를 함께 보존한다', () => {
   const steam = games.filter(game => game.tags.includes('Steam 인기 2026'));
   const mobile = games.filter(game => game.tags.includes('모바일 인기 확장'));
   const nintendo = games.filter(game => game.tags.includes('Nintendo Switch 확장'));
-  assert.equal(games.length, 386, `기존 186개에 신규 200개가 필요합니다: ${games.length}`);
+  assert.equal(games.length, 618, `검증된 전체 카탈로그 수가 달라졌습니다: ${games.length}`);
   assert.equal(steam.length, 100);
   assert.equal(mobile.length, 50);
   assert.equal(nintendo.length, 50);
   assert(games.filter(game => game.platforms.includes('Steam')).length >= 221);
   assert(games.filter(game => game.platforms.includes('Mobile')).length >= 104);
   assert(games.filter(game => game.platforms.includes('Switch')).length >= 146);
+});
+
+test('추억 확장 수량과 Web·Flash 분류를 정확히 보존한다', () => {
+  const imported = games.filter(game => game.source === 'PLAYLOG curated nostalgia expansion');
+  const nostalgia = games.filter(game => game.year >= 2006 && game.year <= 2016);
+  const web = imported.filter(game => game.platforms.some(platform => ['Web', 'Flash'].includes(platform)));
+  const mainstream = imported.filter(game => !game.platforms.some(platform => ['Web', 'Flash'].includes(platform)));
+  assert.equal(imported.length, 232);
+  assert.equal(nostalgia.length, 272);
+  assert.equal(web.length, 108);
+  assert.equal(mainstream.length, 124);
+  for (const game of imported.filter(game => game.platforms.includes('Nintendo'))) {
+    assert.match(game.storeUrl, /^https:\/\/(www\.)?nintendo\.com\//, `${game.title}는 Nintendo 공식 링크여야 합니다.`);
+  }
+  for (const [id, perspective] of Object.entries({
+    'the-witness': '3D',
+    'xcom-2': '3D',
+    'hyper-light-drifter': '2D',
+    'this-war-of-mine': '2D',
+    'the-world-ends-with-you': '2D'
+  })) assert.equal(games.find(game => game.id === id)?.perspective, perspective, `${id} 화면 분류`);
+  for (const id of ['boxhead-2play-rooms', 'fireboy-and-watergirl-forest-temple', 'fancy-pants-adventures', 'age-of-war', 'bloons-tower-defense-4', 'line-rider']) {
+    assert(games.some(game => game.id === id), `${id} 필요`);
+  }
+});
+
+test('웹게임의 특징적인 기억으로 Boxhead와 불물 게임을 찾는다', () => {
+  const boxhead = findRememberedGames(games, { text: '네모난 사람 둘이 웹에서 좀비를 총으로 막던 게임' });
+  assert.equal(boxhead[0]?.game.id, 'boxhead-2play-rooms');
+  const fireboy = findRememberedGames(games, { text: '불과 물 캐릭터 둘이 사원에서 보석을 먹는 2인용 웹게임' });
+  assert.equal(fireboy[0]?.game.id, 'fireboy-and-watergirl-forest-temple');
+  const lineRider = findRememberedGames(games, { text: '선 그려서 썰매 타는 소년 웹게임' });
+  assert.equal(lineRider[0]?.game.id, 'line-rider');
+});
+
+test('한 글자와 taxonomy 일반어만으로 추억 후보를 만들지 않는다', () => {
+  for (const text of ['a', 'n', '가', '웹게임', '플래시게임']) {
+    assert.deepEqual(findRememberedGames(games, { text }), [], `${text} 입력은 후보를 만들면 안 됩니다.`);
+  }
+});
+
+test('618개 추억 검색도 반복 입력에 180ms 안에 응답한다', () => {
+  const started = performance.now();
+  for (let i = 0; i < 20; i += 1) findRememberedGames(games, { text: '옛날 웹게임 좀비 둘이 총 쏘는 네모난 캐릭터' });
+  assert(performance.now() - started < 180);
 });
 
 test('목록에 없는 게임을 안전한 사용자 게임으로 만들어 통계에 포함한다', () => {

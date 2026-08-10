@@ -13,6 +13,12 @@ test('여섯 제품 탭과 핵심 조작이 문서에 존재한다', () => {
   for (const id of ['seedList', 'addSeed', 'memoryQuery', 'libraryForm', 'exportLibrary', 'importLibrary', 'shareProfile']) assert(html.includes(`id="${id}"`), `${id} 필요`);
 });
 
+test('추억 찾기에서 Web과 Flash 플레이 장소를 직접 고를 수 있다', () => {
+  const platformSelect = html.match(/<select id="memoryPlatform">([\s\S]*?)<\/select>/)?.[1] || '';
+  assert(platformSelect.includes('<option>Web</option>'));
+  assert(platformSelect.includes('<option>Flash</option>'));
+});
+
 test('추천 다중 입력·추억 DB·정직한 계정 연동 고지가 있다', () => {
   assert(html.includes('최대 10개'));
   assert(html.includes('추억의 게임을 찾아드립니다'));
