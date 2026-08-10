@@ -50,6 +50,8 @@ test('뉴스 갱신 SHA artifact를 초기 배포 뒤 확정하고 별도 job에
   const upload = jobBlock('upload-refreshed');
   const deploy = jobBlock('deploy-refreshed');
   assert.match(refresh, /needs: verify/);
+  assert.match(refresh, /timeout-minutes: 45(?:\n|$)/, '618개 전체 수집은 관측된 약 38분보다 여유 있는 45분 제한이 필요');
+  assert.match(refresh, /run: npm run news:update -- --concurrency 4(?:\n|$)/, '공개 소스 rate limit을 피하려고 동시성 4 유지');
   assert.match(refresh, /outputs:\n      deploy-sha: \$\{\{ steps\.cache\.outputs\.sha \}\}/);
   assert.match(refresh, /ref: \$\{\{ needs\.verify\.outputs\.sha \}\}/);
   assert.match(refresh, /chore\(news\): refresh public game feeds \[skip ci\]/);
