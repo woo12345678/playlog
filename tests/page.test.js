@@ -19,6 +19,20 @@ test('추억 찾기에서 Web과 Flash 플레이 장소를 직접 고를 수 있
   assert(platformSelect.includes('<option>Flash</option>'));
 });
 
+test('계정 연동 화면은 로그인 없이 1분 가져오기와 파일 대안을 제공한다', () => {
+  for (const id of ['accountPlatform', 'accountPaste', 'accountQuickImport', 'accountFileImport', 'downloadCsvTemplate', 'accountImportSummary']) {
+    assert(html.includes(`id="${id}"`), `${id} 필요`);
+  }
+  assert(html.includes('로그인 없이 1분 가져오기'));
+  assert(html.includes('게임 이름만 한 줄에 하나'));
+  assert(html.includes('시간은 몰라도 괜찮아요'));
+  assert(html.includes('비밀번호를 입력하지 마세요'));
+  assert(html.includes('이 브라우저의 로컬 저장소'));
+  for (const account of ['steam', 'epic', 'xbox', 'playstation', 'nintendo', 'google']) {
+    assert(html.includes(`data-account="${account}"`), `${account} 상세 경로 필요`);
+  }
+});
+
 test('추천 다중 입력·추억 DB·정직한 계정 연동 고지가 있다', () => {
   assert(html.includes('최대 10개'));
   assert(html.includes('추억의 게임을 찾아드립니다'));

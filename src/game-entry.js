@@ -5,7 +5,7 @@ const cleanText = (value, limit = 100) => String(value ?? '')
   .trim()
   .slice(0, limit);
 
-const canonical = value => cleanText(value, 300).toLocaleLowerCase('ko-KR').replace(/[^0-9a-z가-힣]+/g, '');
+const canonical = value => cleanText(value, 300).toLocaleLowerCase('ko-KR').replace(/[^\p{L}\p{N}]+/gu, '');
 
 const list = (value, fallback = []) => {
   const source = Array.isArray(value) ? value : String(value ?? '').split(/[,/|]/);
@@ -46,11 +46,13 @@ export function createCustomGame(input, catalog = []) {
   const title = cleanText(input?.title, 80);
   if (!title) throw new Error('title-required');
   if (catalog.some(game => canonical(game.title) === canonical(title))) throw new Error('duplicate-title');
+  const id = `custom-${slug(title)}-${hash(title)}`;
+  if (catalog.some(game => game.id === id)) throw new Error('duplicate-id');
   const genres = list(input?.genres ?? input?.genre, ['기타']);
   const platforms = list(input?.platforms ?? input?.platform, ['기타']);
   const memory = list(input?.memory, []);
   return {
-    id: `custom-${slug(title)}-${hash(title)}`,
+    id,
     title,
     year: null,
     genres,

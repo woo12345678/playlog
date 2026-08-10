@@ -1,6 +1,7 @@
 import { games, platforms } from './catalog.js';
 import { recommendGames } from './recommender.js';
 import { calculateStats, encodeShare, decodeShare, normalizeLibrary } from './library.js';
+import { parseQuickLibraryText, parseLibraryCsv, prepareImportedLibraryState, MAX_IMPORT_FILE_BYTES } from './library-import.js';
 import { findRememberedGames, memoryPrompts } from './memory-finder.js';
 import { searchGames, createCustomGame, normalizeCustomGames, mergeCatalog } from './game-entry.js';
 import { normalizeNewsSelection, collectSelectedNews, selectedNewsFreshness, youtubeSearchUrl, googleNewsSearchUrl } from './news.js';
@@ -255,30 +256,71 @@ $('#loadExample').addEventListener('click', () => {
 });
 
 function download(name, contents, type) { const link = document.createElement('a'); link.href = URL.createObjectURL(new Blob([contents], { type })); link.download = name; link.click(); setTimeout(() => URL.revokeObjectURL(link.href), 1000); }
+function commitImportedLibrary(imported, incomingCustom = []) {
+  const prepared = prepareImportedLibraryState(state, imported, incomingCustom, games);
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(prepared.nextState)); }
+  catch { throw new Error('storage-failed'); }
+  state = prepared.nextState;
+  refreshCatalog(); renderLibrary(); renderProfile(); renderSeeds();
+  return prepared.clean;
+}
+function importErrorMessage(error) {
+  if (error?.message === 'storage-failed') return '브라우저 저장 공간이 부족해 저장하지 못했습니다. 기존 기록은 그대로 유지됩니다.';
+  if (error?.message === 'custom-limit') return '내 게임은 최대 100개까지 저장할 수 있습니다. JSON으로 백업한 뒤 일부를 정리해 주세요.';
+  if (error?.message === 'library-limit' || error?.message === 'file-too-large') return '파일이 너무 큽니다. 1MB 이하, 기록 1,000개 이하 파일을 사용해 주세요.';
+  return '가져올 수 없습니다. 게임 이름이나 PLAYLOG JSON·CSV 형식을 확인해 주세요.';
+}
+function showImportFailure(error) {
+  const summary = $('#accountImportSummary');
+  summary.classList.remove('success');
+  summary.textContent = importErrorMessage(error);
+  showToast(summary.textContent);
+}
 $('#exportLibrary').addEventListener('click', () => download('playlog-library.json', JSON.stringify({ version:2, exportedAt:new Date().toISOString(), customGames:state.customGames, library:state.library }, null, 2), 'application/json'));
 $('#importLibrary').addEventListener('click', () => $('#importFile').click());
-$('#accountImport').addEventListener('click', () => $('#importFile').click());
+$('#accountFileImport').addEventListener('click', () => $('#importFile').click());
+$('#downloadCsvTemplate').addEventListener('click', () => download('playlog-easy-import.csv', '\ufefftitle,hours\nHades,40\n스타듀 밸리,120\n레이디 버그,', 'text/csv;charset=utf-8'));
+$('#accountPasteExample').addEventListener('click', () => { $('#accountPaste').value = 'Hades, 40\n스타듀 밸리, 120\n레이디 버그'; $('#accountPaste').focus(); });
+$('#accountQuickImport').addEventListener('click', () => {
+  const summary = $('#accountImportSummary');
+  summary.classList.remove('success');
+  if (!$('#accountPaste').value.trim()) { summary.textContent = '게임 이름을 한 줄에 하나 이상 적어주세요.'; $('#accountPaste').focus(); return; }
+  try {
+    const result = parseQuickLibraryText($('#accountPaste').value, allGames, $('#accountPlatform').value);
+    const clean = commitImportedLibrary(result.library, result.customGames);
+    const notes = [`${clean.length}개 게임을 저장했습니다.`];
+    if (result.customGames.length) notes.push(`목록에 없던 ${result.customGames.length}개는 내 게임으로 만들었습니다.`);
+    if (result.rejected.length) notes.push(`${result.rejected.length}줄은 읽지 못했습니다.`);
+    if (result.truncated) notes.push('한 번에 최대 100개까지만 저장했습니다.');
+    summary.textContent = notes.join(' ');
+    summary.classList.add('success');
+    $('#accountViewLibrary').hidden = false;
+    showToast(`${clean.length}개 기록을 한 번에 저장했습니다.`);
+  } catch (error) { showImportFailure(error); }
+});
+$('#accountViewLibrary').addEventListener('click', () => switchTab('library'));
 $('#importFile').addEventListener('change', async event => {
   const file = event.target.files[0]; if (!file) return;
+  $('#accountImportSummary').classList.remove('success');
   try {
-    let imported;
+    if (file.size > MAX_IMPORT_FILE_BYTES) throw new Error('file-too-large');
+    let imported, incomingCustom = [];
     const text = await file.text();
     if (file.name.toLowerCase().endsWith('.csv')) {
-      imported = text.split(/\r?\n/).slice(1).map(line => {
-        const [title, hours, platform = '기타', status = '플레이 중', rating = 0] = line.split(',').map(value => value?.trim());
-        const game = games.find(item => item.title.toLocaleLowerCase() === String(title).toLocaleLowerCase());
-        return game ? { gameId:game.id, hours:Number(hours), platform, status, rating:Number(rating) } : null;
-      });
+      const parsed = parseLibraryCsv(text, allGames, $('#accountPlatform').value);
+      imported = parsed.library;
+      incomingCustom = parsed.customGames;
     } else {
       const parsed = JSON.parse(text);
-      imported = Array.isArray(parsed) ? parsed : parsed.library;
-      const incomingCustom = normalizeCustomGames(parsed.customGames || [], allGames);
-      if (incomingCustom.length) { state.customGames = normalizeCustomGames([...state.customGames, ...incomingCustom], games); refreshCatalog(); }
+      imported = Array.isArray(parsed) ? parsed : parsed?.library;
+      incomingCustom = Array.isArray(parsed) ? [] : (parsed?.customGames || []);
     }
-    const clean = normalizeLibrary(imported, allGames);
-    if (!clean.length) throw new Error('일치하는 게임 없음');
-    state.library = normalizeLibrary([...state.library, ...clean], allGames); saveState(); renderLibrary(); renderProfile(); renderSeeds(); showToast(`${clean.length}개 기록을 가져왔습니다.`);
-  } catch { showToast('가져올 수 없습니다. PLAYLOG JSON 또는 title,hours,platform CSV인지 확인하세요.'); }
+    const clean = commitImportedLibrary(imported, incomingCustom);
+    $('#accountImportSummary').textContent = `${clean.length}개 기록을 파일에서 가져왔습니다.`;
+    $('#accountImportSummary').classList.add('success');
+    $('#accountViewLibrary').hidden = false;
+    showToast(`${clean.length}개 기록을 가져왔습니다.`);
+  } catch (error) { showImportFailure(error); }
   event.target.value = '';
 });
 
